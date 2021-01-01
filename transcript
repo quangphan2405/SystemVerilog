@@ -1,171 +1,60 @@
-vlib my_lib
-vmap work $PWD/my_lib
-# can't read "PWD": no such variable
-vmap work my_lib
-# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1_3 Lib Mapping Utility 2020.04 Apr 27 2020
-# vmap work my_lib 
-# Copying /home/quangphan2903/intelFPGA_pro/20.2/modelsim_ase/linuxaloem/../modelsim.ini to modelsim.ini
-# Modifying modelsim.ini
-vmap
-# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1_3 Lib Mapping Utility 2020.04 Apr 27 2020
-# vmap 
-# Reading modelsim.ini
-# "work" maps to directory ./my_lib.
-# Reading /home/quangphan2903/intelFPGA_pro/20.2/modelsim_ase/linuxaloem/../modelsim.ini
-# "std" maps to directory /home/quangphan2903/intelFPGA_pro/20.2/modelsim_ase/linuxaloem/../std.
-# "ieee" maps to directory /home/quangphan2903/intelFPGA_pro/20.2/modelsim_ase/linuxaloem/../ieee.
-# "vital2000" maps to directory /home/quangphan2903/intelFPGA_pro/20.2/modelsim_ase/linuxaloem/../vital2000.
-# "verilog" maps to directory /home/quangphan2903/intelFPGA_pro/20.2/modelsim_ase/linuxaloem/../verilog.
-# "std_developerskit" maps to directory /home/quangphan2903/intelFPGA_pro/20.2/modelsim_ase/linuxaloem/../std_developerskit.
-# "synopsys" maps to directory /home/quangphan2903/intelFPGA_pro/20.2/modelsim_ase/linuxaloem/../synopsys.
-# "modelsim_lib" maps to directory /home/quangphan2903/intelFPGA_pro/20.2/modelsim_ase/linuxaloem/../modelsim_lib.
-# "sv_std" maps to directory /home/quangphan2903/intelFPGA_pro/20.2/modelsim_ase/linuxaloem/../sv_std.
-# "floatfixlib" maps to directory /home/quangphan2903/intelFPGA_pro/20.2/modelsim_ase/linuxaloem/../floatfixlib.
-# "osvvm" maps to directory /home/quangphan2903/intelFPGA_pro/20.2/modelsim_ase/linuxaloem/../osvvm.
-# "altera_mf" maps to directory /home/quangphan2903/intelFPGA_pro/20.2/modelsim_ase/linuxaloem/../altera/vhdl/altera_mf.
-# "altera" maps to directory /home/quangphan2903/intelFPGA_pro/20.2/modelsim_ase/linuxaloem/../altera/vhdl/altera.
-# "altera_lnsim" maps to directory /home/quangphan2903/intelFPGA_pro/20.2/modelsim_ase/linuxaloem/../altera/vhdl/altera_lnsim.
-# "lpm" maps to directory /home/quangphan2903/intelFPGA_pro/20.2/modelsim_ase/linuxaloem/../altera/vhdl/220model.
-# "220model" maps to directory /home/quangphan2903/intelFPGA_pro/20.2/modelsim_ase/linuxaloem/../altera/vhdl/220model.
-# "sgate" maps to directory /home/quangphan2903/intelFPGA_pro/20.2/modelsim_ase/linuxaloem/../altera/vhdl/sgate.
-# "twentynm" maps to directory /home/quangphan2903/intelFPGA_pro/20.2/modelsim_ase/linuxaloem/../altera/vhdl/twentynm.
-# "twentynm_hssi" maps to directory /home/quangphan2903/intelFPGA_pro/20.2/modelsim_ase/linuxaloem/../altera/vhdl/twentynm_hssi.
-# "twentynm_hip" maps to directory /home/quangphan2903/intelFPGA_pro/20.2/modelsim_ase/linuxaloem/../altera/vhdl/twentynm_hip.
-# "fourteennm" maps to directory /home/quangphan2903/intelFPGA_pro/20.2/modelsim_ase/linuxaloem/../altera/vhdl/fourteennm.
-# "fourteennm_ct1" maps to directory /home/quangphan2903/intelFPGA_pro/20.2/modelsim_ase/linuxaloem/../altera/vhdl/fourteennm_ct1.
-# "tennm" maps to directory /home/quangphan2903/intelFPGA_pro/20.2/modelsim_ase/linuxaloem/../altera/vhdl/tennm.
-# "tennm_ct1" maps to directory /home/quangphan2903/intelFPGA_pro/20.2/modelsim_ase/linuxaloem/../altera/vhdl/tennm_ct1.
-# "cyclone10gx" maps to directory /home/quangphan2903/intelFPGA_pro/20.2/modelsim_ase/linuxaloem/../altera/vhdl/cyclone10gx.
-# "cyclone10gx_hssi" maps to directory /home/quangphan2903/intelFPGA_pro/20.2/modelsim_ase/linuxaloem/../altera/vhdl/cyclone10gx_hssi.
-# "cyclone10gx_hip" maps to directory /home/quangphan2903/intelFPGA_pro/20.2/modelsim_ase/linuxaloem/../altera/vhdl/cyclone10gx_hip.
-# "altera_mf_ver" maps to directory /home/quangphan2903/intelFPGA_pro/20.2/modelsim_ase/linuxaloem/../altera/verilog/altera_mf.
-# "altera_ver" maps to directory /home/quangphan2903/intelFPGA_pro/20.2/modelsim_ase/linuxaloem/../altera/verilog/altera.
-# "altera_lnsim_ver" maps to directory /home/quangphan2903/intelFPGA_pro/20.2/modelsim_ase/linuxaloem/../altera/verilog/altera_lnsim.
-# "lpm_ver" maps to directory /home/quangphan2903/intelFPGA_pro/20.2/modelsim_ase/linuxaloem/../altera/verilog/220model.
-# "220model_ver" maps to directory /home/quangphan2903/intelFPGA_pro/20.2/modelsim_ase/linuxaloem/../altera/verilog/220model.
-# "sgate_ver" maps to directory /home/quangphan2903/intelFPGA_pro/20.2/modelsim_ase/linuxaloem/../altera/verilog/sgate.
-# "twentynm_ver" maps to directory /home/quangphan2903/intelFPGA_pro/20.2/modelsim_ase/linuxaloem/../altera/verilog/twentynm.
-# "twentynm_hssi_ver" maps to directory /home/quangphan2903/intelFPGA_pro/20.2/modelsim_ase/linuxaloem/../altera/verilog/twentynm_hssi.
-# "twentynm_hip_ver" maps to directory /home/quangphan2903/intelFPGA_pro/20.2/modelsim_ase/linuxaloem/../altera/verilog/twentynm_hip.
-# "fourteennm_ver" maps to directory /home/quangphan2903/intelFPGA_pro/20.2/modelsim_ase/linuxaloem/../altera/verilog/fourteennm.
-# "fourteennm_ct1_ver" maps to directory /home/quangphan2903/intelFPGA_pro/20.2/modelsim_ase/linuxaloem/../altera/verilog/fourteennm_ct1.
-# "tennm_ver" maps to directory /home/quangphan2903/intelFPGA_pro/20.2/modelsim_ase/linuxaloem/../altera/verilog/tennm.
-# "tennm_ct1_ver" maps to directory /home/quangphan2903/intelFPGA_pro/20.2/modelsim_ase/linuxaloem/../altera/verilog/tennm_ct1.
-# "cyclone10gx_ver" maps to directory /home/quangphan2903/intelFPGA_pro/20.2/modelsim_ase/linuxaloem/../altera/verilog/cyclone10gx.
-# "cyclone10gx_hssi_ver" maps to directory /home/quangphan2903/intelFPGA_pro/20.2/modelsim_ase/linuxaloem/../altera/verilog/cyclone10gx_hssi.
-# "cyclone10gx_hip_ver" maps to directory /home/quangphan2903/intelFPGA_pro/20.2/modelsim_ase/linuxaloem/../altera/verilog/cyclone10gx_hip.
-vmap work ../my_lib
-# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1_3 Lib Mapping Utility 2020.04 Apr 27 2020
-# vmap work ../my_lib 
-# Modifying modelsim.ini
-# ** Error (suppressible): (vmap-19) Failed to access library 'work' at "../my_lib".
-# No such file or directory. (errno = ENOENT)
-vmap work my_lib
-# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1_3 Lib Mapping Utility 2020.04 Apr 27 2020
-# vmap work my_lib 
-# Modifying modelsim.ini
 vcom
-vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab01-reg/register.sv
+vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab03-count/counter.sv
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1_3 Compiler 2020.04 Apr 27 2020
-# Start time: 21:15:53 on Jan 01,2021
-# vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab01-reg/register.sv 
-# -- Compiling module register
+# Start time: 23:14:59 on Jan 01,2021
+# vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab03-count/counter.sv 
+# -- Compiling module counter
 # 
 # Top level modules:
-# 	register
-# End time: 21:15:53 on Jan 01,2021, Elapsed time: 0:00:00
+# 	counter
+# End time: 23:14:59 on Jan 01,2021, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab01-reg/register_test.sv
+vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab03-count/counter_test.sv
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1_3 Compiler 2020.04 Apr 27 2020
-# Start time: 21:15:53 on Jan 01,2021
-# vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab01-reg/register_test.sv 
-# -- Compiling module register_test
+# Start time: 23:14:59 on Jan 01,2021
+# vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab03-count/counter_test.sv 
+# -- Compiling module counter_test
 # 
 # Top level modules:
-# 	register_test
-# End time: 21:15:53 on Jan 01,2021, Elapsed time: 0:00:00
+# 	counter_test
+# End time: 23:14:59 on Jan 01,2021, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-vsim
-# vsim work.register_test 
-# Start time: 21:16:07 on Jan 01,2021
+vsim work.counter_test
+# vsim work.counter_test 
+# Start time: 23:15:06 on Jan 01,2021
 # Loading sv_std.std
-# Loading work.register_test
-# Loading work.register
+# Loading work.counter_test
+# Loading work.counter
 run -all
-# time=   0.0 ns enable=x rst_=1 data=xx out=xx
-# time=  15.0 ns enable=x rst_=0 data=xx out=00
-# time=  25.0 ns enable=0 rst_=1 data=xx out=00
-# time=  35.0 ns enable=1 rst_=1 data=aa out=00
-# time=  40.0 ns enable=1 rst_=1 data=aa out=aa
-# time=  45.0 ns enable=0 rst_=1 data=55 out=aa
-# time=  55.0 ns enable=x rst_=0 data=xx out=00
-# time=  65.0 ns enable=0 rst_=1 data=xx out=00
-# time=  75.0 ns enable=1 rst_=1 data=55 out=00
-# time=  80.0 ns enable=1 rst_=1 data=55 out=55
-# time=  85.0 ns enable=0 rst_=1 data=aa out=55
-# REGISTER TEST PASSED
-# ** Note: $finish    : /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab01-reg/register_test.sv(65)
-#    Time: 95 ns  Iteration: 1  Instance: /register_test
-# 1
-# Break in Module register_test at /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab01-reg/register_test.sv line 65
-exit -sim
-# End time: 21:16:57 on Jan 01,2021, Elapsed time: 0:00:50
-# Errors: 0, Warnings: 0
-vsim work.register
-# vsim work.register 
-# Start time: 21:17:08 on Jan 01,2021
-# Loading sv_std.std
-# Loading work.register
-exit -sim
-# End time: 21:17:18 on Jan 01,2021, Elapsed time: 0:00:10
-# Errors: 0, Warnings: 0
-vcom
-vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab02-mux/scale_mux.sv
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1_3 Compiler 2020.04 Apr 27 2020
-# Start time: 21:24:41 on Jan 01,2021
-# vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab02-mux/scale_mux.sv 
-# -- Compiling module scale_mux
-# ** Error: (vlog-13069) /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab02-mux/scale_mux.sv(12): near ":": syntax error, unexpected ':'.
-# End time: 21:24:41 on Jan 01,2021, Elapsed time: 0:00:00
-# Errors: 1, Warnings: 0
-vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab02-mux/scale_mux_test.sv
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1_3 Compiler 2020.04 Apr 27 2020
-# Start time: 21:24:41 on Jan 01,2021
-# vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab02-mux/scale_mux_test.sv 
-# -- Compiling module scale_mux_test
-# 
-# Top level modules:
-# 	scale_mux_test
-# End time: 21:24:41 on Jan 01,2021, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vcom
-vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab02-mux/scale_mux.sv
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1_3 Compiler 2020.04 Apr 27 2020
-# Start time: 21:25:37 on Jan 01,2021
-# vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab02-mux/scale_mux.sv 
-# -- Compiling module scale_mux
-# 
-# Top level modules:
-# 	scale_mux
-# End time: 21:25:37 on Jan 01,2021, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vsim work.scale_mux_test
-# vsim work.scale_mux_test 
-# Start time: 21:25:41 on Jan 01,2021
-# Loading sv_std.std
-# Loading work.scale_mux_test
-# Loading work.scale_mux
-run -all
-# 0ns in_a=00 in_b=00 sel_a=0 out=00
-# 1ns in_a=00 in_b=00 sel_a=1 out=00
-# 2ns in_a=00 in_b=ff sel_a=0 out=ff
-# 3ns in_a=00 in_b=ff sel_a=1 out=00
-# 4ns in_a=ff in_b=00 sel_a=0 out=00
-# 5ns in_a=ff in_b=00 sel_a=1 out=ff
-# 6ns in_a=ff in_b=ff sel_a=0 out=ff
-# 7ns in_a=ff in_b=ff sel_a=1 out=ff
-# MUX TEST PASSED
-# 1
-# Break in Module scale_mux_test at /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab02-mux/scale_mux_test.sv line 58
-# End time: 21:26:24 on Jan 01,2021, Elapsed time: 0:00:43
+# time=   0ns clk=1 rst_=x load=x enable=x data=xx count=xx
+# time=   5ns clk=0 rst_=0 load=x enable=x data=xx count=00
+# time=  10ns clk=1 rst_=0 load=x enable=x data=xx count=00
+# time=  15ns clk=0 rst_=1 load=0 enable=1 data=xx count=00
+# time=  20ns clk=1 rst_=1 load=0 enable=1 data=xx count=01
+# time=  25ns clk=0 rst_=1 load=0 enable=1 data=xx count=01
+# time=  30ns clk=1 rst_=1 load=0 enable=1 data=xx count=02
+# time=  35ns clk=0 rst_=1 load=0 enable=1 data=xx count=02
+# time=  40ns clk=1 rst_=1 load=0 enable=1 data=xx count=03
+# time=  45ns clk=0 rst_=1 load=0 enable=1 data=xx count=03
+# time=  50ns clk=1 rst_=1 load=0 enable=1 data=xx count=04
+# time=  55ns clk=0 rst_=1 load=0 enable=0 data=xx count=04
+# time=  60ns clk=1 rst_=1 load=0 enable=0 data=xx count=04
+# time=  65ns clk=0 rst_=1 load=0 enable=0 data=xx count=04
+# time=  70ns clk=1 rst_=1 load=0 enable=0 data=xx count=04
+# time=  75ns clk=0 rst_=1 load=1 enable=0 data=15 count=04
+# time=  80ns clk=1 rst_=1 load=1 enable=0 data=15 count=15
+# time=  85ns clk=0 rst_=1 load=1 enable=1 data=1d count=15
+# time=  90ns clk=1 rst_=1 load=1 enable=1 data=1d count=1d
+# time=  95ns clk=0 rst_=1 load=0 enable=1 data=xx count=1d
+# time= 100ns clk=1 rst_=1 load=0 enable=1 data=xx count=1e
+# time= 105ns clk=0 rst_=1 load=0 enable=1 data=xx count=1e
+# time= 110ns clk=1 rst_=1 load=0 enable=1 data=xx count=1f
+# time= 115ns clk=0 rst_=1 load=0 enable=1 data=xx count=1f
+# time= 120ns clk=1 rst_=1 load=0 enable=1 data=xx count=00
+# time= 125ns clk=0 rst_=1 load=0 enable=1 data=xx count=00
+# time= 130ns clk=1 rst_=1 load=0 enable=1 data=xx count=01
+# COUNTER TEST PASSED
+# ** Note: $finish    : /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab03-count/counter_test.sv(84)
+#    Time: 135 ns  Iteration: 1  Instance: /counter_test
+# End time: 23:15:23 on Jan 01,2021, Elapsed time: 0:00:17
 # Errors: 0, Warnings: 0
