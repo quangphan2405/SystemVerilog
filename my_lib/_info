@@ -9,14 +9,93 @@ z2
 !i10f 100
 cModel Technology
 Z0 d/home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog
-vcounter
+vcontrol
 Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
-Z2 !s110 1609535699
+Z2 DXx4 work 8 typedefs 0 22 dFnEYllo]ldWfSShQnONk1
+DXx4 work 15 control_sv_unit 0 22 mCDjTUUMJmclUHhZP^zU52
+Z3 !s110 1609585054
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+!i10b 1
+!s100 XFVeUL46`K=^3emR[?A831
+IMhZ9KnTcnA43n4hUNPBIO0
+!s105 control_sv_unit
+S1
+R0
+Z5 w1609585033
+Z6 8/home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab04-ctrl/control.sv
+Z7 F/home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab04-ctrl/control.sv
+!i122 15
+L0 16 76
+Z8 OV;L;2020.1_3;71
+31
+Z9 !s108 1609585054.000000
+!s107 /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab04-ctrl/control.sv|
+Z10 !s90 -reportprogress|300|-work|work|/home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab04-ctrl/control.sv|
+!i113 1
+Z11 o-work work
+Z12 tCvgOpt 0
+Xcontrol_sv_unit
+R1
+R2
+R3
+VmCDjTUUMJmclUHhZP^zU52
+r1
+!s85 0
+!i10b 1
+!s100 2SJElMzl6Q?`9XkT4A@Zd3
+ImCDjTUUMJmclUHhZP^zU52
+!i103 1
+S1
+R0
+R5
+R6
+R7
+!i122 15
+L0 14 0
+R8
+31
+R9
+Z13 !s107 /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab04-ctrl/control.sv|
+R10
+!i113 1
+R11
+R12
+vcontrol_test
+R1
+R2
+Z14 !s110 1609584819
+!i10b 1
+!s100 ngoBVKJ;1KOCl73oP?W>G3
+Z15 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I7d_EIcSU<g_GoV[SG?lGD0
+R4
+S1
+R0
+w1609584806
+8/home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab04-ctrl/control_test.sv
+F/home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab04-ctrl/control_test.sv
+!i122 14
+L0 13 91
+R8
+r1
+!s85 0
+31
+Z16 !s108 1609584819.000000
+!s107 /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab04-ctrl/control_test.sv|
+!s90 -reportprogress|300|-work|work|/home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab04-ctrl/control_test.sv|
+!i113 1
+R11
+R12
+vcounter
+R1
+Z17 !s110 1609535699
 !i10b 1
 !s100 C54S2@FY6CM<>ELD:9VhI1
-Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
+R15
 I;;[3D6`GBlgIl0EgVoiFg3
-Z4 VDg1SIo80bB@j0V0VzS_@n1
+R4
 S1
 R0
 w1609535683
@@ -24,47 +103,47 @@ w1609535683
 F/home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab03-count/counter.sv
 !i122 4
 L0 1 22
-Z5 OV;L;2020.1_3;71
+R8
 r1
 !s85 0
 31
-Z6 !s108 1609535699.000000
+Z18 !s108 1609535699.000000
 !s107 /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab03-count/counter.sv|
 !s90 -reportprogress|300|-work|work|/home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab03-count/counter.sv|
 !i113 1
-Z7 o-work work
-Z8 tCvgOpt 0
+R11
+R12
 vcounter_test
 R1
-R2
+R17
 !i10b 1
 !s100 aZ2kV9]HVP19B[Cb9BEDN0
-R3
+R15
 I]SIjb^b@iTKM`B1I]=?OI0
 R4
 S1
 R0
-Z9 w1518181990
+Z19 w1518181990
 8/home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab03-count/counter_test.sv
 F/home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab03-count/counter_test.sv
 !i122 5
 L0 13 74
-R5
+R8
 r1
 !s85 0
 31
-R6
+R18
 !s107 /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab03-count/counter_test.sv|
 !s90 -reportprogress|300|-work|work|/home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab03-count/counter_test.sv|
 !i113 1
-R7
-R8
+R11
+R12
 vregister
 R1
-Z10 !s110 1609528553
+Z20 !s110 1609528553
 !i10b 1
 !s100 of_UNe8Z0jH`Jo1LQ`Nm=3
-R3
+R15
 IFddO]:afM0?47W2OCe6zb1
 R4
 S1
@@ -73,48 +152,48 @@ w1609528316
 8/home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab01-reg/register.sv
 F/home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab01-reg/register.sv
 !i122 0
-Z11 L0 1 19
-R5
+Z21 L0 1 19
+R8
 r1
 !s85 0
 31
-Z12 !s108 1609528553.000000
+Z22 !s108 1609528553.000000
 !s107 /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab01-reg/register.sv|
 !s90 -reportprogress|300|-work|work|/home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab01-reg/register.sv|
 !i113 1
-R7
-R8
+R11
+R12
 vregister_test
 R1
-R10
+R20
 !i10b 1
 !s100 UBZ@T^ZT5?Be@5TbT[a@`3
-R3
+R15
 I_L8T1QX9_z7[gZ3fz:Ym^2
 R4
 S1
 R0
-R9
+R19
 8/home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab01-reg/register_test.sv
 F/home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab01-reg/register_test.sv
 !i122 1
 L0 13 55
-R5
+R8
 r1
 !s85 0
 31
-R12
+R22
 !s107 /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab01-reg/register_test.sv|
 !s90 -reportprogress|300|-work|work|/home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab01-reg/register_test.sv|
 !i113 1
-R7
-R8
+R11
+R12
 vscale_mux
 R1
 !s110 1609529137
 !i10b 1
 !s100 5WXFDD<_:5jL0Q7dOSTo;1
-R3
+R15
 I7VDfX_`D3PXF07Vgl8Q[_1
 R4
 S1
@@ -123,8 +202,8 @@ w1609529126
 8/home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab02-mux/scale_mux.sv
 F/home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab02-mux/scale_mux.sv
 !i122 3
-R11
-R5
+R21
+R8
 r1
 !s85 0
 31
@@ -132,24 +211,24 @@ r1
 !s107 /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab02-mux/scale_mux.sv|
 !s90 -reportprogress|300|-work|work|/home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab02-mux/scale_mux.sv|
 !i113 1
-R7
-R8
+R11
+R12
 vscale_mux_test
 R1
 !s110 1609529081
 !i10b 1
 !s100 jWRoCdXG4V;<fYoR1m[R90
-R3
+R15
 IOJM`lT5lQlMka_FhD7A1I1
 R4
 S1
 R0
-R9
+R19
 8/home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab02-mux/scale_mux_test.sv
 F/home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab02-mux/scale_mux_test.sv
 !i122 2
 L0 13 49
-R5
+R8
 r1
 !s85 0
 31
@@ -157,5 +236,30 @@ r1
 !s107 /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab02-mux/scale_mux_test.sv|
 !s90 -reportprogress|300|-work|work|/home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab02-mux/scale_mux_test.sv|
 !i113 1
-R7
+R11
+R12
+Xtypedefs
+R1
+R14
+!i10b 1
+!s100 Q<Y1DW6k6Ba^U_R]Nk:i42
+R15
+IdFnEYllo]ldWfSShQnONk1
+VdFnEYllo]ldWfSShQnONk1
+S1
+R0
+w1609583091
+8/home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab04-ctrl/typedefs.sv
+F/home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab04-ctrl/typedefs.sv
+!i122 12
+L0 1 0
 R8
+r1
+!s85 0
+31
+R16
+!s107 /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab04-ctrl/typedefs.sv|
+!s90 -reportprogress|300|-work|work|/home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab04-ctrl/typedefs.sv|
+!i113 1
+R11
+R12
