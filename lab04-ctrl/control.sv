@@ -11,9 +11,8 @@
 ///////////////////////////////////////////////////////////////////////////
 
 // import SystemVerilog package for opcode_t and state_t
-import typedefs::*;
 
-module control  (
+module control import typedefs::*; (
                 output logic      load_ac ,
                 output logic      mem_rd  ,
                 output logic      mem_wr  ,
