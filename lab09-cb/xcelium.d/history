@@ -1,0 +1,8 @@
+//
+// File created by:  xrun
+// Do not modify this file
+
+s1::(05Jan2021:01:46:38):( xrun flipflop.sv flipflop_test.sv )
+s2::(05Jan2021:01:47:48):( xrun flipflop.sv flipflop_test.sv )
+s3::(05Jan2021:01:47:59):( xrun flipflop.sv flipflop_test.sv )
+s4::(05Jan2021:01:48:56):( xrun flipflop.sv flipflop_test.sv -gui )

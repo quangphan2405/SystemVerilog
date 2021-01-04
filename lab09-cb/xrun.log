@@ -1,0 +1,14 @@
+xrun: 19.09-s001: (c) Copyright 1995-2019 Cadence Design Systems, Inc.
+TOOL:	xrun	19.09-s001: Started on Jan 05, 2021 at 01:48:55 EET
+xrun
+	flipflop.sv
+	flipflop_test.sv
+	-gui
+xmsim: *W,DSEM2009: This SystemVerilog design is simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
+
+-------------------------------------
+Relinquished control to SimVision...
+xcelium> 
+xcelium> source /opt/lintula/cadence/XCELIUM1909/tools/xcelium/files/xmsimrc
+xcelium> run
+TOOL:	xrun	19.09-s001: Exiting on Jan 05, 2021 at 01:50:33 EET  (total: 00:01:38)
