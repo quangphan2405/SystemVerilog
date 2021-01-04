@@ -102,10 +102,8 @@ module mem_test ( input  logic clk,
       write <= 0;
       read  <= 1;
 
-      // Short propagation delay for output updating
-      @(posedge clk) #1ns rdata = data_out;
-
       @(negedge clk);
+      rdata = data_out;
       read  <= 0;
       if ( debug )
 	$display("At read address: %b, data value: %h", raddr, rdata);
