@@ -1,1673 +1,226 @@
 vcom
+vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab07-intf/intf.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1_3 Compiler 2020.04 Apr 27 2020
+# Start time: 12:13:27 on Jan 04,2021
+# vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab07-intf/intf.sv 
+# -- Compiling interface bus
+# 
+# Top level modules:
+# 	--none--
+# End time: 12:13:27 on Jan 04,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab07-intf/mem.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1_3 Compiler 2020.04 Apr 27 2020
+# Start time: 12:13:27 on Jan 04,2021
+# vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab07-intf/mem.sv 
+# -- Compiling module mem
+# 
+# Top level modules:
+# 	mem
+# End time: 12:13:27 on Jan 04,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab07-intf/mem_test.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1_3 Compiler 2020.04 Apr 27 2020
+# Start time: 12:13:28 on Jan 04,2021
+# vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab07-intf/mem_test.sv 
+# -- Compiling module mem_test
+# 
+# Top level modules:
+# 	mem_test
+# End time: 12:13:28 on Jan 04,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab07-intf/top.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1_3 Compiler 2020.04 Apr 27 2020
+# Start time: 12:13:28 on Jan 04,2021
+# vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab07-intf/top.sv 
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 12:13:28 on Jan 04,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.top
+# vsim work.top 
+# Start time: 12:13:30 on Jan 04,2021
+# Loading sv_std.std
+# Loading work.top
+# Loading work.bus
+# Loading work.mem_test
+# Loading work.mem
+run -all
+# Clear Memory Test
+# At write address: 00000 , data value: 00
+# At write address: 00001 , data value: 00
+# At write address: 00010 , data value: 00
+# At write address: 00011 , data value: 00
+# At write address: 00100 , data value: 00
+# At write address: 00101 , data value: 00
+# At write address: 00110 , data value: 00
+# At write address: 00111 , data value: 00
+# At write address: 01000 , data value: 00
+# At write address: 01001 , data value: 00
+# At write address: 01010 , data value: 00
+# At write address: 01011 , data value: 00
+# At write address: 01100 , data value: 00
+# At write address: 01101 , data value: 00
+# At write address: 01110 , data value: 00
+# At write address: 01111 , data value: 00
+# At write address: 10000 , data value: 00
+# At write address: 10001 , data value: 00
+# At write address: 10010 , data value: 00
+# At write address: 10011 , data value: 00
+# At write address: 10100 , data value: 00
+# At write address: 10101 , data value: 00
+# At write address: 10110 , data value: 00
+# At write address: 10111 , data value: 00
+# At write address: 11000 , data value: 00
+# At write address: 11001 , data value: 00
+# At write address: 11010 , data value: 00
+# At write address: 11011 , data value: 00
+# At write address: 11100 , data value: 00
+# At write address: 11101 , data value: 00
+# At write address: 11110 , data value: 00
+# At write address: 11111 , data value: 00
+# At read address: 00000, data value: 00
+# At read address: 00001, data value: 00
+# At read address: 00010, data value: 00
+# At read address: 00011, data value: 00
+# At read address: 00100, data value: 00
+# At read address: 00101, data value: 00
+# At read address: 00110, data value: 00
+# At read address: 00111, data value: 00
+# At read address: 01000, data value: 00
+# At read address: 01001, data value: 00
+# At read address: 01010, data value: 00
+# At read address: 01011, data value: 00
+# At read address: 01100, data value: 00
+# At read address: 01101, data value: 00
+# At read address: 01110, data value: 00
+# At read address: 01111, data value: 00
+# At read address: 10000, data value: 00
+# At read address: 10001, data value: 00
+# At read address: 10010, data value: 00
+# At read address: 10011, data value: 00
+# At read address: 10100, data value: 00
+# At read address: 10101, data value: 00
+# At read address: 10110, data value: 00
+# At read address: 10111, data value: 00
+# At read address: 11000, data value: 00
+# At read address: 11001, data value: 00
+# At read address: 11010, data value: 00
+# At read address: 11011, data value: 00
+# At read address: 11100, data value: 00
+# At read address: 11101, data value: 00
+# At read address: 11110, data value: 00
+# At read address: 11111, data value: 00
+# TEST PASSED
+# Data = Address Test
+# At write address: 00000 , data value: 00
+# At write address: 00001 , data value: 01
+# At write address: 00010 , data value: 02
+# At write address: 00011 , data value: 03
+# At write address: 00100 , data value: 04
+# At write address: 00101 , data value: 05
+# At write address: 00110 , data value: 06
+# At write address: 00111 , data value: 07
+# At write address: 01000 , data value: 08
+# At write address: 01001 , data value: 09
+# At write address: 01010 , data value: 0a
+# At write address: 01011 , data value: 0b
+# At write address: 01100 , data value: 0c
+# At write address: 01101 , data value: 0d
+# At write address: 01110 , data value: 0e
+# At write address: 01111 , data value: 0f
+# At write address: 10000 , data value: 10
+# At write address: 10001 , data value: 11
+# At write address: 10010 , data value: 12
+# At write address: 10011 , data value: 13
+# At write address: 10100 , data value: 14
+# At write address: 10101 , data value: 15
+# At write address: 10110 , data value: 16
+# At write address: 10111 , data value: 17
+# At write address: 11000 , data value: 18
+# At write address: 11001 , data value: 19
+# At write address: 11010 , data value: 1a
+# At write address: 11011 , data value: 1b
+# At write address: 11100 , data value: 1c
+# At write address: 11101 , data value: 1d
+# At write address: 11110 , data value: 1e
+# At write address: 11111 , data value: 1f
+# At read address: 00000, data value: 00
+# At read address: 00001, data value: 01
+# At read address: 00010, data value: 02
+# At read address: 00011, data value: 03
+# At read address: 00100, data value: 04
+# At read address: 00101, data value: 05
+# At read address: 00110, data value: 06
+# At read address: 00111, data value: 07
+# At read address: 01000, data value: 08
+# At read address: 01001, data value: 09
+# At read address: 01010, data value: 0a
+# At read address: 01011, data value: 0b
+# At read address: 01100, data value: 0c
+# At read address: 01101, data value: 0d
+# At read address: 01110, data value: 0e
+# At read address: 01111, data value: 0f
+# At read address: 10000, data value: 10
+# At read address: 10001, data value: 11
+# At read address: 10010, data value: 12
+# At read address: 10011, data value: 13
+# At read address: 10100, data value: 14
+# At read address: 10101, data value: 15
+# At read address: 10110, data value: 16
+# At read address: 10111, data value: 17
+# At read address: 11000, data value: 18
+# At read address: 11001, data value: 19
+# At read address: 11010, data value: 1a
+# At read address: 11011, data value: 1b
+# At read address: 11100, data value: 1c
+# At read address: 11101, data value: 1d
+# At read address: 11110, data value: 1e
+# At read address: 11111, data value: 1f
+# TEST PASSED
+# ** Note: $finish    : /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab07-intf/mem_test.sv(67)
+#    Time: 2550 ns  Iteration: 1  Instance: /top/test
+# 1
+# Break in NamedBeginStat memtest at /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab07-intf/mem_test.sv line 67
+quit -sim
+# End time: 12:13:37 on Jan 04,2021, Elapsed time: 0:00:07
+# Errors: 0, Warnings: 0
+vcom
 vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab06-mem/mem.sv
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1_3 Compiler 2020.04 Apr 27 2020
-# Start time: 00:49:59 on Jan 04,2021
+# Start time: 12:13:46 on Jan 04,2021
 # vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab06-mem/mem.sv 
 # -- Compiling module mem
 # 
 # Top level modules:
 # 	mem
-# End time: 00:49:59 on Jan 04,2021, Elapsed time: 0:00:00
+# End time: 12:13:46 on Jan 04,2021, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab06-mem/mem_test.sv
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1_3 Compiler 2020.04 Apr 27 2020
-# Start time: 00:49:59 on Jan 04,2021
+# Start time: 12:13:46 on Jan 04,2021
 # vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab06-mem/mem_test.sv 
 # -- Compiling module mem_test
-# ** Error (suppressible): /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab06-mem/mem_test.sv(79): (vlog-13300) The task or function 'write_mem' with ref argument 'add' must be automatic.
-# ** Error (suppressible): /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab06-mem/mem_test.sv(80): (vlog-13300) The task or function 'write_mem' with ref argument 'data_in' must be automatic.
-# ** Error (suppressible): /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab06-mem/mem_test.sv(81): (vlog-13300) The task or function 'write_mem' with ref argument 'read' must be automatic.
-# ** Error (suppressible): /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab06-mem/mem_test.sv(81): (vlog-13300) The task or function 'write_mem' with ref argument 'write' must be automatic.
-# ** Error (suppressible): /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab06-mem/mem_test.sv(96): (vlog-13300) The task or function 'read_mem' with ref argument 'add' must be automatic.
-# ** Error (suppressible): /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab06-mem/mem_test.sv(97): (vlog-13300) The task or function 'read_mem' with ref argument 'rdata' must be automatic.
-# ** Error (suppressible): /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab06-mem/mem_test.sv(98): (vlog-13300) The task or function 'read_mem' with ref argument 'read' must be automatic.
-# ** Error (suppressible): /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab06-mem/mem_test.sv(98): (vlog-13300) The task or function 'read_mem' with ref argument 'write' must be automatic.
-# End time: 00:49:59 on Jan 04,2021, Elapsed time: 0:00:00
-# Errors: 8, Warnings: 0
+# 
+# Top level modules:
+# 	mem_test
+# End time: 12:13:46 on Jan 04,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
 vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab06-mem/top.sv
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1_3 Compiler 2020.04 Apr 27 2020
-# Start time: 00:49:59 on Jan 04,2021
+# Start time: 12:13:46 on Jan 04,2021
 # vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab06-mem/top.sv 
 # -- Compiling module top
 # 
 # Top level modules:
 # 	top
-# End time: 00:49:59 on Jan 04,2021, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vcom
-vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab06-mem/mem_test.sv
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1_3 Compiler 2020.04 Apr 27 2020
-# Start time: 00:50:24 on Jan 04,2021
-# vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab06-mem/mem_test.sv 
-# -- Compiling module mem_test
-# 
-# Top level modules:
-# 	mem_test
-# End time: 00:50:24 on Jan 04,2021, Elapsed time: 0:00:00
+# End time: 12:13:46 on Jan 04,2021, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 vsim work.top
 # vsim work.top 
-# Start time: 00:50:31 on Jan 04,2021
-# Loading sv_std.std
-# Loading work.top
-# Loading work.mem_test
-# Loading work.mem
-run -all
-# Clear Memory Test
-# At write address: xxxxx , data value: 00
-# At write address: xxxxx , data value: 00
-# At write address: xxxxx , data value: 00
-# At write address: xxxxx , data value: 00
-# At write address: xxxxx , data value: 00
-# At write address: xxxxx , data value: 00
-# At write address: xxxxx , data value: 00
-# At write address: xxxxx , data value: 00
-# At write address: xxxxx , data value: 00
-# At write address: xxxxx , data value: 00
-# At write address: xxxxx , data value: 00
-# At write address: xxxxx , data value: 00
-# At write address: xxxxx , data value: 00
-# At write address: xxxxx , data value: 00
-# At write address: xxxxx , data value: 00
-# At write address: xxxxx , data value: 00
-# At write address: xxxxx , data value: 00
-# At write address: xxxxx , data value: 00
-# At write address: xxxxx , data value: 00
-# At write address: xxxxx , data value: 00
-# At write address: xxxxx , data value: 00
-# At write address: xxxxx , data value: 00
-# At write address: xxxxx , data value: 00
-# At write address: xxxxx , data value: 00
-# At write address: xxxxx , data value: 00
-# At write address: xxxxx , data value: 00
-# At write address: xxxxx , data value: 00
-# At write address: xxxxx , data value: 00
-# At write address: xxxxx , data value: 00
-# At write address: xxxxx , data value: 00
-# At write address: xxxxx , data value: 00
-# At write address: xxxxx , data value: 00
-# At read address: xxxxx, data value: xx
-# At read address: xxxxx, data value: xx
-# At read address: xxxxx, data value: xx
-# At read address: xxxxx, data value: xx
-# At read address: xxxxx, data value: xx
-# At read address: xxxxx, data value: xx
-# At read address: xxxxx, data value: xx
-# At read address: xxxxx, data value: xx
-# At read address: xxxxx, data value: xx
-# At read address: xxxxx, data value: xx
-# At read address: xxxxx, data value: xx
-# At read address: xxxxx, data value: xx
-# At read address: xxxxx, data value: xx
-# At read address: xxxxx, data value: xx
-# At read address: xxxxx, data value: xx
-# At read address: xxxxx, data value: xx
-# At read address: xxxxx, data value: xx
-# At read address: xxxxx, data value: xx
-# At read address: xxxxx, data value: xx
-# At read address: xxxxx, data value: xx
-# At read address: xxxxx, data value: xx
-# At read address: xxxxx, data value: xx
-# At read address: xxxxx, data value: xx
-# At read address: xxxxx, data value: xx
-# At read address: xxxxx, data value: xx
-# At read address: xxxxx, data value: xx
-# At read address: xxxxx, data value: xx
-# At read address: xxxxx, data value: xx
-# At read address: xxxxx, data value: xx
-# At read address: xxxxx, data value: xx
-# At read address: xxxxx, data value: xx
-# At read address: xxxxx, data value: xx
-# Data = Address Test
-# At write address: xxxxx , data value: Xx
-# At write address: xxxxx , data value: Xx
-# At write address: xxxxx , data value: Xx
-# At write address: xxxxx , data value: Xx
-# At write address: xxxxx , data value: Xx
-# At write address: xxxxx , data value: Xx
-# At write address: xxxxx , data value: Xx
-# At write address: xxxxx , data value: Xx
-# At write address: xxxxx , data value: Xx
-# At write address: xxxxx , data value: Xx
-# At write address: xxxxx , data value: Xx
-# At write address: xxxxx , data value: Xx
-# At write address: xxxxx , data value: Xx
-# At write address: xxxxx , data value: Xx
-# At write address: xxxxx , data value: Xx
-# At write address: xxxxx , data value: Xx
-# At write address: xxxxx , data value: Xx
-# At write address: xxxxx , data value: Xx
-# At write address: xxxxx , data value: Xx
-# At write address: xxxxx , data value: Xx
-# At write address: xxxxx , data value: Xx
-# At write address: xxxxx , data value: Xx
-# At write address: xxxxx , data value: Xx
-# At write address: xxxxx , data value: Xx
-# At write address: xxxxx , data value: Xx
-# At write address: xxxxx , data value: Xx
-# At write address: xxxxx , data value: Xx
-# At write address: xxxxx , data value: Xx
-# At write address: xxxxx , data value: Xx
-# At write address: xxxxx , data value: Xx
-# At write address: xxxxx , data value: Xx
-# At write address: xxxxx , data value: Xx
-# At read address: xxxxx, data value: xx
-# At read address: xxxxx, data value: xx
-# At read address: xxxxx, data value: xx
-# At read address: xxxxx, data value: xx
-# At read address: xxxxx, data value: xx
-# At read address: xxxxx, data value: xx
-# At read address: xxxxx, data value: xx
-# At read address: xxxxx, data value: xx
-# At read address: xxxxx, data value: xx
-# At read address: xxxxx, data value: xx
-# At read address: xxxxx, data value: xx
-# At read address: xxxxx, data value: xx
-# At read address: xxxxx, data value: xx
-# At read address: xxxxx, data value: xx
-# At read address: xxxxx, data value: xx
-# At read address: xxxxx, data value: xx
-# At read address: xxxxx, data value: xx
-# At read address: xxxxx, data value: xx
-# At read address: xxxxx, data value: xx
-# At read address: xxxxx, data value: xx
-# At read address: xxxxx, data value: xx
-# At read address: xxxxx, data value: xx
-# At read address: xxxxx, data value: xx
-# At read address: xxxxx, data value: xx
-# At read address: xxxxx, data value: xx
-# At read address: xxxxx, data value: xx
-# At read address: xxxxx, data value: xx
-# At read address: xxxxx, data value: xx
-# At read address: xxxxx, data value: xx
-# At read address: xxxxx, data value: xx
-# At read address: xxxxx, data value: xx
-# At read address: xxxxx, data value: xx
-# TEST FAILED
-# ** Note: $finish    : /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab06-mem/mem_test.sv(72)
-#    Time: 1276 ns  Iteration: 0  Instance: /top/test
-# 1
-# Break in NamedBeginStat memtest at /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab06-mem/mem_test.sv line 72
-quit -sim
-# End time: 00:52:32 on Jan 04,2021, Elapsed time: 0:02:01
-# Errors: 0, Warnings: 0
-vcom
-vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab06-mem/mem_test.sv
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1_3 Compiler 2020.04 Apr 27 2020
-# Start time: 00:52:36 on Jan 04,2021
-# vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab06-mem/mem_test.sv 
-# -- Compiling module mem_test
-# 
-# Top level modules:
-# 	mem_test
-# End time: 00:52:36 on Jan 04,2021, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vsim work.top
-# vsim work.top 
-# Start time: 00:52:39 on Jan 04,2021
-# Loading sv_std.std
-# Loading work.top
-# Loading work.mem_test
-# Loading work.mem
-run -all
-# Clear Memory Test
-# At write address: 00001 , data value: 00
-# At write address: 00010 , data value: 00
-# At write address: 00011 , data value: 00
-# At write address: 00100 , data value: 00
-# At write address: 00101 , data value: 00
-# At write address: 00110 , data value: 00
-# At write address: 00111 , data value: 00
-# At write address: 01000 , data value: 00
-# At write address: 01001 , data value: 00
-# At write address: 01010 , data value: 00
-# At write address: 01011 , data value: 00
-# At write address: 01100 , data value: 00
-# At write address: 01101 , data value: 00
-# At write address: 01110 , data value: 00
-# At write address: 01111 , data value: 00
-# At write address: 10000 , data value: 00
-# At write address: 10001 , data value: 00
-# At write address: 10010 , data value: 00
-# At write address: 10011 , data value: 00
-# At write address: 10100 , data value: 00
-# At write address: 10101 , data value: 00
-# At write address: 10110 , data value: 00
-# At write address: 10111 , data value: 00
-# At write address: 11000 , data value: 00
-# At write address: 11001 , data value: 00
-# At write address: 11010 , data value: 00
-# At write address: 11011 , data value: 00
-# At write address: 11100 , data value: 00
-# At write address: 11101 , data value: 00
-# At write address: 11110 , data value: 00
-# At write address: 11111 , data value: 00
-# At write address: 00000 , data value: 00
-# At read address: 00001, data value: xx
-# At read address: 00010, data value: 00
-# At read address: 00011, data value: 00
-# At read address: 00100, data value: 00
-# At read address: 00101, data value: 00
-# At read address: 00110, data value: 00
-# At read address: 00111, data value: 00
-# At read address: 01000, data value: 00
-# At read address: 01001, data value: 00
-# At read address: 01010, data value: 00
-# At read address: 01011, data value: 00
-# At read address: 01100, data value: 00
-# At read address: 01101, data value: 00
-# At read address: 01110, data value: 00
-# At read address: 01111, data value: 00
-# At read address: 10000, data value: 00
-# At read address: 10001, data value: 00
-# At read address: 10010, data value: 00
-# At read address: 10011, data value: 00
-# At read address: 10100, data value: 00
-# At read address: 10101, data value: 00
-# At read address: 10110, data value: 00
-# At read address: 10111, data value: 00
-# At read address: 11000, data value: 00
-# At read address: 11001, data value: 00
-# At read address: 11010, data value: 00
-# At read address: 11011, data value: 00
-# At read address: 11100, data value: 00
-# At read address: 11101, data value: 00
-# At read address: 11110, data value: 00
-# At read address: 11111, data value: 00
-# At read address: 00000, data value: 00
-# Data = Address Test
-# At write address: 00001 , data value: 00
-# At write address: 00010 , data value: 01
-# At write address: 00011 , data value: 02
-# At write address: 00100 , data value: 03
-# At write address: 00101 , data value: 04
-# At write address: 00110 , data value: 05
-# At write address: 00111 , data value: 06
-# At write address: 01000 , data value: 07
-# At write address: 01001 , data value: 08
-# At write address: 01010 , data value: 09
-# At write address: 01011 , data value: 0a
-# At write address: 01100 , data value: 0b
-# At write address: 01101 , data value: 0c
-# At write address: 01110 , data value: 0d
-# At write address: 01111 , data value: 0e
-# At write address: 10000 , data value: 0f
-# At write address: 10001 , data value: 10
-# At write address: 10010 , data value: 11
-# At write address: 10011 , data value: 12
-# At write address: 10100 , data value: 13
-# At write address: 10101 , data value: 14
-# At write address: 10110 , data value: 15
-# At write address: 10111 , data value: 16
-# At write address: 11000 , data value: 17
-# At write address: 11001 , data value: 18
-# At write address: 11010 , data value: 19
-# At write address: 11011 , data value: 1a
-# At write address: 11100 , data value: 1b
-# At write address: 11101 , data value: 1c
-# At write address: 11110 , data value: 1d
-# At write address: 11111 , data value: 1e
-# At write address: 00000 , data value: 1f
-# At read address: 00001, data value: 00
-# At read address: 00010, data value: 00
-# At read address: 00011, data value: 01
-# At read address: 00100, data value: 02
-# At read address: 00101, data value: 03
-# At read address: 00110, data value: 04
-# At read address: 00111, data value: 05
-# At read address: 01000, data value: 06
-# At read address: 01001, data value: 07
-# At read address: 01010, data value: 08
-# At read address: 01011, data value: 09
-# At read address: 01100, data value: 0a
-# At read address: 01101, data value: 0b
-# At read address: 01110, data value: 0c
-# At read address: 01111, data value: 0d
-# At read address: 10000, data value: 0e
-# At read address: 10001, data value: 0f
-# At read address: 10010, data value: 10
-# At read address: 10011, data value: 11
-# At read address: 10100, data value: 12
-# At read address: 10101, data value: 13
-# At read address: 10110, data value: 14
-# At read address: 10111, data value: 15
-# At read address: 11000, data value: 16
-# At read address: 11001, data value: 17
-# At read address: 11010, data value: 18
-# At read address: 11011, data value: 19
-# At read address: 11100, data value: 1a
-# At read address: 11101, data value: 1b
-# At read address: 11110, data value: 1c
-# At read address: 11111, data value: 1d
-# At read address: 00000, data value: 1e
-# TEST FAILED
-# ** Note: $finish    : /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab06-mem/mem_test.sv(76)
-#    Time: 1276 ns  Iteration: 0  Instance: /top/test
-# 1
-# Break in NamedBeginStat memtest at /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab06-mem/mem_test.sv line 76
-quit -sim
-# End time: 00:54:04 on Jan 04,2021, Elapsed time: 0:01:25
-# Errors: 0, Warnings: 0
-vcom
-vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab06-mem/mem_test.sv
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1_3 Compiler 2020.04 Apr 27 2020
-# Start time: 00:54:09 on Jan 04,2021
-# vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab06-mem/mem_test.sv 
-# -- Compiling module mem_test
-# 
-# Top level modules:
-# 	mem_test
-# End time: 00:54:09 on Jan 04,2021, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vsim work.top
-# vsim work.top 
-# Start time: 00:54:12 on Jan 04,2021
-# Loading sv_std.std
-# Loading work.top
-# Loading work.mem_test
-# Loading work.mem
-run -all
-# Clear Memory Test
-# At write address: 00001 , data value: 00
-# At write address: 00010 , data value: 00
-# At write address: 00011 , data value: 00
-# At write address: 00100 , data value: 00
-# At write address: 00101 , data value: 00
-# At write address: 00110 , data value: 00
-# At write address: 00111 , data value: 00
-# At write address: 01000 , data value: 00
-# At write address: 01001 , data value: 00
-# At write address: 01010 , data value: 00
-# At write address: 01011 , data value: 00
-# At write address: 01100 , data value: 00
-# At write address: 01101 , data value: 00
-# At write address: 01110 , data value: 00
-# At write address: 01111 , data value: 00
-# At write address: 10000 , data value: 00
-# At write address: 10001 , data value: 00
-# At write address: 10010 , data value: 00
-# At write address: 10011 , data value: 00
-# At write address: 10100 , data value: 00
-# At write address: 10101 , data value: 00
-# At write address: 10110 , data value: 00
-# At write address: 10111 , data value: 00
-# At write address: 11000 , data value: 00
-# At write address: 11001 , data value: 00
-# At write address: 11010 , data value: 00
-# At write address: 11011 , data value: 00
-# At write address: 11100 , data value: 00
-# At write address: 11101 , data value: 00
-# At write address: 11110 , data value: 00
-# At write address: 11111 , data value: 00
-# At write address: 00000 , data value: 00
-# At read address: 00001, data value: xx
-# At read address: 00010, data value: 00
-# At read address: 00011, data value: 00
-# At read address: 00100, data value: 00
-# At read address: 00101, data value: 00
-# At read address: 00110, data value: 00
-# At read address: 00111, data value: 00
-# At read address: 01000, data value: 00
-# At read address: 01001, data value: 00
-# At read address: 01010, data value: 00
-# At read address: 01011, data value: 00
-# At read address: 01100, data value: 00
-# At read address: 01101, data value: 00
-# At read address: 01110, data value: 00
-# At read address: 01111, data value: 00
-# At read address: 10000, data value: 00
-# At read address: 10001, data value: 00
-# At read address: 10010, data value: 00
-# At read address: 10011, data value: 00
-# At read address: 10100, data value: 00
-# At read address: 10101, data value: 00
-# At read address: 10110, data value: 00
-# At read address: 10111, data value: 00
-# At read address: 11000, data value: 00
-# At read address: 11001, data value: 00
-# At read address: 11010, data value: 00
-# At read address: 11011, data value: 00
-# At read address: 11100, data value: 00
-# At read address: 11101, data value: 00
-# At read address: 11110, data value: 00
-# At read address: 11111, data value: 00
-# At read address: 00000, data value: 00
-# Data = Address Test
-# At write address: 00001 , data value: 00
-# At write address: 00010 , data value: 01
-# At write address: 00011 , data value: 02
-# At write address: 00100 , data value: 03
-# At write address: 00101 , data value: 04
-# At write address: 00110 , data value: 05
-# At write address: 00111 , data value: 06
-# At write address: 01000 , data value: 07
-# At write address: 01001 , data value: 08
-# At write address: 01010 , data value: 09
-# At write address: 01011 , data value: 0a
-# At write address: 01100 , data value: 0b
-# At write address: 01101 , data value: 0c
-# At write address: 01110 , data value: 0d
-# At write address: 01111 , data value: 0e
-# At write address: 10000 , data value: 0f
-# At write address: 10001 , data value: 10
-# At write address: 10010 , data value: 11
-# At write address: 10011 , data value: 12
-# At write address: 10100 , data value: 13
-# At write address: 10101 , data value: 14
-# At write address: 10110 , data value: 15
-# At write address: 10111 , data value: 16
-# At write address: 11000 , data value: 17
-# At write address: 11001 , data value: 18
-# At write address: 11010 , data value: 19
-# At write address: 11011 , data value: 1a
-# At write address: 11100 , data value: 1b
-# At write address: 11101 , data value: 1c
-# At write address: 11110 , data value: 1d
-# At write address: 11111 , data value: 1e
-# At write address: 00000 , data value: 1f
-# At read address: 00001, data value: 00
-# At read address: 00010, data value: 00
-# At read address: 00011, data value: 01
-# At read address: 00100, data value: 02
-# At read address: 00101, data value: 03
-# At read address: 00110, data value: 04
-# At read address: 00111, data value: 05
-# At read address: 01000, data value: 06
-# At read address: 01001, data value: 07
-# At read address: 01010, data value: 08
-# At read address: 01011, data value: 09
-# At read address: 01100, data value: 0a
-# At read address: 01101, data value: 0b
-# At read address: 01110, data value: 0c
-# At read address: 01111, data value: 0d
-# At read address: 10000, data value: 0e
-# At read address: 10001, data value: 0f
-# At read address: 10010, data value: 10
-# At read address: 10011, data value: 11
-# At read address: 10100, data value: 12
-# At read address: 10101, data value: 13
-# At read address: 10110, data value: 14
-# At read address: 10111, data value: 15
-# At read address: 11000, data value: 16
-# At read address: 11001, data value: 17
-# At read address: 11010, data value: 18
-# At read address: 11011, data value: 19
-# At read address: 11100, data value: 1a
-# At read address: 11101, data value: 1b
-# At read address: 11110, data value: 1c
-# At read address: 11111, data value: 1d
-# At read address: 00000, data value: 1e
-# Error count          33
-# TEST FAILED
-# ** Note: $finish    : /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab06-mem/mem_test.sv(76)
-#    Time: 1276 ns  Iteration: 0  Instance: /top/test
-# 1
-# Break in NamedBeginStat memtest at /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab06-mem/mem_test.sv line 76
-quit -sim
-# End time: 00:55:12 on Jan 04,2021, Elapsed time: 0:01:00
-# Errors: 0, Warnings: 0
-vcom
-vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab06-mem/mem_test.sv
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1_3 Compiler 2020.04 Apr 27 2020
-# Start time: 00:55:19 on Jan 04,2021
-# vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab06-mem/mem_test.sv 
-# -- Compiling module mem_test
-# 
-# Top level modules:
-# 	mem_test
-# End time: 00:55:19 on Jan 04,2021, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vsim work.top
-# vsim work.top 
-# Start time: 00:55:22 on Jan 04,2021
-# Loading sv_std.std
-# Loading work.top
-# Loading work.mem_test
-# Loading work.mem
-run -all
-# Clear Memory Test
-# At write address: 00000 , data value: 00
-# At write address: 00001 , data value: 00
-# At write address: 00010 , data value: 00
-# At write address: 00011 , data value: 00
-# At write address: 00100 , data value: 00
-# At write address: 00101 , data value: 00
-# At write address: 00110 , data value: 00
-# At write address: 00111 , data value: 00
-# At write address: 01000 , data value: 00
-# At write address: 01001 , data value: 00
-# At write address: 01010 , data value: 00
-# At write address: 01011 , data value: 00
-# At write address: 01100 , data value: 00
-# At write address: 01101 , data value: 00
-# At write address: 01110 , data value: 00
-# At write address: 01111 , data value: 00
-# At write address: 10000 , data value: 00
-# At write address: 10001 , data value: 00
-# At write address: 10010 , data value: 00
-# At write address: 10011 , data value: 00
-# At write address: 10100 , data value: 00
-# At write address: 10101 , data value: 00
-# At write address: 10110 , data value: 00
-# At write address: 10111 , data value: 00
-# At write address: 11000 , data value: 00
-# At write address: 11001 , data value: 00
-# At write address: 11010 , data value: 00
-# At write address: 11011 , data value: 00
-# At write address: 11100 , data value: 00
-# At write address: 11101 , data value: 00
-# At write address: 11110 , data value: 00
-# At write address: 11111 , data value: 00
-# At read address: 00000, data value: xx
-# At read address: 00001, data value: 00
-# At read address: 00010, data value: 00
-# At read address: 00011, data value: 00
-# At read address: 00100, data value: 00
-# At read address: 00101, data value: 00
-# At read address: 00110, data value: 00
-# At read address: 00111, data value: 00
-# At read address: 01000, data value: 00
-# At read address: 01001, data value: 00
-# At read address: 01010, data value: 00
-# At read address: 01011, data value: 00
-# At read address: 01100, data value: 00
-# At read address: 01101, data value: 00
-# At read address: 01110, data value: 00
-# At read address: 01111, data value: 00
-# At read address: 10000, data value: 00
-# At read address: 10001, data value: 00
-# At read address: 10010, data value: 00
-# At read address: 10011, data value: 00
-# At read address: 10100, data value: 00
-# At read address: 10101, data value: 00
-# At read address: 10110, data value: 00
-# At read address: 10111, data value: 00
-# At read address: 11000, data value: 00
-# At read address: 11001, data value: 00
-# At read address: 11010, data value: 00
-# At read address: 11011, data value: 00
-# At read address: 11100, data value: 00
-# At read address: 11101, data value: 00
-# At read address: 11110, data value: 00
-# At read address: 11111, data value: 00
-# Data = Address Test
-# At write address: 00000 , data value: 1f
-# At write address: 00001 , data value: 00
-# At write address: 00010 , data value: 01
-# At write address: 00011 , data value: 02
-# At write address: 00100 , data value: 03
-# At write address: 00101 , data value: 04
-# At write address: 00110 , data value: 05
-# At write address: 00111 , data value: 06
-# At write address: 01000 , data value: 07
-# At write address: 01001 , data value: 08
-# At write address: 01010 , data value: 09
-# At write address: 01011 , data value: 0a
-# At write address: 01100 , data value: 0b
-# At write address: 01101 , data value: 0c
-# At write address: 01110 , data value: 0d
-# At write address: 01111 , data value: 0e
-# At write address: 10000 , data value: 0f
-# At write address: 10001 , data value: 10
-# At write address: 10010 , data value: 11
-# At write address: 10011 , data value: 12
-# At write address: 10100 , data value: 13
-# At write address: 10101 , data value: 14
-# At write address: 10110 , data value: 15
-# At write address: 10111 , data value: 16
-# At write address: 11000 , data value: 17
-# At write address: 11001 , data value: 18
-# At write address: 11010 , data value: 19
-# At write address: 11011 , data value: 1a
-# At write address: 11100 , data value: 1b
-# At write address: 11101 , data value: 1c
-# At write address: 11110 , data value: 1d
-# At write address: 11111 , data value: 1e
-# At read address: 00000, data value: 00
-# At read address: 00001, data value: 1f
-# At read address: 00010, data value: 00
-# At read address: 00011, data value: 01
-# At read address: 00100, data value: 02
-# At read address: 00101, data value: 03
-# At read address: 00110, data value: 04
-# At read address: 00111, data value: 05
-# At read address: 01000, data value: 06
-# At read address: 01001, data value: 07
-# At read address: 01010, data value: 08
-# At read address: 01011, data value: 09
-# At read address: 01100, data value: 0a
-# At read address: 01101, data value: 0b
-# At read address: 01110, data value: 0c
-# At read address: 01111, data value: 0d
-# At read address: 10000, data value: 0e
-# At read address: 10001, data value: 0f
-# At read address: 10010, data value: 10
-# At read address: 10011, data value: 11
-# At read address: 10100, data value: 12
-# At read address: 10101, data value: 13
-# At read address: 10110, data value: 14
-# At read address: 10111, data value: 15
-# At read address: 11000, data value: 16
-# At read address: 11001, data value: 17
-# At read address: 11010, data value: 18
-# At read address: 11011, data value: 19
-# At read address: 11100, data value: 1a
-# At read address: 11101, data value: 1b
-# At read address: 11110, data value: 1c
-# At read address: 11111, data value: 1d
-# Error count          32
-# TEST FAILED
-# ** Note: $finish    : /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab06-mem/mem_test.sv(76)
-#    Time: 1276 ns  Iteration: 0  Instance: /top/test
-# 1
-# Break in NamedBeginStat memtest at /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab06-mem/mem_test.sv line 76
-quit -sim
-# End time: 00:55:56 on Jan 04,2021, Elapsed time: 0:00:34
-# Errors: 0, Warnings: 0
-vsim work.top
-# vsim work.top 
-# Start time: 00:55:58 on Jan 04,2021
-# Loading sv_std.std
-# Loading work.top
-# Loading work.mem_test
-# Loading work.mem
-quit -sim
-# End time: 00:56:02 on Jan 04,2021, Elapsed time: 0:00:04
-# Errors: 0, Warnings: 0
-vcom
-vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab06-mem/mem_test.sv
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1_3 Compiler 2020.04 Apr 27 2020
-# Start time: 00:56:05 on Jan 04,2021
-# vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab06-mem/mem_test.sv 
-# -- Compiling module mem_test
-# 
-# Top level modules:
-# 	mem_test
-# End time: 00:56:05 on Jan 04,2021, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vsim work.top
-# vsim work.top 
-# Start time: 00:56:08 on Jan 04,2021
-# Loading sv_std.std
-# Loading work.top
-# Loading work.mem_test
-# Loading work.mem
-run -all
-# Clear Memory Test
-# At write address: 00000 , data value: 00
-# At write address: 00001 , data value: 00
-# At write address: 00010 , data value: 00
-# At write address: 00011 , data value: 00
-# At write address: 00100 , data value: 00
-# At write address: 00101 , data value: 00
-# At write address: 00110 , data value: 00
-# At write address: 00111 , data value: 00
-# At write address: 01000 , data value: 00
-# At write address: 01001 , data value: 00
-# At write address: 01010 , data value: 00
-# At write address: 01011 , data value: 00
-# At write address: 01100 , data value: 00
-# At write address: 01101 , data value: 00
-# At write address: 01110 , data value: 00
-# At write address: 01111 , data value: 00
-# At write address: 10000 , data value: 00
-# At write address: 10001 , data value: 00
-# At write address: 10010 , data value: 00
-# At write address: 10011 , data value: 00
-# At write address: 10100 , data value: 00
-# At write address: 10101 , data value: 00
-# At write address: 10110 , data value: 00
-# At write address: 10111 , data value: 00
-# At write address: 11000 , data value: 00
-# At write address: 11001 , data value: 00
-# At write address: 11010 , data value: 00
-# At write address: 11011 , data value: 00
-# At write address: 11100 , data value: 00
-# At write address: 11101 , data value: 00
-# At write address: 11110 , data value: 00
-# At write address: 11111 , data value: 00
-# At read address: 00000, data value: xx
-# At read address: 00001, data value: 00
-# At read address: 00010, data value: 00
-# At read address: 00011, data value: 00
-# At read address: 00100, data value: 00
-# At read address: 00101, data value: 00
-# At read address: 00110, data value: 00
-# At read address: 00111, data value: 00
-# At read address: 01000, data value: 00
-# At read address: 01001, data value: 00
-# At read address: 01010, data value: 00
-# At read address: 01011, data value: 00
-# At read address: 01100, data value: 00
-# At read address: 01101, data value: 00
-# At read address: 01110, data value: 00
-# At read address: 01111, data value: 00
-# At read address: 10000, data value: 00
-# At read address: 10001, data value: 00
-# At read address: 10010, data value: 00
-# At read address: 10011, data value: 00
-# At read address: 10100, data value: 00
-# At read address: 10101, data value: 00
-# At read address: 10110, data value: 00
-# At read address: 10111, data value: 00
-# At read address: 11000, data value: 00
-# At read address: 11001, data value: 00
-# At read address: 11010, data value: 00
-# At read address: 11011, data value: 00
-# At read address: 11100, data value: 00
-# At read address: 11101, data value: 00
-# At read address: 11110, data value: 00
-# At read address: 11111, data value: 00
-# Data = Address Test
-# At write address: 00000 , data value: 1f
-# At write address: 00001 , data value: 00
-# At write address: 00010 , data value: 01
-# At write address: 00011 , data value: 02
-# At write address: 00100 , data value: 03
-# At write address: 00101 , data value: 04
-# At write address: 00110 , data value: 05
-# At write address: 00111 , data value: 06
-# At write address: 01000 , data value: 07
-# At write address: 01001 , data value: 08
-# At write address: 01010 , data value: 09
-# At write address: 01011 , data value: 0a
-# At write address: 01100 , data value: 0b
-# At write address: 01101 , data value: 0c
-# At write address: 01110 , data value: 0d
-# At write address: 01111 , data value: 0e
-# At write address: 10000 , data value: 0f
-# At write address: 10001 , data value: 10
-# At write address: 10010 , data value: 11
-# At write address: 10011 , data value: 12
-# At write address: 10100 , data value: 13
-# At write address: 10101 , data value: 14
-# At write address: 10110 , data value: 15
-# At write address: 10111 , data value: 16
-# At write address: 11000 , data value: 17
-# At write address: 11001 , data value: 18
-# At write address: 11010 , data value: 19
-# At write address: 11011 , data value: 1a
-# At write address: 11100 , data value: 1b
-# At write address: 11101 , data value: 1c
-# At write address: 11110 , data value: 1d
-# At write address: 11111 , data value: 1e
-# At read address: 00000, data value: 00
-# At read address: 00001, data value: 1f
-# At read address: 00010, data value: 00
-# At read address: 00011, data value: 01
-# At read address: 00100, data value: 02
-# At read address: 00101, data value: 03
-# At read address: 00110, data value: 04
-# At read address: 00111, data value: 05
-# At read address: 01000, data value: 06
-# At read address: 01001, data value: 07
-# At read address: 01010, data value: 08
-# At read address: 01011, data value: 09
-# At read address: 01100, data value: 0a
-# At read address: 01101, data value: 0b
-# At read address: 01110, data value: 0c
-# At read address: 01111, data value: 0d
-# At read address: 10000, data value: 0e
-# At read address: 10001, data value: 0f
-# At read address: 10010, data value: 10
-# At read address: 10011, data value: 11
-# At read address: 10100, data value: 12
-# At read address: 10101, data value: 13
-# At read address: 10110, data value: 14
-# At read address: 10111, data value: 15
-# At read address: 11000, data value: 16
-# At read address: 11001, data value: 17
-# At read address: 11010, data value: 18
-# At read address: 11011, data value: 19
-# At read address: 11100, data value: 1a
-# At read address: 11101, data value: 1b
-# At read address: 11110, data value: 1c
-# At read address: 11111, data value: 1d
-# Error count          32
-# TEST FAILED
-# ** Note: $finish    : /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab06-mem/mem_test.sv(82)
-#    Time: 1276 ns  Iteration: 0  Instance: /top/test
-# 1
-# Break in NamedBeginStat memtest at /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab06-mem/mem_test.sv line 82
-quit -sim
-# End time: 00:57:01 on Jan 04,2021, Elapsed time: 0:00:53
-# Errors: 0, Warnings: 0
-vcom
-vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab06-mem/mem_test.sv
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1_3 Compiler 2020.04 Apr 27 2020
-# Start time: 00:57:28 on Jan 04,2021
-# vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab06-mem/mem_test.sv 
-# -- Compiling module mem_test
-# ** Error: (vlog-13069) /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab06-mem/mem_test.sv(59): near "addr": syntax error, unexpected IDENTIFIER, expecting ';'.
-# End time: 00:57:28 on Jan 04,2021, Elapsed time: 0:00:00
-# Errors: 1, Warnings: 0
-vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab06-mem/mem_test.sv
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1_3 Compiler 2020.04 Apr 27 2020
-# Start time: 00:57:35 on Jan 04,2021
-# vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab06-mem/mem_test.sv 
-# -- Compiling module mem_test
-# ** Error: (vlog-13069) /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab06-mem/mem_test.sv(59): near "addr": syntax error, unexpected IDENTIFIER, expecting ';'.
-# End time: 00:57:35 on Jan 04,2021, Elapsed time: 0:00:00
-# Errors: 1, Warnings: 0
-vcom
-vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab06-mem/mem_test.sv
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1_3 Compiler 2020.04 Apr 27 2020
-# Start time: 00:57:50 on Jan 04,2021
-# vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab06-mem/mem_test.sv 
-# -- Compiling module mem_test
-# 
-# Top level modules:
-# 	mem_test
-# End time: 00:57:50 on Jan 04,2021, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vsim work.top
-# vsim work.top 
-# Start time: 00:57:54 on Jan 04,2021
-# Loading sv_std.std
-# Loading work.top
-# Loading work.mem_test
-# Loading work.mem
-run -all
-# Clear Memory Test
-# At write address: 00000 , data value: 00
-# At write address: 00001 , data value: 00
-# At write address: 00010 , data value: 00
-# At write address: 00011 , data value: 00
-# At write address: 00100 , data value: 00
-# At write address: 00101 , data value: 00
-# At write address: 00110 , data value: 00
-# At write address: 00111 , data value: 00
-# At write address: 01000 , data value: 00
-# At write address: 01001 , data value: 00
-# At write address: 01010 , data value: 00
-# At write address: 01011 , data value: 00
-# At write address: 01100 , data value: 00
-# At write address: 01101 , data value: 00
-# At write address: 01110 , data value: 00
-# At write address: 01111 , data value: 00
-# At write address: 10000 , data value: 00
-# At write address: 10001 , data value: 00
-# At write address: 10010 , data value: 00
-# At write address: 10011 , data value: 00
-# At write address: 10100 , data value: 00
-# At write address: 10101 , data value: 00
-# At write address: 10110 , data value: 00
-# At write address: 10111 , data value: 00
-# At write address: 11000 , data value: 00
-# At write address: 11001 , data value: 00
-# At write address: 11010 , data value: 00
-# At write address: 11011 , data value: 00
-# At write address: 11100 , data value: 00
-# At write address: 11101 , data value: 00
-# At write address: 11110 , data value: 00
-# At write address: 11111 , data value: 00
-# At read address: 00000, data value: xx
-# At read address: 00001, data value: 00
-# At read address: 00010, data value: 00
-# At read address: 00011, data value: 00
-# At read address: 00100, data value: 00
-# At read address: 00101, data value: 00
-# At read address: 00110, data value: 00
-# At read address: 00111, data value: 00
-# At read address: 01000, data value: 00
-# At read address: 01001, data value: 00
-# At read address: 01010, data value: 00
-# At read address: 01011, data value: 00
-# At read address: 01100, data value: 00
-# At read address: 01101, data value: 00
-# At read address: 01110, data value: 00
-# At read address: 01111, data value: 00
-# At read address: 10000, data value: 00
-# At read address: 10001, data value: 00
-# At read address: 10010, data value: 00
-# At read address: 10011, data value: 00
-# At read address: 10100, data value: 00
-# At read address: 10101, data value: 00
-# At read address: 10110, data value: 00
-# At read address: 10111, data value: 00
-# At read address: 11000, data value: 00
-# At read address: 11001, data value: 00
-# At read address: 11010, data value: 00
-# At read address: 11011, data value: 00
-# At read address: 11100, data value: 00
-# At read address: 11101, data value: 00
-# At read address: 11110, data value: 00
-# At read address: 11111, data value: 00
-# Error count           1
-# TEST FAILED
-# Data = Address Test
-# At write address: 00001 , data value: 00
-# At write address: 00010 , data value: 01
-# At write address: 00011 , data value: 02
-# At write address: 00100 , data value: 03
-# At write address: 00101 , data value: 04
-# At write address: 00110 , data value: 05
-# At write address: 00111 , data value: 06
-# At write address: 01000 , data value: 07
-# At write address: 01001 , data value: 08
-# At write address: 01010 , data value: 09
-# At write address: 01011 , data value: 0a
-# At write address: 01100 , data value: 0b
-# At write address: 01101 , data value: 0c
-# At write address: 01110 , data value: 0d
-# At write address: 01111 , data value: 0e
-# At write address: 10000 , data value: 0f
-# At write address: 10001 , data value: 10
-# At write address: 10010 , data value: 11
-# At write address: 10011 , data value: 12
-# At write address: 10100 , data value: 13
-# At write address: 10101 , data value: 14
-# At write address: 10110 , data value: 15
-# At write address: 10111 , data value: 16
-# At write address: 11000 , data value: 17
-# At write address: 11001 , data value: 18
-# At write address: 11010 , data value: 19
-# At write address: 11011 , data value: 1a
-# At write address: 11100 , data value: 1b
-# At write address: 11101 , data value: 1c
-# At write address: 11110 , data value: 1d
-# At write address: 11111 , data value: 1e
-# At write address: 00000 , data value: 1f
-# At read address: 00001, data value: 00
-# At read address: 00010, data value: 00
-# At read address: 00011, data value: 01
-# At read address: 00100, data value: 02
-# At read address: 00101, data value: 03
-# At read address: 00110, data value: 04
-# At read address: 00111, data value: 05
-# At read address: 01000, data value: 06
-# At read address: 01001, data value: 07
-# At read address: 01010, data value: 08
-# At read address: 01011, data value: 09
-# At read address: 01100, data value: 0a
-# At read address: 01101, data value: 0b
-# At read address: 01110, data value: 0c
-# At read address: 01111, data value: 0d
-# At read address: 10000, data value: 0e
-# At read address: 10001, data value: 0f
-# At read address: 10010, data value: 10
-# At read address: 10011, data value: 11
-# At read address: 10100, data value: 12
-# At read address: 10101, data value: 13
-# At read address: 10110, data value: 14
-# At read address: 10111, data value: 15
-# At read address: 11000, data value: 16
-# At read address: 11001, data value: 17
-# At read address: 11010, data value: 18
-# At read address: 11011, data value: 19
-# At read address: 11100, data value: 1a
-# At read address: 11101, data value: 1b
-# At read address: 11110, data value: 1c
-# At read address: 11111, data value: 1d
-# At read address: 00000, data value: 1e
-# Error count          33
-# TEST FAILED
-# ** Note: $finish    : /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab06-mem/mem_test.sv(78)
-#    Time: 1276 ns  Iteration: 0  Instance: /top/test
-# 1
-# Break in NamedBeginStat memtest at /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab06-mem/mem_test.sv line 78
-quit -sim
-# End time: 00:59:12 on Jan 04,2021, Elapsed time: 0:01:18
-# Errors: 0, Warnings: 0
-vcom
-vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab06-mem/mem_test.sv
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1_3 Compiler 2020.04 Apr 27 2020
-# Start time: 01:00:06 on Jan 04,2021
-# vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab06-mem/mem_test.sv 
-# -- Compiling module mem_test
-# 
-# Top level modules:
-# 	mem_test
-# End time: 01:00:06 on Jan 04,2021, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vsim work.top
-# vsim work.top 
-# Start time: 01:00:09 on Jan 04,2021
-# Loading sv_std.std
-# Loading work.top
-# Loading work.mem_test
-# Loading work.mem
-run -all
-# Clear Memory Test
-# At write address: 00000 , data value: 00
-# At write address: 00001 , data value: 00
-# At write address: 00010 , data value: 00
-# At write address: 00011 , data value: 00
-# At write address: 00100 , data value: 00
-# At write address: 00101 , data value: 00
-# At write address: 00110 , data value: 00
-# At write address: 00111 , data value: 00
-# At write address: 01000 , data value: 00
-# At write address: 01001 , data value: 00
-# At write address: 01010 , data value: 00
-# At write address: 01011 , data value: 00
-# At write address: 01100 , data value: 00
-# At write address: 01101 , data value: 00
-# At write address: 01110 , data value: 00
-# At write address: 01111 , data value: 00
-# At write address: 10000 , data value: 00
-# At write address: 10001 , data value: 00
-# At write address: 10010 , data value: 00
-# At write address: 10011 , data value: 00
-# At write address: 10100 , data value: 00
-# At write address: 10101 , data value: 00
-# At write address: 10110 , data value: 00
-# At write address: 10111 , data value: 00
-# At write address: 11000 , data value: 00
-# At write address: 11001 , data value: 00
-# At write address: 11010 , data value: 00
-# At write address: 11011 , data value: 00
-# At write address: 11100 , data value: 00
-# At write address: 11101 , data value: 00
-# At write address: 11110 , data value: 00
-# At write address: 11111 , data value: 00
-# Address: 11111
-# At read address: 00000, data value: xx
-# At read address: 00001, data value: 00
-# At read address: 00010, data value: 00
-# At read address: 00011, data value: 00
-# At read address: 00100, data value: 00
-# At read address: 00101, data value: 00
-# At read address: 00110, data value: 00
-# At read address: 00111, data value: 00
-# At read address: 01000, data value: 00
-# At read address: 01001, data value: 00
-# At read address: 01010, data value: 00
-# At read address: 01011, data value: 00
-# At read address: 01100, data value: 00
-# At read address: 01101, data value: 00
-# At read address: 01110, data value: 00
-# At read address: 01111, data value: 00
-# At read address: 10000, data value: 00
-# At read address: 10001, data value: 00
-# At read address: 10010, data value: 00
-# At read address: 10011, data value: 00
-# At read address: 10100, data value: 00
-# At read address: 10101, data value: 00
-# At read address: 10110, data value: 00
-# At read address: 10111, data value: 00
-# At read address: 11000, data value: 00
-# At read address: 11001, data value: 00
-# At read address: 11010, data value: 00
-# At read address: 11011, data value: 00
-# At read address: 11100, data value: 00
-# At read address: 11101, data value: 00
-# At read address: 11110, data value: 00
-# At read address: 11111, data value: 00
-# Error count           1
-# TEST FAILED
-# Data = Address Test
-# At write address: 00001 , data value: 00
-# At write address: 00010 , data value: 01
-# At write address: 00011 , data value: 02
-# At write address: 00100 , data value: 03
-# At write address: 00101 , data value: 04
-# At write address: 00110 , data value: 05
-# At write address: 00111 , data value: 06
-# At write address: 01000 , data value: 07
-# At write address: 01001 , data value: 08
-# At write address: 01010 , data value: 09
-# At write address: 01011 , data value: 0a
-# At write address: 01100 , data value: 0b
-# At write address: 01101 , data value: 0c
-# At write address: 01110 , data value: 0d
-# At write address: 01111 , data value: 0e
-# At write address: 10000 , data value: 0f
-# At write address: 10001 , data value: 10
-# At write address: 10010 , data value: 11
-# At write address: 10011 , data value: 12
-# At write address: 10100 , data value: 13
-# At write address: 10101 , data value: 14
-# At write address: 10110 , data value: 15
-# At write address: 10111 , data value: 16
-# At write address: 11000 , data value: 17
-# At write address: 11001 , data value: 18
-# At write address: 11010 , data value: 19
-# At write address: 11011 , data value: 1a
-# At write address: 11100 , data value: 1b
-# At write address: 11101 , data value: 1c
-# At write address: 11110 , data value: 1d
-# At write address: 11111 , data value: 1e
-# At write address: 00000 , data value: 1f
-# Address: 00000
-# At read address: 00001, data value: 00
-# At read address: 00010, data value: 00
-# At read address: 00011, data value: 01
-# At read address: 00100, data value: 02
-# At read address: 00101, data value: 03
-# At read address: 00110, data value: 04
-# At read address: 00111, data value: 05
-# At read address: 01000, data value: 06
-# At read address: 01001, data value: 07
-# At read address: 01010, data value: 08
-# At read address: 01011, data value: 09
-# At read address: 01100, data value: 0a
-# At read address: 01101, data value: 0b
-# At read address: 01110, data value: 0c
-# At read address: 01111, data value: 0d
-# At read address: 10000, data value: 0e
-# At read address: 10001, data value: 0f
-# At read address: 10010, data value: 10
-# At read address: 10011, data value: 11
-# At read address: 10100, data value: 12
-# At read address: 10101, data value: 13
-# At read address: 10110, data value: 14
-# At read address: 10111, data value: 15
-# At read address: 11000, data value: 16
-# At read address: 11001, data value: 17
-# At read address: 11010, data value: 18
-# At read address: 11011, data value: 19
-# At read address: 11100, data value: 1a
-# At read address: 11101, data value: 1b
-# At read address: 11110, data value: 1c
-# At read address: 11111, data value: 1d
-# At read address: 00000, data value: 1e
-# Error count          33
-# TEST FAILED
-# ** Note: $finish    : /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab06-mem/mem_test.sv(81)
-#    Time: 1276 ns  Iteration: 0  Instance: /top/test
-# 1
-# Break in NamedBeginStat memtest at /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab06-mem/mem_test.sv line 81
-quit -sim
-# End time: 01:10:38 on Jan 04,2021, Elapsed time: 0:10:29
-# Errors: 0, Warnings: 0
-vcom
-vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab06-mem/mem_test.sv
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1_3 Compiler 2020.04 Apr 27 2020
-# Start time: 01:10:51 on Jan 04,2021
-# vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab06-mem/mem_test.sv 
-# -- Compiling module mem_test
-# 
-# Top level modules:
-# 	mem_test
-# End time: 01:10:51 on Jan 04,2021, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vsim work.top
-# vsim work.top 
-# Start time: 01:10:54 on Jan 04,2021
-# Loading sv_std.std
-# Loading work.top
-# Loading work.mem_test
-# Loading work.mem
-# ** Error: (vsim-3043) Unresolved reference to 'add'.
-#    Time: 0 ns  Iteration: 0  Instance: /top/test File: /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab06-mem/mem_test.sv Line: 92
-# Error loading design
-# End time: 01:10:55 on Jan 04,2021, Elapsed time: 0:00:01
-# Errors: 1, Warnings: 0
-vcom
-vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab06-mem/mem_test.sv
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1_3 Compiler 2020.04 Apr 27 2020
-# Start time: 01:11:33 on Jan 04,2021
-# vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab06-mem/mem_test.sv 
-# -- Compiling module mem_test
-# 
-# Top level modules:
-# 	mem_test
-# End time: 01:11:33 on Jan 04,2021, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vsim work.top
-# vsim work.top 
-# Start time: 01:11:36 on Jan 04,2021
-# Loading sv_std.std
-# Loading work.top
-# Loading work.mem_test
-# Loading work.mem
-run -all
-# Clear Memory Test
-# At write address: 00000 , data value: 00
-# At write address: 00001 , data value: 00
-# At write address: 00010 , data value: 00
-# At write address: 00011 , data value: 00
-# At write address: 00100 , data value: 00
-# At write address: 00101 , data value: 00
-# At write address: 00110 , data value: 00
-# At write address: 00111 , data value: 00
-# At write address: 01000 , data value: 00
-# At write address: 01001 , data value: 00
-# At write address: 01010 , data value: 00
-# At write address: 01011 , data value: 00
-# At write address: 01100 , data value: 00
-# At write address: 01101 , data value: 00
-# At write address: 01110 , data value: 00
-# At write address: 01111 , data value: 00
-# At write address: 10000 , data value: 00
-# At write address: 10001 , data value: 00
-# At write address: 10010 , data value: 00
-# At write address: 10011 , data value: 00
-# At write address: 10100 , data value: 00
-# At write address: 10101 , data value: 00
-# At write address: 10110 , data value: 00
-# At write address: 10111 , data value: 00
-# At write address: 11000 , data value: 00
-# At write address: 11001 , data value: 00
-# At write address: 11010 , data value: 00
-# At write address: 11011 , data value: 00
-# At write address: 11100 , data value: 00
-# At write address: 11101 , data value: 00
-# At write address: 11110 , data value: 00
-# At write address: 11111 , data value: 00
-# At read address: 00000, data value: 00
-# At read address: 00001, data value: 00
-# At read address: 00010, data value: 00
-# At read address: 00011, data value: 00
-# At read address: 00100, data value: 00
-# At read address: 00101, data value: 00
-# At read address: 00110, data value: 00
-# At read address: 00111, data value: 00
-# At read address: 01000, data value: 00
-# At read address: 01001, data value: 00
-# At read address: 01010, data value: 00
-# At read address: 01011, data value: 00
-# At read address: 01100, data value: 00
-# At read address: 01101, data value: 00
-# At read address: 01110, data value: 00
-# At read address: 01111, data value: 00
-# At read address: 10000, data value: 00
-# At read address: 10001, data value: 00
-# At read address: 10010, data value: 00
-# At read address: 10011, data value: 00
-# At read address: 10100, data value: 00
-# At read address: 10101, data value: 00
-# At read address: 10110, data value: 00
-# At read address: 10111, data value: 00
-# At read address: 11000, data value: 00
-# At read address: 11001, data value: 00
-# At read address: 11010, data value: 00
-# At read address: 11011, data value: 00
-# At read address: 11100, data value: 00
-# At read address: 11101, data value: 00
-# At read address: 11110, data value: 00
-# At read address: 11111, data value: 00
-# Error count           0
-# TEST PASSED
-# Data = Address Test
-# At write address: 00000 , data value: 00
-# At write address: 00001 , data value: 01
-# At write address: 00010 , data value: 02
-# At write address: 00011 , data value: 03
-# At write address: 00100 , data value: 04
-# At write address: 00101 , data value: 05
-# At write address: 00110 , data value: 06
-# At write address: 00111 , data value: 07
-# At write address: 01000 , data value: 08
-# At write address: 01001 , data value: 09
-# At write address: 01010 , data value: 0a
-# At write address: 01011 , data value: 0b
-# At write address: 01100 , data value: 0c
-# At write address: 01101 , data value: 0d
-# At write address: 01110 , data value: 0e
-# At write address: 01111 , data value: 0f
-# At write address: 10000 , data value: 10
-# At write address: 10001 , data value: 11
-# At write address: 10010 , data value: 12
-# At write address: 10011 , data value: 13
-# At write address: 10100 , data value: 14
-# At write address: 10101 , data value: 15
-# At write address: 10110 , data value: 16
-# At write address: 10111 , data value: 17
-# At write address: 11000 , data value: 18
-# At write address: 11001 , data value: 19
-# At write address: 11010 , data value: 1a
-# At write address: 11011 , data value: 1b
-# At write address: 11100 , data value: 1c
-# At write address: 11101 , data value: 1d
-# At write address: 11110 , data value: 1e
-# At write address: 11111 , data value: 1f
-# Address: 11111
-# At read address: 00000, data value: 00
-# At read address: 00001, data value: 01
-# At read address: 00010, data value: 02
-# At read address: 00011, data value: 03
-# At read address: 00100, data value: 04
-# At read address: 00101, data value: 05
-# At read address: 00110, data value: 06
-# At read address: 00111, data value: 07
-# At read address: 01000, data value: 08
-# At read address: 01001, data value: 09
-# At read address: 01010, data value: 0a
-# At read address: 01011, data value: 0b
-# At read address: 01100, data value: 0c
-# At read address: 01101, data value: 0d
-# At read address: 01110, data value: 0e
-# At read address: 01111, data value: 0f
-# At read address: 10000, data value: 10
-# At read address: 10001, data value: 11
-# At read address: 10010, data value: 12
-# At read address: 10011, data value: 13
-# At read address: 10100, data value: 14
-# At read address: 10101, data value: 15
-# At read address: 10110, data value: 16
-# At read address: 10111, data value: 17
-# At read address: 11000, data value: 18
-# At read address: 11001, data value: 19
-# At read address: 11010, data value: 1a
-# At read address: 11011, data value: 1b
-# At read address: 11100, data value: 1c
-# At read address: 11101, data value: 1d
-# At read address: 11110, data value: 1e
-# At read address: 11111, data value: 1f
-# Error count           0
-# TEST PASSED
-# ** Note: $finish    : /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab06-mem/mem_test.sv(74)
-#    Time: 2550 ns  Iteration: 1  Instance: /top/test
-# 1
-# Break in NamedBeginStat memtest at /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab06-mem/mem_test.sv line 74
-quit -sim
-# End time: 01:11:47 on Jan 04,2021, Elapsed time: 0:00:11
-# Errors: 0, Warnings: 0
-vcom
-vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab06-mem/mem_test.sv
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1_3 Compiler 2020.04 Apr 27 2020
-# Start time: 01:12:59 on Jan 04,2021
-# vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab06-mem/mem_test.sv 
-# -- Compiling module mem_test
-# 
-# Top level modules:
-# 	mem_test
-# End time: 01:12:59 on Jan 04,2021, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vsim work.top
-# vsim work.top 
-# Start time: 01:13:02 on Jan 04,2021
-# Loading sv_std.std
-# Loading work.top
-# Loading work.mem_test
-# Loading work.mem
-run -all
-# Clear Memory Test
-# At write address: 00000 , data value: 00
-# At write address: 00001 , data value: 00
-# At write address: 00010 , data value: 00
-# At write address: 00011 , data value: 00
-# At write address: 00100 , data value: 00
-# At write address: 00101 , data value: 00
-# At write address: 00110 , data value: 00
-# At write address: 00111 , data value: 00
-# At write address: 01000 , data value: 00
-# At write address: 01001 , data value: 00
-# At write address: 01010 , data value: 00
-# At write address: 01011 , data value: 00
-# At write address: 01100 , data value: 00
-# At write address: 01101 , data value: 00
-# At write address: 01110 , data value: 00
-# At write address: 01111 , data value: 00
-# At write address: 10000 , data value: 00
-# At write address: 10001 , data value: 00
-# At write address: 10010 , data value: 00
-# At write address: 10011 , data value: 00
-# At write address: 10100 , data value: 00
-# At write address: 10101 , data value: 00
-# At write address: 10110 , data value: 00
-# At write address: 10111 , data value: 00
-# At write address: 11000 , data value: 00
-# At write address: 11001 , data value: 00
-# At write address: 11010 , data value: 00
-# At write address: 11011 , data value: 00
-# At write address: 11100 , data value: 00
-# At write address: 11101 , data value: 00
-# At write address: 11110 , data value: 00
-# At write address: 11111 , data value: 00
-# At read address: 00000, data value: 00
-# At read address: 00001, data value: 00
-# At read address: 00010, data value: 00
-# At read address: 00011, data value: 00
-# At read address: 00100, data value: 00
-# At read address: 00101, data value: 00
-# At read address: 00110, data value: 00
-# At read address: 00111, data value: 00
-# At read address: 01000, data value: 00
-# At read address: 01001, data value: 00
-# At read address: 01010, data value: 00
-# At read address: 01011, data value: 00
-# At read address: 01100, data value: 00
-# At read address: 01101, data value: 00
-# At read address: 01110, data value: 00
-# At read address: 01111, data value: 00
-# At read address: 10000, data value: 00
-# At read address: 10001, data value: 00
-# At read address: 10010, data value: 00
-# At read address: 10011, data value: 00
-# At read address: 10100, data value: 00
-# At read address: 10101, data value: 00
-# At read address: 10110, data value: 00
-# At read address: 10111, data value: 00
-# At read address: 11000, data value: 00
-# At read address: 11001, data value: 00
-# At read address: 11010, data value: 00
-# At read address: 11011, data value: 00
-# At read address: 11100, data value: 00
-# At read address: 11101, data value: 00
-# At read address: 11110, data value: 00
-# At read address: 11111, data value: 00
-# TEST PASSED
-# Data = Address Test
-# At write address: 00000 , data value: 00
-# At write address: 00001 , data value: 01
-# At write address: 00010 , data value: 02
-# At write address: 00011 , data value: 03
-# At write address: 00100 , data value: 04
-# At write address: 00101 , data value: 05
-# At write address: 00110 , data value: 06
-# At write address: 00111 , data value: 07
-# At write address: 01000 , data value: 08
-# At write address: 01001 , data value: 09
-# At write address: 01010 , data value: 0a
-# At write address: 01011 , data value: 0b
-# At write address: 01100 , data value: 0c
-# At write address: 01101 , data value: 0d
-# At write address: 01110 , data value: 0e
-# At write address: 01111 , data value: 0f
-# At write address: 10000 , data value: 10
-# At write address: 10001 , data value: 11
-# At write address: 10010 , data value: 12
-# At write address: 10011 , data value: 13
-# At write address: 10100 , data value: 14
-# At write address: 10101 , data value: 15
-# At write address: 10110 , data value: 16
-# At write address: 10111 , data value: 17
-# At write address: 11000 , data value: 18
-# At write address: 11001 , data value: 19
-# At write address: 11010 , data value: 1a
-# At write address: 11011 , data value: 1b
-# At write address: 11100 , data value: 1c
-# At write address: 11101 , data value: 1d
-# At write address: 11110 , data value: 1e
-# At write address: 11111 , data value: 1f
-# Address: 11111
-# At read address: 00000, data value: 00
-# At read address: 00001, data value: 01
-# At read address: 00010, data value: 02
-# At read address: 00011, data value: 03
-# At read address: 00100, data value: 04
-# At read address: 00101, data value: 05
-# At read address: 00110, data value: 06
-# At read address: 00111, data value: 07
-# At read address: 01000, data value: 08
-# At read address: 01001, data value: 09
-# At read address: 01010, data value: 0a
-# At read address: 01011, data value: 0b
-# At read address: 01100, data value: 0c
-# At read address: 01101, data value: 0d
-# At read address: 01110, data value: 0e
-# At read address: 01111, data value: 0f
-# At read address: 10000, data value: 10
-# At read address: 10001, data value: 11
-# At read address: 10010, data value: 12
-# At read address: 10011, data value: 13
-# At read address: 10100, data value: 14
-# At read address: 10101, data value: 15
-# At read address: 10110, data value: 16
-# At read address: 10111, data value: 17
-# At read address: 11000, data value: 18
-# At read address: 11001, data value: 19
-# At read address: 11010, data value: 1a
-# At read address: 11011, data value: 1b
-# At read address: 11100, data value: 1c
-# At read address: 11101, data value: 1d
-# At read address: 11110, data value: 1e
-# At read address: 11111, data value: 1f
-# TEST PASSED
-# ** Note: $finish    : /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab06-mem/mem_test.sv(74)
-#    Time: 2550 ns  Iteration: 1  Instance: /top/test
-# 1
-# Break in NamedBeginStat memtest at /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab06-mem/mem_test.sv line 74
-restart
-add wave -position insertpoint sim:/top/test/*
-run -all
-# Clear Memory Test
-# At write address: 00000 , data value: 00
-# At write address: 00001 , data value: 00
-# At write address: 00010 , data value: 00
-# At write address: 00011 , data value: 00
-# At write address: 00100 , data value: 00
-# At write address: 00101 , data value: 00
-# At write address: 00110 , data value: 00
-# At write address: 00111 , data value: 00
-# At write address: 01000 , data value: 00
-# At write address: 01001 , data value: 00
-# At write address: 01010 , data value: 00
-# At write address: 01011 , data value: 00
-# At write address: 01100 , data value: 00
-# At write address: 01101 , data value: 00
-# At write address: 01110 , data value: 00
-# At write address: 01111 , data value: 00
-# At write address: 10000 , data value: 00
-# At write address: 10001 , data value: 00
-# At write address: 10010 , data value: 00
-# At write address: 10011 , data value: 00
-# At write address: 10100 , data value: 00
-# At write address: 10101 , data value: 00
-# At write address: 10110 , data value: 00
-# At write address: 10111 , data value: 00
-# At write address: 11000 , data value: 00
-# At write address: 11001 , data value: 00
-# At write address: 11010 , data value: 00
-# At write address: 11011 , data value: 00
-# At write address: 11100 , data value: 00
-# At write address: 11101 , data value: 00
-# At write address: 11110 , data value: 00
-# At write address: 11111 , data value: 00
-# At read address: 00000, data value: 00
-# At read address: 00001, data value: 00
-# At read address: 00010, data value: 00
-# At read address: 00011, data value: 00
-# At read address: 00100, data value: 00
-# At read address: 00101, data value: 00
-# At read address: 00110, data value: 00
-# At read address: 00111, data value: 00
-# At read address: 01000, data value: 00
-# At read address: 01001, data value: 00
-# At read address: 01010, data value: 00
-# At read address: 01011, data value: 00
-# At read address: 01100, data value: 00
-# At read address: 01101, data value: 00
-# At read address: 01110, data value: 00
-# At read address: 01111, data value: 00
-# At read address: 10000, data value: 00
-# At read address: 10001, data value: 00
-# At read address: 10010, data value: 00
-# At read address: 10011, data value: 00
-# At read address: 10100, data value: 00
-# At read address: 10101, data value: 00
-# At read address: 10110, data value: 00
-# At read address: 10111, data value: 00
-# At read address: 11000, data value: 00
-# At read address: 11001, data value: 00
-# At read address: 11010, data value: 00
-# At read address: 11011, data value: 00
-# At read address: 11100, data value: 00
-# At read address: 11101, data value: 00
-# At read address: 11110, data value: 00
-# At read address: 11111, data value: 00
-# TEST PASSED
-# Data = Address Test
-# At write address: 00000 , data value: 00
-# At write address: 00001 , data value: 01
-# At write address: 00010 , data value: 02
-# At write address: 00011 , data value: 03
-# At write address: 00100 , data value: 04
-# At write address: 00101 , data value: 05
-# At write address: 00110 , data value: 06
-# At write address: 00111 , data value: 07
-# At write address: 01000 , data value: 08
-# At write address: 01001 , data value: 09
-# At write address: 01010 , data value: 0a
-# At write address: 01011 , data value: 0b
-# At write address: 01100 , data value: 0c
-# At write address: 01101 , data value: 0d
-# At write address: 01110 , data value: 0e
-# At write address: 01111 , data value: 0f
-# At write address: 10000 , data value: 10
-# At write address: 10001 , data value: 11
-# At write address: 10010 , data value: 12
-# At write address: 10011 , data value: 13
-# At write address: 10100 , data value: 14
-# At write address: 10101 , data value: 15
-# At write address: 10110 , data value: 16
-# At write address: 10111 , data value: 17
-# At write address: 11000 , data value: 18
-# At write address: 11001 , data value: 19
-# At write address: 11010 , data value: 1a
-# At write address: 11011 , data value: 1b
-# At write address: 11100 , data value: 1c
-# At write address: 11101 , data value: 1d
-# At write address: 11110 , data value: 1e
-# At write address: 11111 , data value: 1f
-# Address: 11111
-# At read address: 00000, data value: 00
-# At read address: 00001, data value: 01
-# At read address: 00010, data value: 02
-# At read address: 00011, data value: 03
-# At read address: 00100, data value: 04
-# At read address: 00101, data value: 05
-# At read address: 00110, data value: 06
-# At read address: 00111, data value: 07
-# At read address: 01000, data value: 08
-# At read address: 01001, data value: 09
-# At read address: 01010, data value: 0a
-# At read address: 01011, data value: 0b
-# At read address: 01100, data value: 0c
-# At read address: 01101, data value: 0d
-# At read address: 01110, data value: 0e
-# At read address: 01111, data value: 0f
-# At read address: 10000, data value: 10
-# At read address: 10001, data value: 11
-# At read address: 10010, data value: 12
-# At read address: 10011, data value: 13
-# At read address: 10100, data value: 14
-# At read address: 10101, data value: 15
-# At read address: 10110, data value: 16
-# At read address: 10111, data value: 17
-# At read address: 11000, data value: 18
-# At read address: 11001, data value: 19
-# At read address: 11010, data value: 1a
-# At read address: 11011, data value: 1b
-# At read address: 11100, data value: 1c
-# At read address: 11101, data value: 1d
-# At read address: 11110, data value: 1e
-# At read address: 11111, data value: 1f
-# TEST PASSED
-# ** Note: $finish    : /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab06-mem/mem_test.sv(74)
-#    Time: 2550 ns  Iteration: 1  Instance: /top/test
-# 1
-# Break in NamedBeginStat memtest at /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab06-mem/mem_test.sv line 74
-quit -sim
-# End time: 01:19:52 on Jan 04,2021, Elapsed time: 0:06:50
-# Errors: 0, Warnings: 0
-vcom
-vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab06-mem/mem_test.sv
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1_3 Compiler 2020.04 Apr 27 2020
-# Start time: 01:19:55 on Jan 04,2021
-# vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab06-mem/mem_test.sv 
-# -- Compiling module mem_test
-# 
-# Top level modules:
-# 	mem_test
-# End time: 01:19:55 on Jan 04,2021, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vsim work.top
-# vsim work.top 
-# Start time: 01:19:59 on Jan 04,2021
+# Start time: 12:13:52 on Jan 04,2021
 # Loading sv_std.std
 # Loading work.top
 # Loading work.mem_test
@@ -1807,5 +360,5 @@ run -all
 # TEST PASSED
 # ** Note: $finish    : /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab06-mem/mem_test.sv(73)
 #    Time: 2550 ns  Iteration: 1  Instance: /top/test
-# End time: 01:20:02 on Jan 04,2021, Elapsed time: 0:00:03
+# End time: 12:13:55 on Jan 04,2021, Elapsed time: 0:00:03
 # Errors: 0, Warnings: 0
