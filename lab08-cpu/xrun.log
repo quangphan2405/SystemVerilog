@@ -1,0 +1,333 @@
+xrun: 19.09-s001: (c) Copyright 1995-2019 Cadence Design Systems, Inc.
+TOOL:	xrun	19.09-s001: Started on Jan 05, 2021 at 01:28:09 EET
+xrun
+	-f filelist.txt
+		./typedefs.sv
+		./alu.sv
+		./control.sv
+		./counter.sv
+		./mem.sv
+		./register.sv
+		./scale_mux.sv
+		./cpu.sv
+		./cpu_test.sv
+	-access rwc
+file: ./typedefs.sv
+	package worklib.typedefs:sv
+		errors: 0, warnings: 0
+file: ./alu.sv
+	module worklib.alu:sv
+		errors: 0, warnings: 0
+file: ./control.sv
+	module worklib.control:sv
+		errors: 0, warnings: 0
+file: ./counter.sv
+	module worklib.counter:sv
+		errors: 0, warnings: 0
+file: ./mem.sv
+	module worklib.mem:sv
+		errors: 0, warnings: 0
+file: ./register.sv
+	module worklib.register:sv
+		errors: 0, warnings: 0
+file: ./scale_mux.sv
+	module worklib.scale_mux:sv
+		errors: 0, warnings: 0
+file: ./cpu.sv
+	module worklib.cpu:sv
+		errors: 0, warnings: 0
+file: ./cpu_test.sv
+	module worklib.cpu_test:sv
+		errors: 0, warnings: 0
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Top level design units:
+		typedefs
+		cpu_test
+xmelab: *W,DSEMEL: This SystemVerilog design will be simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.control:sv <0x6c5b5ea1>
+			streams:  13, words:  6103
+		worklib.scale_mux:sv <0x04bbbc67>
+			streams:   1, words:   255
+		worklib.alu:sv <0x2509f85d>
+			streams:   4, words:  1374
+		worklib.counter:sv <0x28fb2701>
+			streams:   2, words:   567
+		worklib.register:sv <0x24788859>
+			streams:   2, words:   442
+		worklib.cpu_test:sv <0x59844712>
+			streams:  17, words: 17196
+		worklib.mem:sv <0x78bb099f>
+			streams:   4, words:  1366
+		worklib.cpu:sv <0x29056d75>
+			streams:  31, words:  6869
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                   Instances  Unique
+		Modules:                   9       8
+		Verilog packages:          1       1
+		Registers:                47      46
+		Scalar wires:             38       -
+		Vectored wires:           25       -
+		Always blocks:            12      11
+		Initial blocks:            3       3
+		Cont. assignments:         7       7
+		Pseudo assignments:       36      36
+		Simulation timescale:  100ps
+	Writing initial simulation snapshot: worklib.cpu_test:sv
+Loading snapshot worklib.cpu_test:sv .................... Done
+xmsim: *W,DSEM2009: This SystemVerilog design is simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
+xcelium> source /opt/lintula/cadence/XCELIUM1909/tools/xcelium/files/xmsimrc
+xcelium> run
+
+****************************************
+THE FOLLOWING DEBUG TASKS ARE AVAILABLE:
+1- The basic CPU diagnostic.            
+2- The advanced CPU diagnostic.         
+3- The Fibonacci program.               
+****************************************
+
+Enter ' deposit test_number # ; run' 
+
+Simulation stopped via $stop(1) at time 0 FS + 0
+./cpu_test.sv:70         $stop; // wait for test number
+xcelium> deposit test_number 1
+xcelium> run
+CPUtest1 - BASIC CPU DIAGNOSTIC PROGRAM 
+
+THIS TEST SHOULD HALT WITH THE PC AT 17 hex
+
+     TIME       PC    INSTR    OP   ADR   DATA
+
+  ----------    --    -----    --   ---   ----
+
+     95.0 ns    00    JMP      7    00     xx     fe
+    255.0 ns    1e    JMP      7    1e     00     e3
+    415.0 ns    03    LDA      5    03     00     ba
+    575.0 ns    04    SKZ      1    04     00     20
+    735.0 ns    06    LDA      5    06     00     bb
+    895.0 ns    07    SKZ      1    07     ff     20
+   1055.0 ns    08    JMP      7    08     ff     ea
+   1215.0 ns    0a    STO      6    0a     ff     dc
+   1375.0 ns    0b    LDA      5    0b     ff     ba
+   1535.0 ns    0c    STO      6    0c     00     dc
+   1695.0 ns    0d    LDA      5    0d     00     bc
+   1855.0 ns    0e    SKZ      1    0e     00     20
+   2015.0 ns    10    XOR      4    10     00     9b
+   2175.0 ns    11    SKZ      1    11     ff     20
+   2335.0 ns    12    JMP      7    12     ff     f4
+   2495.0 ns    14    XOR      4    14     ff     9b
+   2655.0 ns    15    SKZ      1    15     00     20
+   2815.0 ns    17    HLT      0    17     00     00
+
+CPU TEST 1 PASSED
+
+****************************************
+THE FOLLOWING DEBUG TASKS ARE AVAILABLE:
+1- The basic CPU diagnostic.            
+2- The advanced CPU diagnostic.         
+3- The Fibonacci program.               
+****************************************
+
+Enter ' deposit test_number # ; run' 
+
+Simulation stopped via $stop(1) at time 2850 NS + 1
+./cpu_test.sv:70         $stop; // wait for test number
+xcelium> deposit test_number 2
+xcelium> run
+CPUtest2 - ADVANCED CPU DIAGNOSTIC PROGRAM
+
+THIS TEST SHOULD HALT WITH THE PC AT 10 hex
+
+     TIME       PC    INSTR    OP   ADR   DATA
+
+  ----------    --    -----    --   ---   ----
+
+   2945.0 ns    00    LDA      5    00     00     bb
+   3105.0 ns    01    AND      3    01     aa     7c
+   3265.0 ns    02    XOR      4    02     aa     9b
+   3425.0 ns    03    SKZ      1    03     00     20
+   3585.0 ns    05    ADD      2    05     00     5a
+   3745.0 ns    06    SKZ      1    06     01     20
+   3905.0 ns    07    JMP      7    07     01     e9
+   4065.0 ns    09    XOR      4    09     01     9c
+   4225.0 ns    0a    ADD      2    0a     fe     5a
+   4385.0 ns    0b    STO      6    0b     ff     dd
+   4545.0 ns    0c    LDA      5    0c     ff     ba
+   4705.0 ns    0d    ADD      2    0d     01     5d
+   4865.0 ns    0e    SKZ      1    0e     00     20
+   5025.0 ns    10    HLT      0    10     00     00
+
+CPU TEST 2 PASSED
+
+****************************************
+THE FOLLOWING DEBUG TASKS ARE AVAILABLE:
+1- The basic CPU diagnostic.            
+2- The advanced CPU diagnostic.         
+3- The Fibonacci program.               
+****************************************
+
+Enter ' deposit test_number # ; run' 
+
+Simulation stopped via $stop(1) at time 5060 NS + 1
+./cpu_test.sv:70         $stop; // wait for test number
+xcelium> deposit test_number 3
+xcelium> run
+CPUtest3 - FIBONACCI NUMBERS to 144
+
+THIS TEST SHOULD HALT WITH THE PC AT 0C hex
+
+     TIME       PC    INSTR    OP   ADR   DATA
+
+  ----------    --    -----    --   ---   ----
+
+   5155.0 ns    00    JMP      7    00     00     e3
+Next Fibonacci number is   0
+   5315.0 ns    03    LDA      5    03     00     bb
+   5475.0 ns    04    STO      6    04     00     dc
+   5635.0 ns    05    ADD      2    05     00     5a
+   5795.0 ns    06    STO      6    06     01     db
+   5955.0 ns    07    LDA      5    07     01     bc
+   6115.0 ns    08    STO      6    08     00     da
+   6275.0 ns    09    XOR      4    09     00     9d
+   6435.0 ns    0a    SKZ      1    0a     90     20
+   6595.0 ns    0b    JMP      7    0b     90     e3
+Next Fibonacci number is   1
+   6755.0 ns    03    LDA      5    03     90     bb
+   6915.0 ns    04    STO      6    04     01     dc
+   7075.0 ns    05    ADD      2    05     01     5a
+   7235.0 ns    06    STO      6    06     01     db
+   7395.0 ns    07    LDA      5    07     01     bc
+   7555.0 ns    08    STO      6    08     01     da
+   7715.0 ns    09    XOR      4    09     01     9d
+   7875.0 ns    0a    SKZ      1    0a     91     20
+   8035.0 ns    0b    JMP      7    0b     91     e3
+Next Fibonacci number is   1
+   8195.0 ns    03    LDA      5    03     91     bb
+   8355.0 ns    04    STO      6    04     01     dc
+   8515.0 ns    05    ADD      2    05     01     5a
+   8675.0 ns    06    STO      6    06     02     db
+   8835.0 ns    07    LDA      5    07     02     bc
+   8995.0 ns    08    STO      6    08     01     da
+   9155.0 ns    09    XOR      4    09     01     9d
+   9315.0 ns    0a    SKZ      1    0a     91     20
+   9475.0 ns    0b    JMP      7    0b     91     e3
+Next Fibonacci number is   2
+   9635.0 ns    03    LDA      5    03     91     bb
+   9795.0 ns    04    STO      6    04     02     dc
+   9955.0 ns    05    ADD      2    05     02     5a
+  10115.0 ns    06    STO      6    06     03     db
+  10275.0 ns    07    LDA      5    07     03     bc
+  10435.0 ns    08    STO      6    08     02     da
+  10595.0 ns    09    XOR      4    09     02     9d
+  10755.0 ns    0a    SKZ      1    0a     92     20
+  10915.0 ns    0b    JMP      7    0b     92     e3
+Next Fibonacci number is   3
+  11075.0 ns    03    LDA      5    03     92     bb
+  11235.0 ns    04    STO      6    04     03     dc
+  11395.0 ns    05    ADD      2    05     03     5a
+  11555.0 ns    06    STO      6    06     05     db
+  11715.0 ns    07    LDA      5    07     05     bc
+  11875.0 ns    08    STO      6    08     03     da
+  12035.0 ns    09    XOR      4    09     03     9d
+  12195.0 ns    0a    SKZ      1    0a     93     20
+  12355.0 ns    0b    JMP      7    0b     93     e3
+Next Fibonacci number is   5
+  12515.0 ns    03    LDA      5    03     93     bb
+  12675.0 ns    04    STO      6    04     05     dc
+  12835.0 ns    05    ADD      2    05     05     5a
+  12995.0 ns    06    STO      6    06     08     db
+  13155.0 ns    07    LDA      5    07     08     bc
+  13315.0 ns    08    STO      6    08     05     da
+  13475.0 ns    09    XOR      4    09     05     9d
+  13635.0 ns    0a    SKZ      1    0a     95     20
+  13795.0 ns    0b    JMP      7    0b     95     e3
+Next Fibonacci number is   8
+  13955.0 ns    03    LDA      5    03     95     bb
+  14115.0 ns    04    STO      6    04     08     dc
+  14275.0 ns    05    ADD      2    05     08     5a
+  14435.0 ns    06    STO      6    06     0d     db
+  14595.0 ns    07    LDA      5    07     0d     bc
+  14755.0 ns    08    STO      6    08     08     da
+  14915.0 ns    09    XOR      4    09     08     9d
+  15075.0 ns    0a    SKZ      1    0a     98     20
+  15235.0 ns    0b    JMP      7    0b     98     e3
+Next Fibonacci number is  13
+  15395.0 ns    03    LDA      5    03     98     bb
+  15555.0 ns    04    STO      6    04     0d     dc
+  15715.0 ns    05    ADD      2    05     0d     5a
+  15875.0 ns    06    STO      6    06     15     db
+  16035.0 ns    07    LDA      5    07     15     bc
+  16195.0 ns    08    STO      6    08     0d     da
+  16355.0 ns    09    XOR      4    09     0d     9d
+  16515.0 ns    0a    SKZ      1    0a     9d     20
+  16675.0 ns    0b    JMP      7    0b     9d     e3
+Next Fibonacci number is  21
+  16835.0 ns    03    LDA      5    03     9d     bb
+  16995.0 ns    04    STO      6    04     15     dc
+  17155.0 ns    05    ADD      2    05     15     5a
+  17315.0 ns    06    STO      6    06     22     db
+  17475.0 ns    07    LDA      5    07     22     bc
+  17635.0 ns    08    STO      6    08     15     da
+  17795.0 ns    09    XOR      4    09     15     9d
+  17955.0 ns    0a    SKZ      1    0a     85     20
+  18115.0 ns    0b    JMP      7    0b     85     e3
+Next Fibonacci number is  34
+  18275.0 ns    03    LDA      5    03     85     bb
+  18435.0 ns    04    STO      6    04     22     dc
+  18595.0 ns    05    ADD      2    05     22     5a
+  18755.0 ns    06    STO      6    06     37     db
+  18915.0 ns    07    LDA      5    07     37     bc
+  19075.0 ns    08    STO      6    08     22     da
+  19235.0 ns    09    XOR      4    09     22     9d
+  19395.0 ns    0a    SKZ      1    0a     b2     20
+  19555.0 ns    0b    JMP      7    0b     b2     e3
+Next Fibonacci number is  55
+  19715.0 ns    03    LDA      5    03     b2     bb
+  19875.0 ns    04    STO      6    04     37     dc
+  20035.0 ns    05    ADD      2    05     37     5a
+  20195.0 ns    06    STO      6    06     59     db
+  20355.0 ns    07    LDA      5    07     59     bc
+  20515.0 ns    08    STO      6    08     37     da
+  20675.0 ns    09    XOR      4    09     37     9d
+  20835.0 ns    0a    SKZ      1    0a     a7     20
+  20995.0 ns    0b    JMP      7    0b     a7     e3
+Next Fibonacci number is  89
+  21155.0 ns    03    LDA      5    03     a7     bb
+  21315.0 ns    04    STO      6    04     59     dc
+  21475.0 ns    05    ADD      2    05     59     5a
+  21635.0 ns    06    STO      6    06     90     db
+  21795.0 ns    07    LDA      5    07     90     bc
+  21955.0 ns    08    STO      6    08     59     da
+  22115.0 ns    09    XOR      4    09     59     9d
+  22275.0 ns    0a    SKZ      1    0a     c9     20
+  22435.0 ns    0b    JMP      7    0b     c9     e3
+Next Fibonacci number is 144
+  22595.0 ns    03    LDA      5    03     c9     bb
+  22755.0 ns    04    STO      6    04     90     dc
+  22915.0 ns    05    ADD      2    05     90     5a
+  23075.0 ns    06    STO      6    06     e9     db
+  23235.0 ns    07    LDA      5    07     e9     bc
+  23395.0 ns    08    STO      6    08     90     da
+  23555.0 ns    09    XOR      4    09     90     9d
+  23715.0 ns    0a    SKZ      1    0a     00     20
+  23875.0 ns    0c    HLT      0    0c     00     00
+
+CPU TEST 3 PASSED
+
+****************************************
+THE FOLLOWING DEBUG TASKS ARE AVAILABLE:
+1- The basic CPU diagnostic.            
+2- The advanced CPU diagnostic.         
+3- The Fibonacci program.               
+****************************************
+
+Enter ' deposit test_number # ; run' 
+
+Simulation stopped via $stop(1) at time 23910 NS + 1
+./cpu_test.sv:70         $stop; // wait for test number
+xcelium> quit
+TOOL:	xrun	19.09-s001: Exiting on Jan 05, 2021 at 01:29:25 EET  (total: 00:01:16)

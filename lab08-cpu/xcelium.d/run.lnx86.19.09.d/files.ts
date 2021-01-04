@@ -1,0 +1,9 @@
+1609756051 /home/phanq/Cadence/system_verilog/SystemVerilog/lab08-cpu/typedefs.sv
+1609756051 /home/phanq/Cadence/system_verilog/SystemVerilog/lab08-cpu/alu.sv
+1609756050 /home/phanq/Cadence/system_verilog/SystemVerilog/lab08-cpu/control.sv
+1609756050 /home/phanq/Cadence/system_verilog/SystemVerilog/lab08-cpu/counter.sv
+1609756051 /home/phanq/Cadence/system_verilog/SystemVerilog/lab08-cpu/mem.sv
+1609756050 /home/phanq/Cadence/system_verilog/SystemVerilog/lab08-cpu/register.sv
+1609756050 /home/phanq/Cadence/system_verilog/SystemVerilog/lab08-cpu/scale_mux.sv
+1518181990 /home/phanq/Cadence/system_verilog/SystemVerilog/lab08-cpu/cpu.sv
+1609758907 /home/phanq/Cadence/system_verilog/SystemVerilog/lab08-cpu/cpu_test.sv

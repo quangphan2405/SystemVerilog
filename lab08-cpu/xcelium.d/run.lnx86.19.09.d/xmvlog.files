@@ -1,0 +1,13 @@
+//
+// File created by:  xrun
+// Do not modify this file
+//
+/home/phanq/Cadence/system_verilog/SystemVerilog/lab08-cpu/typedefs.sv
+/home/phanq/Cadence/system_verilog/SystemVerilog/lab08-cpu/alu.sv
+/home/phanq/Cadence/system_verilog/SystemVerilog/lab08-cpu/control.sv
+/home/phanq/Cadence/system_verilog/SystemVerilog/lab08-cpu/counter.sv
+/home/phanq/Cadence/system_verilog/SystemVerilog/lab08-cpu/mem.sv
+/home/phanq/Cadence/system_verilog/SystemVerilog/lab08-cpu/register.sv
+/home/phanq/Cadence/system_verilog/SystemVerilog/lab08-cpu/scale_mux.sv
+/home/phanq/Cadence/system_verilog/SystemVerilog/lab08-cpu/cpu.sv
+/home/phanq/Cadence/system_verilog/SystemVerilog/lab08-cpu/cpu_test.sv
