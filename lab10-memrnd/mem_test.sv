@@ -71,7 +71,7 @@ module mem_test ( bus tb );
 
 	for (int i = 0; i< 32; i++) begin
 	  // Write zero data to every address location
-	  gen = randomize(random_data) with { random_data >= 8'h20; random_data <= 8'h7f; };
+	  gen = randomize(random_data) with { random_data dist { [8'h41:8'h5a]:=8, [8'h61:8'h7a]:=2 }; };
 	  tb.write_mem(debug, i, random_data);   	
 	  tb.read_mem(debug, i, rdata);
           // check each memory location for data = 'h00

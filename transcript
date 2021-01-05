@@ -11,343 +11,20 @@
 # //  is prohibited from disclosure under the Trade Secrets Act,
 # //  18 U.S.C. Section 1905.
 # //
-vsim -voptargs=+acc work.top
-# vsim -voptargs="+acc" work.top 
-# Start time: 13:19:30 on Jan 05,2021
-# ** Note: (vsim-3812) Design is being optimized...
-# This version of the compiler is incompatible with library file.
-# ** Error: (vopt-13130) Failed to find design unit top.
-#         Searched libraries:
-#             work
-# Optimization failed
-# Error loading design
-# End time: 13:19:30 on Jan 05,2021, Elapsed time: 0:00:00
-# Errors: 1, Warnings: 0
 vcom
-vlog -reportprogress 300 -work work /home/phanq/Cadence/system_verilog/SystemVerilog/lab10-memrnd/intf.sv
-# Model Technology ModelSim SE-64 vlog 10.7d Compiler 2019.02 Feb 15 2019
-# Start time: 13:19:42 on Jan 05,2021
-# vlog -reportprogress 300 -work work /home/phanq/Cadence/system_verilog/SystemVerilog/lab10-memrnd/intf.sv 
-# -- Compiling interface bus
-# 
-# Top level modules:
-# 	--none--
-# End time: 13:19:42 on Jan 05,2021, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vlog -reportprogress 300 -work work /home/phanq/Cadence/system_verilog/SystemVerilog/lab10-memrnd/mem.sv
-# Model Technology ModelSim SE-64 vlog 10.7d Compiler 2019.02 Feb 15 2019
-# Start time: 13:19:42 on Jan 05,2021
-# vlog -reportprogress 300 -work work /home/phanq/Cadence/system_verilog/SystemVerilog/lab10-memrnd/mem.sv 
-# -- Compiling module mem
-# 
-# Top level modules:
-# 	mem
-# End time: 13:19:42 on Jan 05,2021, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
 vlog -reportprogress 300 -work work /home/phanq/Cadence/system_verilog/SystemVerilog/lab10-memrnd/mem_test.sv
 # Model Technology ModelSim SE-64 vlog 10.7d Compiler 2019.02 Feb 15 2019
-# Start time: 13:19:42 on Jan 05,2021
+# Start time: 13:26:22 on Jan 05,2021
 # vlog -reportprogress 300 -work work /home/phanq/Cadence/system_verilog/SystemVerilog/lab10-memrnd/mem_test.sv 
 # -- Compiling module mem_test
 # 
 # Top level modules:
 # 	mem_test
-# End time: 13:19:42 on Jan 05,2021, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vlog -reportprogress 300 -work work /home/phanq/Cadence/system_verilog/SystemVerilog/lab10-memrnd/top.sv
-# Model Technology ModelSim SE-64 vlog 10.7d Compiler 2019.02 Feb 15 2019
-# Start time: 13:19:42 on Jan 05,2021
-# vlog -reportprogress 300 -work work /home/phanq/Cadence/system_verilog/SystemVerilog/lab10-memrnd/top.sv 
-# -- Compiling module top
-# 
-# Top level modules:
-# 	top
-# End time: 13:19:42 on Jan 05,2021, Elapsed time: 0:00:00
+# End time: 13:26:22 on Jan 05,2021, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 vsim -voptargs=+acc work.top
 # vsim -voptargs="+acc" work.top 
-# Start time: 13:19:50 on Jan 05,2021
-# ** Note: (vsim-3812) Design is being optimized...
-# Loading sv_std.std
-# Loading work.top(fast)
-# Loading work.bus(fast)
-# Loading work.mem_test(fast)
-# Loading work.mem(fast)
-quit -sim
-# End time: 13:20:05 on Jan 05,2021, Elapsed time: 0:00:15
-# Errors: 0, Warnings: 0
-vcom
-vlog -reportprogress 300 -work work /home/phanq/Cadence/system_verilog/SystemVerilog/lab10-memrnd/intf.sv
-# Model Technology ModelSim SE-64 vlog 10.7d Compiler 2019.02 Feb 15 2019
-# Start time: 13:20:22 on Jan 05,2021
-# vlog -reportprogress 300 -work work /home/phanq/Cadence/system_verilog/SystemVerilog/lab10-memrnd/intf.sv 
-# -- Compiling interface bus
-# 
-# Top level modules:
-# 	--none--
-# End time: 13:20:22 on Jan 05,2021, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vlog -reportprogress 300 -work work /home/phanq/Cadence/system_verilog/SystemVerilog/lab10-memrnd/mem.sv
-# Model Technology ModelSim SE-64 vlog 10.7d Compiler 2019.02 Feb 15 2019
-# Start time: 13:20:22 on Jan 05,2021
-# vlog -reportprogress 300 -work work /home/phanq/Cadence/system_verilog/SystemVerilog/lab10-memrnd/mem.sv 
-# -- Compiling module mem
-# 
-# Top level modules:
-# 	mem
-# End time: 13:20:22 on Jan 05,2021, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vlog -reportprogress 300 -work work /home/phanq/Cadence/system_verilog/SystemVerilog/lab10-memrnd/mem_test.sv
-# Model Technology ModelSim SE-64 vlog 10.7d Compiler 2019.02 Feb 15 2019
-# Start time: 13:20:22 on Jan 05,2021
-# vlog -reportprogress 300 -work work /home/phanq/Cadence/system_verilog/SystemVerilog/lab10-memrnd/mem_test.sv 
-# -- Compiling module mem_test
-# 
-# Top level modules:
-# 	mem_test
-# End time: 13:20:22 on Jan 05,2021, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vlog -reportprogress 300 -work work /home/phanq/Cadence/system_verilog/SystemVerilog/lab10-memrnd/top.sv
-# Model Technology ModelSim SE-64 vlog 10.7d Compiler 2019.02 Feb 15 2019
-# Start time: 13:20:22 on Jan 05,2021
-# vlog -reportprogress 300 -work work /home/phanq/Cadence/system_verilog/SystemVerilog/lab10-memrnd/top.sv 
-# -- Compiling module top
-# 
-# Top level modules:
-# 	top
-# End time: 13:20:22 on Jan 05,2021, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vsim -voptargs=+acc work.top
-# vsim -voptargs="+acc" work.top 
-# Start time: 13:20:33 on Jan 05,2021
-# ** Note: (vsim-8009) Loading existing optimized design _opt
-# Loading sv_std.std
-# Loading work.top(fast)
-# Loading work.bus(fast)
-# Loading work.mem_test(fast)
-# Loading work.mem(fast)
-run -all
-# Clear Memory Test
-# At write address: 00000 , data value: 
-# At write address: 00001 , data value: 
-# At write address: 00010 , data value: 
-# At write address: 00011 , data value: 
-# At write address: 00100 , data value: 
-# At write address: 00101 , data value: 
-# At write address: 00110 , data value: 
-# At write address: 00111 , data value: 
-# At write address: 01000 , data value: 
-# At write address: 01001 , data value: 
-# At write address: 01010 , data value: 
-# At write address: 01011 , data value: 
-# At write address: 01100 , data value: 
-# At write address: 01101 , data value: 
-# At write address: 01110 , data value: 
-# At write address: 01111 , data value: 
-# At write address: 10000 , data value: 
-# At write address: 10001 , data value: 
-# At write address: 10010 , data value: 
-# At write address: 10011 , data value: 
-# At write address: 10100 , data value: 
-# At write address: 10101 , data value: 
-# At write address: 10110 , data value: 
-# At write address: 10111 , data value: 
-# At write address: 11000 , data value: 
-# At write address: 11001 , data value: 
-# At write address: 11010 , data value: 
-# At write address: 11011 , data value: 
-# At write address: 11100 , data value: 
-# At write address: 11101 , data value: 
-# At write address: 11110 , data value: 
-# At write address: 11111 , data value: 
-# At read address: 00000, data value: 00
-# At read address: 00001, data value: 00
-# At read address: 00010, data value: 00
-# At read address: 00011, data value: 00
-# At read address: 00100, data value: 00
-# At read address: 00101, data value: 00
-# At read address: 00110, data value: 00
-# At read address: 00111, data value: 00
-# At read address: 01000, data value: 00
-# At read address: 01001, data value: 00
-# At read address: 01010, data value: 00
-# At read address: 01011, data value: 00
-# At read address: 01100, data value: 00
-# At read address: 01101, data value: 00
-# At read address: 01110, data value: 00
-# At read address: 01111, data value: 00
-# At read address: 10000, data value: 00
-# At read address: 10001, data value: 00
-# At read address: 10010, data value: 00
-# At read address: 10011, data value: 00
-# At read address: 10100, data value: 00
-# At read address: 10101, data value: 00
-# At read address: 10110, data value: 00
-# At read address: 10111, data value: 00
-# At read address: 11000, data value: 00
-# At read address: 11001, data value: 00
-# At read address: 11010, data value: 00
-# At read address: 11011, data value: 00
-# At read address: 11100, data value: 00
-# At read address: 11101, data value: 00
-# At read address: 11110, data value: 00
-# At read address: 11111, data value: 00
-# TEST PASSED
-# Data = Address Test
-# At write address: 00000 , data value: 
-# At write address: 00001 , data value: 
-# At write address: 00010 , data value: 
-# At write address: 00011 , data value: 
-# At write address: 00100 , data value: 
-# At write address: 00101 , data value: 
-# At write address: 00110 , data value: 
-# At write address: 00111 , data value: 
-# At write address: 01000 , data value: 
-# At write address: 01001 , data value: 	
-# At write address: 01010 , data value: 
-# 
-# At write address: 01011 , data value: 
-# At write address: 01100 , data value: 
-# At write address: 01101 , data value: 
-# 
-# At write address: 01110 , data value: 
-# At write address: 01111 , data value: 
-# At write address: 10000 , data value: 
-# At write address: 10001 , data value: 
-# At write address: 10010 , data value: 
-# At write address: 10011 , data value: 
-# At write address: 10100 , data value: 
-# At write address: 10101 , data value: 
-# At write address: 10110 , data value: 
-# At write address: 10111 , data value: 
-# At write address: 11000 , data value: 
-# At write address: 11001 , data value: 
-# At write address: 11010 , data value: 
-# At write address: 11011 , data value: 
-# At write address: 11100 , data value: 
-# At write address: 11101 , data value: 
-# At write address: 11110 , data value: 
-# At write address: 11111 , data value: 
-# At read address: 00000, data value: 00
-# At read address: 00001, data value: 01
-# At read address: 00010, data value: 02
-# At read address: 00011, data value: 03
-# At read address: 00100, data value: 04
-# At read address: 00101, data value: 05
-# At read address: 00110, data value: 06
-# At read address: 00111, data value: 07
-# At read address: 01000, data value: 08
-# At read address: 01001, data value: 09
-# At read address: 01010, data value: 0a
-# At read address: 01011, data value: 0b
-# At read address: 01100, data value: 0c
-# At read address: 01101, data value: 0d
-# At read address: 01110, data value: 0e
-# At read address: 01111, data value: 0f
-# At read address: 10000, data value: 10
-# At read address: 10001, data value: 11
-# At read address: 10010, data value: 12
-# At read address: 10011, data value: 13
-# At read address: 10100, data value: 14
-# At read address: 10101, data value: 15
-# At read address: 10110, data value: 16
-# At read address: 10111, data value: 17
-# At read address: 11000, data value: 18
-# At read address: 11001, data value: 19
-# At read address: 11010, data value: 1a
-# At read address: 11011, data value: 1b
-# At read address: 11100, data value: 1c
-# At read address: 11101, data value: 1d
-# At read address: 11110, data value: 1e
-# At read address: 11111, data value: 1f
-# TEST PASSED
-# Random Data
-# At write address: 00000 , data value: I
-# At read address: 00000, data value: 49
-# At write address: 00001 , data value: t
-# At read address: 00001, data value: 74
-# At write address: 00010 , data value: t
-# At read address: 00010, data value: 74
-# At write address: 00011 , data value: G
-# At read address: 00011, data value: 47
-# At write address: 00100 , data value: J
-# At read address: 00100, data value: 4a
-# At write address: 00101 , data value: v
-# At read address: 00101, data value: 76
-# At write address: 00110 , data value: <
-# At read address: 00110, data value: 3c
-# At write address: 00111 , data value: R
-# At read address: 00111, data value: 52
-# At write address: 01000 , data value: R
-# At read address: 01000, data value: 52
-# At write address: 01001 , data value: P
-# At read address: 01001, data value: 50
-# At write address: 01010 , data value: '
-# At read address: 01010, data value: 27
-# At write address: 01011 , data value: y
-# At read address: 01011, data value: 79
-# At write address: 01100 , data value: W
-# At read address: 01100, data value: 57
-# At write address: 01101 , data value: ]
-# At read address: 01101, data value: 5d
-# At write address: 01110 , data value: e
-# At read address: 01110, data value: 65
-# At write address: 01111 , data value: 0
-# At read address: 01111, data value: 30
-# At write address: 10000 , data value: W
-# At read address: 10000, data value: 57
-# At write address: 10001 , data value: ]
-# At read address: 10001, data value: 5d
-# At write address: 10010 , data value: Z
-# At read address: 10010, data value: 5a
-# At write address: 10011 , data value: Q
-# At read address: 10011, data value: 51
-# At write address: 10100 , data value: f
-# At read address: 10100, data value: 66
-# At write address: 10101 , data value: F
-# At read address: 10101, data value: 46
-# At write address: 10110 , data value: d
-# At read address: 10110, data value: 64
-# At write address: 10111 , data value: \
-# At read address: 10111, data value: 5c
-# At write address: 11000 , data value: m
-# At read address: 11000, data value: 6d
-# At write address: 11001 , data value: o
-# At read address: 11001, data value: 6f
-# At write address: 11010 , data value: m
-# At read address: 11010, data value: 6d
-# At write address: 11011 , data value: s
-# At read address: 11011, data value: 73
-# At write address: 11100 , data value: U
-# At read address: 11100, data value: 55
-# At write address: 11101 , data value: N
-# At read address: 11101, data value: 4e
-# At write address: 11110 , data value: s
-# At read address: 11110, data value: 73
-# At write address: 11111 , data value: #
-# At read address: 11111, data value: 23
-# TEST PASSED
-# ** Note: $finish    : /home/phanq/Cadence/system_verilog/SystemVerilog/lab10-memrnd/mem_test.sv(84)
-#    Time: 3830 ns  Iteration: 1  Instance: /top/test
-# 1
-# Break in NamedBeginStat memtest at /home/phanq/Cadence/system_verilog/SystemVerilog/lab10-memrnd/mem_test.sv line 84
-quit -sim
-# End time: 13:21:07 on Jan 05,2021, Elapsed time: 0:00:34
-# Errors: 0, Warnings: 0
-vcom
-vlog -reportprogress 300 -work work /home/phanq/Cadence/system_verilog/SystemVerilog/lab10-memrnd/intf.sv
-# Model Technology ModelSim SE-64 vlog 10.7d Compiler 2019.02 Feb 15 2019
-# Start time: 13:21:23 on Jan 05,2021
-# vlog -reportprogress 300 -work work /home/phanq/Cadence/system_verilog/SystemVerilog/lab10-memrnd/intf.sv 
-# -- Compiling interface bus
-# 
-# Top level modules:
-# 	--none--
-# End time: 13:21:23 on Jan 05,2021, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vsim -voptargs=+acc work.top
-# vsim -voptargs="+acc" work.top 
-# Start time: 13:21:26 on Jan 05,2021
+# Start time: 13:26:29 on Jan 05,2021
 # ** Note: (vsim-3813) Design is being optimized due to module recompilation...
 # Loading sv_std.std
 # Loading work.top(fast)
@@ -492,74 +169,74 @@ run -all
 # At read address: 11111, data value: 
 # TEST PASSED
 # Random Data
-# At write address: 00000 , data value: I
-# At read address: 00000, data value: I
-# At write address: 00001 , data value: t
-# At read address: 00001, data value: t
-# At write address: 00010 , data value: t
-# At read address: 00010, data value: t
-# At write address: 00011 , data value: G
-# At read address: 00011, data value: G
-# At write address: 00100 , data value: J
-# At read address: 00100, data value: J
-# At write address: 00101 , data value: v
-# At read address: 00101, data value: v
-# At write address: 00110 , data value: <
-# At read address: 00110, data value: <
-# At write address: 00111 , data value: R
-# At read address: 00111, data value: R
-# At write address: 01000 , data value: R
-# At read address: 01000, data value: R
-# At write address: 01001 , data value: P
-# At read address: 01001, data value: P
-# At write address: 01010 , data value: '
-# At read address: 01010, data value: '
-# At write address: 01011 , data value: y
-# At read address: 01011, data value: y
+# At write address: 00000 , data value: D
+# At read address: 00000, data value: D
+# At write address: 00001 , data value: S
+# At read address: 00001, data value: S
+# At write address: 00010 , data value: Q
+# At read address: 00010, data value: Q
+# At write address: 00011 , data value: N
+# At read address: 00011, data value: N
+# At write address: 00100 , data value: T
+# At read address: 00100, data value: T
+# At write address: 00101 , data value: I
+# At read address: 00101, data value: I
+# At write address: 00110 , data value: v
+# At read address: 00110, data value: v
+# At write address: 00111 , data value: u
+# At read address: 00111, data value: u
+# At write address: 01000 , data value: J
+# At read address: 01000, data value: J
+# At write address: 01001 , data value: R
+# At read address: 01001, data value: R
+# At write address: 01010 , data value: H
+# At read address: 01010, data value: H
+# At write address: 01011 , data value: H
+# At read address: 01011, data value: H
 # At write address: 01100 , data value: W
 # At read address: 01100, data value: W
-# At write address: 01101 , data value: ]
-# At read address: 01101, data value: ]
-# At write address: 01110 , data value: e
-# At read address: 01110, data value: e
-# At write address: 01111 , data value: 0
-# At read address: 01111, data value: 0
-# At write address: 10000 , data value: W
-# At read address: 10000, data value: W
-# At write address: 10001 , data value: ]
-# At read address: 10001, data value: ]
-# At write address: 10010 , data value: Z
-# At read address: 10010, data value: Z
-# At write address: 10011 , data value: Q
-# At read address: 10011, data value: Q
-# At write address: 10100 , data value: f
-# At read address: 10100, data value: f
-# At write address: 10101 , data value: F
-# At read address: 10101, data value: F
-# At write address: 10110 , data value: d
-# At read address: 10110, data value: d
-# At write address: 10111 , data value: \
-# At read address: 10111, data value: \
-# At write address: 11000 , data value: m
-# At read address: 11000, data value: m
-# At write address: 11001 , data value: o
-# At read address: 11001, data value: o
-# At write address: 11010 , data value: m
-# At read address: 11010, data value: m
-# At write address: 11011 , data value: s
-# At read address: 11011, data value: s
-# At write address: 11100 , data value: U
-# At read address: 11100, data value: U
-# At write address: 11101 , data value: N
-# At read address: 11101, data value: N
-# At write address: 11110 , data value: s
-# At read address: 11110, data value: s
-# At write address: 11111 , data value: #
-# At read address: 11111, data value: #
+# At write address: 01101 , data value: X
+# At read address: 01101, data value: X
+# At write address: 01110 , data value: U
+# At read address: 01110, data value: U
+# At write address: 01111 , data value: O
+# At read address: 01111, data value: O
+# At write address: 10000 , data value: y
+# At read address: 10000, data value: y
+# At write address: 10001 , data value: H
+# At read address: 10001, data value: H
+# At write address: 10010 , data value: D
+# At read address: 10010, data value: D
+# At write address: 10011 , data value: R
+# At read address: 10011, data value: R
+# At write address: 10100 , data value: J
+# At read address: 10100, data value: J
+# At write address: 10101 , data value: V
+# At read address: 10101, data value: V
+# At write address: 10110 , data value: V
+# At read address: 10110, data value: V
+# At write address: 10111 , data value: F
+# At read address: 10111, data value: F
+# At write address: 11000 , data value: O
+# At read address: 11000, data value: O
+# At write address: 11001 , data value: S
+# At read address: 11001, data value: S
+# At write address: 11010 , data value: Z
+# At read address: 11010, data value: Z
+# At write address: 11011 , data value: a
+# At read address: 11011, data value: a
+# At write address: 11100 , data value: n
+# At read address: 11100, data value: n
+# At write address: 11101 , data value: Z
+# At read address: 11101, data value: Z
+# At write address: 11110 , data value: r
+# At read address: 11110, data value: r
+# At write address: 11111 , data value: Y
+# At read address: 11111, data value: Y
 # TEST PASSED
 # ** Note: $finish    : /home/phanq/Cadence/system_verilog/SystemVerilog/lab10-memrnd/mem_test.sv(84)
 #    Time: 3830 ns  Iteration: 1  Instance: /top/test
 # 1
 # Break in NamedBeginStat memtest at /home/phanq/Cadence/system_verilog/SystemVerilog/lab10-memrnd/mem_test.sv line 84
-# End time: 13:21:36 on Jan 05,2021, Elapsed time: 0:00:10
+# End time: 13:27:23 on Jan 05,2021, Elapsed time: 0:00:54
 # Errors: 0, Warnings: 0
