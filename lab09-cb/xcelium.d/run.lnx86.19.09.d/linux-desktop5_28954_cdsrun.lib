@@ -1,2 +1,0 @@
-SOFTINCLUDE /opt/lintula/cadence/XCELIUM1909/tools/inca/files/cds.lib
-define worklib ../worklib

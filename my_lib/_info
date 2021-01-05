@@ -241,6 +241,31 @@ R23
 !i113 1
 R6
 R7
+vflipflop
+R1
+!s110 1609804327
+!i10b 1
+!s100 cbaJ776U7iihhV@_dA3m73
+R3
+IE_13i??F9SXbMD2lHg`dC0
+R4
+S1
+R0
+w1609804307
+8/home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab09-cb/flipflop.sv
+F/home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab09-cb/flipflop.sv
+!i122 66
+L0 13 12
+R5
+r1
+!s85 0
+31
+!s108 1609804327.000000
+!s107 /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab09-cb/flipflop.sv|
+!s90 -reportprogress|300|-work|work|/home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab09-cb/flipflop.sv|
+!i113 1
+R6
+R7
 vmem
 R1
 Z24 !s110 1609755226
@@ -388,6 +413,31 @@ r1
 !s108 1609529081.000000
 !s107 /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab02-mux/scale_mux_test.sv|
 !s90 -reportprogress|300|-work|work|/home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab02-mux/scale_mux_test.sv|
+!i113 1
+R6
+R7
+vtestflop
+R1
+!s110 1609804498
+!i10b 1
+!s100 Yc`@di6U`6<E`a_9HaD`61
+R3
+IYm5m69`_:Z2fJfiE[5:=f2
+R4
+S1
+R0
+w1609804489
+8/home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab09-cb/flipflop_test.sv
+F/home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab09-cb/flipflop_test.sv
+!i122 68
+L0 13 40
+R5
+r1
+!s85 0
+31
+!s108 1609804498.000000
+!s107 /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab09-cb/flipflop_test.sv|
+!s90 -reportprogress|300|-work|work|/home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab09-cb/flipflop_test.sv|
 !i113 1
 R6
 R7

@@ -31,17 +31,20 @@ module testflop ();
       default input #1step output #4ns;
       input    qout;
       output   reset, qin;
-   endclocking : cb     
-   
+   endclocking : cb 
+
+   default clocking cb;
+      
    initial begin : STIMULUS
-      cb.reset <= 0;
-      cb.qin   <= 0;
+      cb.qin   <= '0;
+      cb.reset <= 0;      
       ##1 cb.reset <= 1;
       ##3 cb.reset <= 0;
-      while (1)
-	cb.qin <= cb.qin + 1;
-      #10000ns
-	$display("TEST TIMEOUT");
+      for (int i = 1; i < 32; i++)
+	begin
+	   ##1 cb.qin <= i;
+	end
+      ##3;
       $finish;
    end : STIMULUS
    
