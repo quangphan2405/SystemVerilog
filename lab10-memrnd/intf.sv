@@ -41,7 +41,7 @@ interface bus (input clk);
       rdata = data_out;
       read  <= 0;
       if ( debug )
-	$display("At read address: %b, data value: %h", raddr, rdata);
+	$display("At read address: %b, data value: %c", raddr, rdata);
    endtask : read_mem
    
 endinterface : bus
