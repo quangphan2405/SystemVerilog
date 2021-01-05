@@ -1,60 +1,198 @@
 vcom
-vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab09-cb/flipflop.sv
+vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab10-memrnd/intf.sv
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1_3 Compiler 2020.04 Apr 27 2020
-# Start time: 01:52:07 on Jan 05,2021
-# vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab09-cb/flipflop.sv 
-# -- Compiling module flipflop
+# Start time: 13:15:03 on Jan 05,2021
+# vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab10-memrnd/intf.sv 
+# -- Compiling interface bus
 # 
 # Top level modules:
-# 	flipflop
-# End time: 01:52:07 on Jan 05,2021, Elapsed time: 0:00:00
+# 	--none--
+# End time: 13:15:03 on Jan 05,2021, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab09-cb/flipflop_test.sv
+vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab10-memrnd/mem.sv
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1_3 Compiler 2020.04 Apr 27 2020
-# Start time: 01:52:07 on Jan 05,2021
-# vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab09-cb/flipflop_test.sv 
-# -- Compiling module testflop
-# ** Error: /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab09-cb/flipflop_test.sv(39): A default clocking block must be specified to use the ##n timing statement.
-# ** Error: /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab09-cb/flipflop_test.sv(40): A default clocking block must be specified to use the ##n timing statement.
-# ** Warning: /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab09-cb/flipflop_test.sv(42): (vlog-2225) Clocking block output qin in clocking block cb is not legal in this expression
-# End time: 01:52:07 on Jan 05,2021, Elapsed time: 0:00:00
-# Errors: 2, Warnings: 1
-vcom
-vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab09-cb/flipflop_test.sv
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1_3 Compiler 2020.04 Apr 27 2020
-# Start time: 01:52:50 on Jan 05,2021
-# vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab09-cb/flipflop_test.sv 
-# -- Compiling module testflop
-# ** Warning: /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab09-cb/flipflop_test.sv(44): (vlog-2225) Clocking block output qin in clocking block cb is not legal in this expression
+# Start time: 13:15:03 on Jan 05,2021
+# vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab10-memrnd/mem.sv 
+# -- Compiling module mem
 # 
 # Top level modules:
-# 	testflop
-# End time: 01:52:50 on Jan 05,2021, Elapsed time: 0:00:00
+# 	mem
+# End time: 13:15:03 on Jan 05,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab10-memrnd/mem_test.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1_3 Compiler 2020.04 Apr 27 2020
+# Start time: 13:15:03 on Jan 05,2021
+# vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab10-memrnd/mem_test.sv 
+# -- Compiling module mem_test
+# ** Warning: /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab10-memrnd/mem_test.sv(74): (vlog-2186) SystemVerilog testbench feature
+# (randomization, coverage or assertion) detected in the design.
+# These features are only supported in Questasim.
+# 
+# Top level modules:
+# 	mem_test
+# End time: 13:15:03 on Jan 05,2021, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 1
-vcom
-vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab09-cb/flipflop_test.sv
+vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab10-memrnd/top.sv
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1_3 Compiler 2020.04 Apr 27 2020
-# Start time: 01:54:58 on Jan 05,2021
-# vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab09-cb/flipflop_test.sv 
-# -- Compiling module testflop
+# Start time: 13:15:03 on Jan 05,2021
+# vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab10-memrnd/top.sv 
+# -- Compiling module top
 # 
 # Top level modules:
-# 	testflop
-# End time: 01:54:58 on Jan 05,2021, Elapsed time: 0:00:00
+# 	top
+# End time: 13:15:03 on Jan 05,2021, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-vsim
-# vsim work.testflop 
-# Start time: 01:55:09 on Jan 05,2021
+vsim work.top
+# vsim work.top 
+# Start time: 13:15:13 on Jan 05,2021
 # Loading sv_std.std
-# Loading work.testflop
-# Loading work.flipflop
-add wave -position insertpoint sim:/testflop/cb/*
-add wave -position insertpoint sim:/testflop/*
-run -all
-# ** Note: $finish    : /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab09-cb/flipflop_test.sv(48)
-#    Time: 380 ns  Iteration: 2  Instance: /testflop
-# 1
-# Break in NamedBeginStat STIMULUS at /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab09-cb/flipflop_test.sv line 48
+# Loading work.top
+# Loading work.bus
+# Loading work.mem_test
+# Loading work.mem
 # WARNING: No extended dataflow license exists
-# End time: 01:59:43 on Jan 05,2021, Elapsed time: 0:04:34
-# Errors: 0, Warnings: 0
+run -all
+# Clear Memory Test
+# At write address: 00000 , data value: 
+# At write address: 00001 , data value: 
+# At write address: 00010 , data value: 
+# At write address: 00011 , data value: 
+# At write address: 00100 , data value: 
+# At write address: 00101 , data value: 
+# At write address: 00110 , data value: 
+# At write address: 00111 , data value: 
+# At write address: 01000 , data value: 
+# At write address: 01001 , data value: 
+# At write address: 01010 , data value: 
+# At write address: 01011 , data value: 
+# At write address: 01100 , data value: 
+# At write address: 01101 , data value: 
+# At write address: 01110 , data value: 
+# At write address: 01111 , data value: 
+# At write address: 10000 , data value: 
+# At write address: 10001 , data value: 
+# At write address: 10010 , data value: 
+# At write address: 10011 , data value: 
+# At write address: 10100 , data value: 
+# At write address: 10101 , data value: 
+# At write address: 10110 , data value: 
+# At write address: 10111 , data value: 
+# At write address: 11000 , data value: 
+# At write address: 11001 , data value: 
+# At write address: 11010 , data value: 
+# At write address: 11011 , data value: 
+# At write address: 11100 , data value: 
+# At write address: 11101 , data value: 
+# At write address: 11110 , data value: 
+# At write address: 11111 , data value: 
+# At read address: 00000, data value: 00
+# At read address: 00001, data value: 00
+# At read address: 00010, data value: 00
+# At read address: 00011, data value: 00
+# At read address: 00100, data value: 00
+# At read address: 00101, data value: 00
+# At read address: 00110, data value: 00
+# At read address: 00111, data value: 00
+# At read address: 01000, data value: 00
+# At read address: 01001, data value: 00
+# At read address: 01010, data value: 00
+# At read address: 01011, data value: 00
+# At read address: 01100, data value: 00
+# At read address: 01101, data value: 00
+# At read address: 01110, data value: 00
+# At read address: 01111, data value: 00
+# At read address: 10000, data value: 00
+# At read address: 10001, data value: 00
+# At read address: 10010, data value: 00
+# At read address: 10011, data value: 00
+# At read address: 10100, data value: 00
+# At read address: 10101, data value: 00
+# At read address: 10110, data value: 00
+# At read address: 10111, data value: 00
+# At read address: 11000, data value: 00
+# At read address: 11001, data value: 00
+# At read address: 11010, data value: 00
+# At read address: 11011, data value: 00
+# At read address: 11100, data value: 00
+# At read address: 11101, data value: 00
+# At read address: 11110, data value: 00
+# At read address: 11111, data value: 00
+# TEST PASSED
+# Data = Address Test
+# At write address: 00000 , data value: 
+# At write address: 00001 , data value: 
+# At write address: 00010 , data value: 
+# At write address: 00011 , data value: 
+# At write address: 00100 , data value: 
+# At write address: 00101 , data value: 
+# At write address: 00110 , data value: 
+# At write address: 00111 , data value: 
+# At write address: 01000 , data value: 
+# At write address: 01001 , data value: 	
+# At write address: 01010 , data value: 
+# 
+# At write address: 01011 , data value: 
+# At write address: 01100 , data value: 
+# At write address: 01101 , data value: 
+# 
+# At write address: 01110 , data value: 
+# At write address: 01111 , data value: 
+# At write address: 10000 , data value: 
+# At write address: 10001 , data value: 
+# At write address: 10010 , data value: 
+# At write address: 10011 , data value: 
+# At write address: 10100 , data value: 
+# At write address: 10101 , data value: 
+# At write address: 10110 , data value: 
+# At write address: 10111 , data value: 
+# At write address: 11000 , data value: 
+# At write address: 11001 , data value: 
+# At write address: 11010 , data value: 
+# At write address: 11011 , data value: 
+# At write address: 11100 , data value: 
+# At write address: 11101 , data value: 
+# At write address: 11110 , data value: 
+# At write address: 11111 , data value: 
+# At read address: 00000, data value: 00
+# At read address: 00001, data value: 01
+# At read address: 00010, data value: 02
+# At read address: 00011, data value: 03
+# At read address: 00100, data value: 04
+# At read address: 00101, data value: 05
+# At read address: 00110, data value: 06
+# At read address: 00111, data value: 07
+# At read address: 01000, data value: 08
+# At read address: 01001, data value: 09
+# At read address: 01010, data value: 0a
+# At read address: 01011, data value: 0b
+# At read address: 01100, data value: 0c
+# At read address: 01101, data value: 0d
+# At read address: 01110, data value: 0e
+# At read address: 01111, data value: 0f
+# At read address: 10000, data value: 10
+# At read address: 10001, data value: 11
+# At read address: 10010, data value: 12
+# At read address: 10011, data value: 13
+# At read address: 10100, data value: 14
+# At read address: 10101, data value: 15
+# At read address: 10110, data value: 16
+# At read address: 10111, data value: 17
+# At read address: 11000, data value: 18
+# At read address: 11001, data value: 19
+# At read address: 11010, data value: 1a
+# At read address: 11011, data value: 1b
+# At read address: 11100, data value: 1c
+# At read address: 11101, data value: 1d
+# At read address: 11110, data value: 1e
+# At read address: 11111, data value: 1f
+# TEST PASSED
+# Random Data
+# ** Fatal: (vsim-7099) Unable to check out a verification license for the randomize() feature.
+#    Time: 2550 ns  Iteration: 1  Process: /top/test/#INITIAL#32(memtest) File: /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab10-memrnd/mem_test.sv Line: 74
+# Fatal error in NamedBeginStat memtest at /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab10-memrnd/mem_test.sv line 74
+# 
+# HDL call sequence:
+# Stopped at /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab10-memrnd/mem_test.sv 74 NamedBeginStat memtest
+# 
+# End time: 13:17:04 on Jan 05,2021, Elapsed time: 0:01:51
+# Errors: 1, Warnings: 0
