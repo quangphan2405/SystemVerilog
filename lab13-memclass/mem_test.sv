@@ -16,6 +16,8 @@ class random_value;
    randc bit [4:0] addr;
    rand  bit [7:0] data;
 
+   constraint c1 { data inside { [8'h20:8'h7F] }; }
+
    function new(input add, dat);
       addr = add;
       data = dat;

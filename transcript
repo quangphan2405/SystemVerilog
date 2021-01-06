@@ -1,94 +1,25 @@
-vcom
-vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab13-memclass/intf.sv
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1_3 Compiler 2020.04 Apr 27 2020
-# Start time: 01:14:28 on Jan 07,2021
-# vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab13-memclass/intf.sv 
-# -- Compiling interface bus
-# 
-# Top level modules:
-# 	--none--
-# End time: 01:14:28 on Jan 07,2021, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab13-memclass/mem.sv
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1_3 Compiler 2020.04 Apr 27 2020
-# Start time: 01:14:28 on Jan 07,2021
-# vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab13-memclass/mem.sv 
-# -- Compiling module mem
-# 
-# Top level modules:
-# 	mem
-# End time: 01:14:28 on Jan 07,2021, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab13-memclass/mem_test.sv
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1_3 Compiler 2020.04 Apr 27 2020
-# Start time: 01:14:28 on Jan 07,2021
-# vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab13-memclass/mem_test.sv 
-# -- Compiling module mem_test
-# ** Error: (vlog-13069) /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab13-memclass/mem_test.sv(19): near "new": syntax error, unexpected "SystemVerilog keyword 'new'".
-# ** Error: /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab13-memclass/mem_test.sv(20): (vlog-13205) Syntax error found in the scope following 'addr'. Is there a missing '::'?
-# End time: 01:14:28 on Jan 07,2021, Elapsed time: 0:00:00
-# Errors: 2, Warnings: 0
-vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab13-memclass/top.sv
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1_3 Compiler 2020.04 Apr 27 2020
-# Start time: 01:14:28 on Jan 07,2021
-# vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab13-memclass/top.sv 
-# -- Compiling module top
-# 
-# Top level modules:
-# 	top
-# End time: 01:14:28 on Jan 07,2021, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vcom
-vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab13-memclass/mem_test.sv
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1_3 Compiler 2020.04 Apr 27 2020
-# Start time: 01:15:29 on Jan 07,2021
-# vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab13-memclass/mem_test.sv 
-# -- Compiling module mem_test
-# ** Error: (vlog-13069) /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab13-memclass/mem_test.sv(19): near "new": syntax error, unexpected "SystemVerilog keyword 'new'".
-# ** Error: /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab13-memclass/mem_test.sv(20): (vlog-13205) Syntax error found in the scope following 'addr'. Is there a missing '::'?
-# End time: 01:15:29 on Jan 07,2021, Elapsed time: 0:00:00
-# Errors: 2, Warnings: 0
-vcom
-vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab13-memclass/mem_test.sv
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1_3 Compiler 2020.04 Apr 27 2020
-# Start time: 01:16:59 on Jan 07,2021
-# vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab13-memclass/mem_test.sv 
-# -- Compiling module mem_test
-# ** Error: (vlog-13069) /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab13-memclass/mem_test.sv(19): near "new": syntax error, unexpected "SystemVerilog keyword 'new'".
-# ** Error: /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab13-memclass/mem_test.sv(20): (vlog-13205) Syntax error found in the scope following 'addr'. Is there a missing '::'?
-# End time: 01:16:59 on Jan 07,2021, Elapsed time: 0:00:00
-# Errors: 2, Warnings: 0
-vcom
-vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab13-memclass/mem_test.sv
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1_3 Compiler 2020.04 Apr 27 2020
-# Start time: 01:17:43 on Jan 07,2021
-# vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab13-memclass/mem_test.sv 
-# -- Compiling module mem_test
-# ** Error: (vlog-13069) /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab13-memclass/mem_test.sv(91): near "tb": syntax error, unexpected IDENTIFIER, expecting ';'.
-# End time: 01:17:43 on Jan 07,2021, Elapsed time: 0:00:00
-# Errors: 1, Warnings: 0
-vcom
-vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab13-memclass/mem_test.sv
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1_3 Compiler 2020.04 Apr 27 2020
-# Start time: 01:18:07 on Jan 07,2021
-# vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab13-memclass/mem_test.sv 
-# -- Compiling module mem_test
-# ** Warning: /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab13-memclass/mem_test.sv(88): (vlog-2186) SystemVerilog testbench feature
-# (randomization, coverage or assertion) detected in the design.
-# These features are only supported in Questasim.
-# 
-# Top level modules:
-# 	mem_test
-# End time: 01:18:07 on Jan 07,2021, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 1
-vsim
-# vsim work.top 
-# Start time: 01:18:23 on Jan 07,2021
+# //  ModelSim SE-64 10.7d Feb 15 2019 Linux 3.10.0-1160.11.1.el7.x86_64
+# //
+# //  Copyright 1991-2019 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+vsim -voptargs=+acc work.top
+# vsim -voptargs="+acc" work.top 
+# Start time: 01:23:42 on Jan 07,2021
+# ** Note: (vsim-8009) Loading existing optimized design _opt
 # Loading sv_std.std
-# Loading work.top
-# Loading work.bus
-# Loading work.mem_test
-# Loading work.mem
+# Loading work.top(fast)
+# Loading work.bus(fast)
+# Loading work.mem_test(fast)
+# Loading work.mem(fast)
 run -all
 # Clear Memory Test
 # At write address: 00000 , data value: 
@@ -227,10 +158,314 @@ run -all
 # At read address: 11111, data value: 
 # TEST PASSED
 # Random Data
-# ** Fatal: (vsim-7099) Unable to check out a verification license for the randomize() feature.
-#    Time: 2550 ns  Iteration: 1  Process: /top/test/#INITIAL#46(memtest) File: /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab13-memclass/mem_test.sv Line: 88
-# Fatal error in NamedBeginStat memtest at /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab13-memclass/mem_test.sv line 88
+# At write address: 00011 , data value: º
+# At read address: 00011, data value: º
+# At write address: 11010 , data value: S
+# At read address: 11010, data value: S
+# At write address: 11101 , data value: H
+# At read address: 11101, data value: H
+# At write address: 10100 , data value: ≤
+# At read address: 10100, data value: ≤
+# At write address: 01100 , data value: ˇ
+# At read address: 01100, data value: ˇ
+# At write address: 00111 , data value: u
+# At read address: 00111, data value: u
+# At write address: 11110 , data value: ö
+# At read address: 11110, data value: ö
+# At write address: 10001 , data value: 4
+# At read address: 10001, data value: 4
+# At write address: 01001 , data value: ∂
+# At read address: 01001, data value: ∂
+# At write address: 00000 , data value: Ï
+# At read address: 00000, data value: Ï
+# At write address: 11011 , data value: ß
+# At read address: 11011, data value: ß
+# At write address: 10010 , data value: ~
+# At read address: 10010, data value: ~
+# At write address: 01010 , data value: Ó
+# At read address: 01010, data value: Ó
+# At write address: 10101 , data value: Ô
+# At read address: 10101, data value: Ô
+# At write address: 01101 , data value: é
+# At read address: 01101, data value: é
+# At write address: 00100 , data value: £
+# At read address: 00100, data value: £
+# At write address: 11111 , data value: û
+# At read address: 11111, data value: û
+# At write address: 10110 , data value: d
+# At read address: 10110, data value: d
+# At write address: 01110 , data value: ı
+# At read address: 01110, data value: ı
+# At write address: 00001 , data value: ∫
+# At read address: 00001, data value: ∫
+# At write address: 11000 , data value: Q
+# At read address: 11000, data value: Q
+# At write address: 10011 , data value: \
+# At read address: 10011, data value: \
+# At write address: 01011 , data value: "
+# At read address: 01011, data value: "
+# At write address: 00010 , data value: q
+# At read address: 00010, data value: q
+# At write address: 00101 , data value: ~
+# At read address: 00101, data value: ~
+# At write address: 11100 , data value: v
+# At read address: 11100, data value: v
+# At write address: 10111 , data value: ç
+# At read address: 10111, data value: ç
+# At write address: 01111 , data value: ©
+# At read address: 01111, data value: ©
+# At write address: 00110 , data value: Ê
+# At read address: 00110, data value: Ê
+# At write address: 11001 , data value: ‡
+# At read address: 11001, data value: ‡
+# At write address: 10000 , data value: £
+# At read address: 10000, data value: £
+# At write address: 01000 , data value: Ê
+# At read address: 01000, data value: Ê
+# TEST PASSED
+# ** Note: $finish    : /home/phanq/Cadence/system_verilog/SystemVerilog/lab13-memclass/mem_test.sv(101)
+#    Time: 3830 ns  Iteration: 1  Instance: /top/test
+# 1
+# Break in NamedBeginStat memtest at /home/phanq/Cadence/system_verilog/SystemVerilog/lab13-memclass/mem_test.sv line 101
+quit -sim
+# End time: 01:26:26 on Jan 07,2021, Elapsed time: 0:02:44
+# Errors: 0, Warnings: 0
+vcom
+vlog -reportprogress 300 -work work /home/phanq/Cadence/system_verilog/SystemVerilog/lab13-memclass/mem_test.sv
+# Model Technology ModelSim SE-64 vlog 10.7d Compiler 2019.02 Feb 15 2019
+# Start time: 01:26:35 on Jan 07,2021
+# vlog -reportprogress 300 -work work /home/phanq/Cadence/system_verilog/SystemVerilog/lab13-memclass/mem_test.sv 
+# -- Compiling module mem_test
+# ** Error: (vlog-13069) /home/phanq/Cadence/system_verilog/SystemVerilog/lab13-memclass/mem_test.sv(19): near "[": syntax error, unexpected '['.
+# End time: 01:26:35 on Jan 07,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vcom
+vlog -reportprogress 300 -work work /home/phanq/Cadence/system_verilog/SystemVerilog/lab13-memclass/mem_test.sv
+# Model Technology ModelSim SE-64 vlog 10.7d Compiler 2019.02 Feb 15 2019
+# Start time: 01:28:22 on Jan 07,2021
+# vlog -reportprogress 300 -work work /home/phanq/Cadence/system_verilog/SystemVerilog/lab13-memclass/mem_test.sv 
+# -- Compiling module mem_test
 # 
-# HDL call sequence:
-# Stopped at /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab13-memclass/mem_test.sv 88 NamedBeginStat memtest
+# Top level modules:
+# 	mem_test
+# End time: 01:28:22 on Jan 07,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -voptargs=+acc work.top
+# vsim -voptargs="+acc" work.top 
+# Start time: 01:28:26 on Jan 07,2021
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.bus(fast)
+# Loading work.mem_test(fast)
+# Loading work.mem(fast)
+run -all
+# Clear Memory Test
+# At write address: 00000 , data value: 
+# At write address: 00001 , data value: 
+# At write address: 00010 , data value: 
+# At write address: 00011 , data value: 
+# At write address: 00100 , data value: 
+# At write address: 00101 , data value: 
+# At write address: 00110 , data value: 
+# At write address: 00111 , data value: 
+# At write address: 01000 , data value: 
+# At write address: 01001 , data value: 
+# At write address: 01010 , data value: 
+# At write address: 01011 , data value: 
+# At write address: 01100 , data value: 
+# At write address: 01101 , data value: 
+# At write address: 01110 , data value: 
+# At write address: 01111 , data value: 
+# At write address: 10000 , data value: 
+# At write address: 10001 , data value: 
+# At write address: 10010 , data value: 
+# At write address: 10011 , data value: 
+# At write address: 10100 , data value: 
+# At write address: 10101 , data value: 
+# At write address: 10110 , data value: 
+# At write address: 10111 , data value: 
+# At write address: 11000 , data value: 
+# At write address: 11001 , data value: 
+# At write address: 11010 , data value: 
+# At write address: 11011 , data value: 
+# At write address: 11100 , data value: 
+# At write address: 11101 , data value: 
+# At write address: 11110 , data value: 
+# At write address: 11111 , data value: 
+# At read address: 00000, data value: 
+# At read address: 00001, data value: 
+# At read address: 00010, data value: 
+# At read address: 00011, data value: 
+# At read address: 00100, data value: 
+# At read address: 00101, data value: 
+# At read address: 00110, data value: 
+# At read address: 00111, data value: 
+# At read address: 01000, data value: 
+# At read address: 01001, data value: 
+# At read address: 01010, data value: 
+# At read address: 01011, data value: 
+# At read address: 01100, data value: 
+# At read address: 01101, data value: 
+# At read address: 01110, data value: 
+# At read address: 01111, data value: 
+# At read address: 10000, data value: 
+# At read address: 10001, data value: 
+# At read address: 10010, data value: 
+# At read address: 10011, data value: 
+# At read address: 10100, data value: 
+# At read address: 10101, data value: 
+# At read address: 10110, data value: 
+# At read address: 10111, data value: 
+# At read address: 11000, data value: 
+# At read address: 11001, data value: 
+# At read address: 11010, data value: 
+# At read address: 11011, data value: 
+# At read address: 11100, data value: 
+# At read address: 11101, data value: 
+# At read address: 11110, data value: 
+# At read address: 11111, data value: 
+# TEST PASSED
+# Data = Address Test
+# At write address: 00000 , data value: 
+# At write address: 00001 , data value: 
+# At write address: 00010 , data value: 
+# At write address: 00011 , data value: 
+# At write address: 00100 , data value: 
+# At write address: 00101 , data value: 
+# At write address: 00110 , data value: 
+# At write address: 00111 , data value: 
+# At write address: 01000 , data value: 
+# At write address: 01001 , data value: 	
+# At write address: 01010 , data value: 
 # 
+# At write address: 01011 , data value: 
+# At write address: 01100 , data value: 
+# At write address: 01101 , data value: 
+# 
+# At write address: 01110 , data value: 
+# At write address: 01111 , data value: 
+# At write address: 10000 , data value: 
+# At write address: 10001 , data value: 
+# At write address: 10010 , data value: 
+# At write address: 10011 , data value: 
+# At write address: 10100 , data value: 
+# At write address: 10101 , data value: 
+# At write address: 10110 , data value: 
+# At write address: 10111 , data value: 
+# At write address: 11000 , data value: 
+# At write address: 11001 , data value: 
+# At write address: 11010 , data value: 
+# At write address: 11011 , data value: 
+# At write address: 11100 , data value: 
+# At write address: 11101 , data value: 
+# At write address: 11110 , data value: 
+# At write address: 11111 , data value: 
+# At read address: 00000, data value: 
+# At read address: 00001, data value: 
+# At read address: 00010, data value: 
+# At read address: 00011, data value: 
+# At read address: 00100, data value: 
+# At read address: 00101, data value: 
+# At read address: 00110, data value: 
+# At read address: 00111, data value: 
+# At read address: 01000, data value: 
+# At read address: 01001, data value: 	
+# At read address: 01010, data value: 
+# 
+# At read address: 01011, data value: 
+# At read address: 01100, data value: 
+# At read address: 01101, data value: 
+# 
+# At read address: 01110, data value: 
+# At read address: 01111, data value: 
+# At read address: 10000, data value: 
+# At read address: 10001, data value: 
+# At read address: 10010, data value: 
+# At read address: 10011, data value: 
+# At read address: 10100, data value: 
+# At read address: 10101, data value: 
+# At read address: 10110, data value: 
+# At read address: 10111, data value: 
+# At read address: 11000, data value: 
+# At read address: 11001, data value: 
+# At read address: 11010, data value: 
+# At read address: 11011, data value: 
+# At read address: 11100, data value: 
+# At read address: 11101, data value: 
+# At read address: 11110, data value: 
+# At read address: 11111, data value: 
+# TEST PASSED
+# Random Data
+# At write address: 00011 , data value: \
+# At read address: 00011, data value: \
+# At write address: 11010 , data value: s
+# At read address: 11010, data value: s
+# At write address: 11101 , data value: h
+# At read address: 11101, data value: h
+# At write address: 10100 , data value: R
+# At read address: 10100, data value: R
+# At write address: 01100 , data value: w
+# At read address: 01100, data value: w
+# At write address: 00111 , data value: <
+# At read address: 00111, data value: <
+# At write address: 11110 , data value: :
+# At read address: 11110, data value: :
+# At write address: 10001 , data value: T
+# At read address: 10001, data value: T
+# At write address: 01001 , data value: V
+# At read address: 01001, data value: V
+# At write address: 00000 , data value: 9
+# At read address: 00000, data value: 9
+# At write address: 11011 , data value: G
+# At read address: 11011, data value: G
+# At write address: 10010 , data value: E
+# At read address: 10010, data value: E
+# At write address: 01010 , data value: :
+# At read address: 01010, data value: :
+# At write address: 10101 , data value: 0
+# At read address: 10101, data value: 0
+# At write address: 01101 , data value: .
+# At read address: 01101, data value: .
+# At write address: 00100 , data value: C
+# At read address: 00100, data value: C
+# At write address: 11111 , data value: >
+# At read address: 11111, data value: >
+# At write address: 10110 , data value: |
+# At read address: 10110, data value: |
+# At write address: 01110 , data value: |
+# At read address: 01110, data value: |
+# At write address: 00001 , data value: Z
+# At read address: 00001, data value: Z
+# At write address: 11000 , data value: q
+# At read address: 11000, data value: q
+# At write address: 10011 , data value: |
+# At read address: 10011, data value: |
+# At write address: 01011 , data value: B
+# At read address: 01011, data value: B
+# At write address: 00010 , data value: n
+# At read address: 00010, data value: n
+# At write address: 00101 , data value: 7
+# At read address: 00101, data value: 7
+# At write address: 11100 , data value: 0
+# At read address: 11100, data value: 0
+# At write address: 10111 , data value: -
+# At read address: 10111, data value: -
+# At write address: 01111 , data value: I
+# At read address: 01111, data value: I
+# At write address: 00110 , data value: 3
+# At read address: 00110, data value: 3
+# At write address: 11001 , data value: 9
+# At read address: 11001, data value: 9
+# At write address: 10000 , data value: C
+# At read address: 10000, data value: C
+# At write address: 01000 , data value: }
+# At read address: 01000, data value: }
+# TEST PASSED
+# ** Note: $finish    : /home/phanq/Cadence/system_verilog/SystemVerilog/lab13-memclass/mem_test.sv(103)
+#    Time: 3830 ns  Iteration: 1  Instance: /top/test
+# 1
+# Break in NamedBeginStat memtest at /home/phanq/Cadence/system_verilog/SystemVerilog/lab13-memclass/mem_test.sv line 103
+quit -sim
+# End time: 01:28:43 on Jan 07,2021, Elapsed time: 0:00:17
+# Errors: 0, Warnings: 0

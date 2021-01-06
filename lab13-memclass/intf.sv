@@ -1,3 +1,4 @@
+`timescale 1ns/100ps
 interface bus (input clk);
    logic read, write;
    logic [4:0] addr;
