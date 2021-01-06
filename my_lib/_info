@@ -252,26 +252,51 @@ R7
 R1
 vcounterclass
 R2
-!s110 1609957570
+!s110 1609964557
 !i10b 1
-!s100 :dIm7:J;mB^G90[R?aGnQ1
+!s100 Cj507O_zK4_8ea]V@NeXZ1
 R4
-ILDX@]gZJl^70:ljeYmC0A3
+IQXbakYi:Ik5BAKgAk9jOT1
 R5
 S1
 R0
-w1609957563
-8/home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab11-countclass/counter.sv
-F/home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab11-countclass/counter.sv
-!i122 81
-L0 13 132
+w1609964550
+Z26 8/home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab12-polymorph/counter_polymorph.sv
+Z27 F/home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab12-polymorph/counter_polymorph.sv
+!i122 82
+L0 13 146
 R6
 r1
 !s85 0
 31
-!s108 1609957570.000000
-!s107 /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab11-countclass/counter.sv|
-!s90 -reportprogress|300|-work|work|/home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab11-countclass/counter.sv|
+!s108 1609964557.000000
+!s107 /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab12-polymorph/counter_polymorph.sv|
+Z28 !s90 -reportprogress|300|-work|work|/home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab12-polymorph/counter_polymorph.sv|
+!i113 1
+R7
+R1
+vcounterclass_polymorph
+R2
+!s110 1609964869
+!i10b 1
+!s100 I?lf94dZ[51aZ0kF?TgM`0
+R4
+Id7FgaXMUMAJ`OhY^zlPco1
+R5
+S1
+R0
+w1609964855
+R26
+R27
+!i122 85
+L0 13 144
+R6
+r1
+!s85 0
+31
+!s108 1609964869.000000
+Z29 !s107 /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab12-polymorph/counter_polymorph.sv|
+R28
 !i113 1
 R7
 R1
@@ -302,7 +327,7 @@ R7
 R1
 vmem
 R16
-Z26 !s110 1609845622
+Z30 !s110 1609845622
 !i10b 1
 !s100 0DZY8^<E8>g1lFc7_@H960
 Ia=kCmM@d[oOI<6fVn03JB3
@@ -310,7 +335,7 @@ R5
 !s105 mem_sv_unit
 S1
 R17
-Z27 w1609845515
+Z31 w1609845515
 8/home/phanq/Cadence/system_verilog/SystemVerilog/lab10-memrnd/mem.sv
 F/home/phanq/Cadence/system_verilog/SystemVerilog/lab10-memrnd/mem.sv
 L0 20
@@ -318,7 +343,7 @@ R18
 r1
 !s85 0
 31
-Z28 !s108 1609845622.000000
+Z32 !s108 1609845622.000000
 !s107 /home/phanq/Cadence/system_verilog/SystemVerilog/lab10-memrnd/mem.sv|
 !s90 -reportprogress|300|-work|work|/home/phanq/Cadence/system_verilog/SystemVerilog/lab10-memrnd/mem.sv|
 !i113 0
@@ -350,7 +375,7 @@ R7
 R1
 vregister
 R2
-Z29 !s110 1609528553
+Z33 !s110 1609528553
 !i10b 1
 !s100 of_UNe8Z0jH`Jo1LQ`Nm=3
 R4
@@ -362,12 +387,12 @@ w1609528316
 8/home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab01-reg/register.sv
 F/home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab01-reg/register.sv
 !i122 0
-Z30 L0 1 19
+Z34 L0 1 19
 R6
 r1
 !s85 0
 31
-Z31 !s108 1609528553.000000
+Z35 !s108 1609528553.000000
 !s107 /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab01-reg/register.sv|
 !s90 -reportprogress|300|-work|work|/home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab01-reg/register.sv|
 !i113 1
@@ -375,7 +400,7 @@ R7
 R1
 vregister_test
 R2
-R29
+R33
 !i10b 1
 !s100 UBZ@T^ZT5?Be@5TbT[a@`3
 R4
@@ -392,7 +417,7 @@ R6
 r1
 !s85 0
 31
-R31
+R35
 !s107 /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab01-reg/register_test.sv|
 !s90 -reportprogress|300|-work|work|/home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab01-reg/register_test.sv|
 !i113 1
@@ -412,7 +437,7 @@ w1609529126
 8/home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab02-mux/scale_mux.sv
 F/home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab02-mux/scale_mux.sv
 !i122 3
-R30
+R34
 R6
 r1
 !s85 0
@@ -475,7 +500,7 @@ R7
 R1
 vtop
 R16
-R26
+R30
 !i10b 1
 !s100 7FD>K21J@@:5SYjh3l>SE3
 I]CPDE4aM_f2?TAO5:;<TI3
@@ -483,7 +508,7 @@ R5
 !s105 top_sv_unit
 S1
 R17
-R27
+R31
 8/home/phanq/Cadence/system_verilog/SystemVerilog/lab10-memrnd/top.sv
 F/home/phanq/Cadence/system_verilog/SystemVerilog/lab10-memrnd/top.sv
 L0 15
@@ -491,7 +516,7 @@ R18
 r1
 !s85 0
 31
-R28
+R32
 !s107 /home/phanq/Cadence/system_verilog/SystemVerilog/lab10-memrnd/top.sv|
 !s90 -reportprogress|300|-work|work|/home/phanq/Cadence/system_verilog/SystemVerilog/lab10-memrnd/top.sv|
 !i113 0
