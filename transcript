@@ -8,3 +8,316 @@ vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemveril
 # ** Error: /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab11-countclass/counter.sv(32): (vlog-13205) Syntax error found in the scope following 'result'. Is there a missing '::'?
 # End time: 17:10:53 on Jan 06,2021, Elapsed time: 0:00:00
 # Errors: 2, Warnings: 0
+vcom
+vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab11-countclass/counter.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1_3 Compiler 2020.04 Apr 27 2020
+# Start time: 17:14:45 on Jan 06,2021
+# vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab11-countclass/counter.sv 
+# -- Compiling module counterclass
+# 
+# Top level modules:
+# 	counterclass
+# End time: 17:14:45 on Jan 06,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.counterclass
+# vsim work.counterclass 
+# Start time: 17:14:53 on Jan 06,2021
+# Loading sv_std.std
+# Loading work.counterclass
+# WARNING: No extended dataflow license exists
+run -all
+# Count is           3
+quit -sim
+# End time: 17:18:00 on Jan 06,2021, Elapsed time: 0:03:07
+# Errors: 0, Warnings: 0
+vcom
+vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab11-countclass/counter.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1_3 Compiler 2020.04 Apr 27 2020
+# Start time: 17:18:04 on Jan 06,2021
+# vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab11-countclass/counter.sv 
+# -- Compiling module counterclass
+# 
+# Top level modules:
+# 	counterclass
+# End time: 17:18:05 on Jan 06,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vsim work.counterclass
+# vsim work.counterclass 
+# Start time: 17:18:08 on Jan 06,2021
+# Loading sv_std.std
+# Loading work.counterclass
+# WARNING: No extended dataflow license exists
+run -all
+# Count is           5
+# Count is           3
+quit -sim
+# End time: 17:18:19 on Jan 06,2021, Elapsed time: 0:00:11
+# Errors: 0, Warnings: 0
+vcom
+vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab11-countclass/counter.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1_3 Compiler 2020.04 Apr 27 2020
+# Start time: 17:25:03 on Jan 06,2021
+# vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab11-countclass/counter.sv 
+# -- Compiling module counterclass
+# 
+# Top level modules:
+# 	counterclass
+# End time: 17:25:03 on Jan 06,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.counterclass
+# vsim work.counterclass 
+# Start time: 17:25:06 on Jan 06,2021
+# Loading sv_std.std
+# Loading work.counterclass
+# WARNING: No extended dataflow license exists
+run -all
+# Upcount is           5
+# Incremented value is           6
+# Upcount is           6
+# Downcount is           5
+# Decremented value is           4
+# Downcount is           4
+quit -sim
+# End time: 17:25:35 on Jan 06,2021, Elapsed time: 0:00:29
+# Errors: 0, Warnings: 0
+vcom
+vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab11-countclass/counter.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1_3 Compiler 2020.04 Apr 27 2020
+# Start time: 17:25:39 on Jan 06,2021
+# vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab11-countclass/counter.sv 
+# -- Compiling module counterclass
+# 
+# Top level modules:
+# 	counterclass
+# End time: 17:25:39 on Jan 06,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim
+# vsim work.counterclass 
+# Start time: 17:25:49 on Jan 06,2021
+# Loading sv_std.std
+# Loading work.counterclass
+# WARNING: No extended dataflow license exists
+run -all
+# Upcount is           5
+# Incremented value is           6
+# Downcount is           5
+# Decremented value is           4
+quit -sim
+# End time: 17:26:11 on Jan 06,2021, Elapsed time: 0:00:22
+# Errors: 0, Warnings: 0
+vcom
+vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab11-countclass/counter.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1_3 Compiler 2020.04 Apr 27 2020
+# Start time: 17:26:15 on Jan 06,2021
+# vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab11-countclass/counter.sv 
+# -- Compiling module counterclass
+# 
+# Top level modules:
+# 	counterclass
+# End time: 17:26:15 on Jan 06,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.counterclass
+# vsim work.counterclass 
+# Start time: 17:26:18 on Jan 06,2021
+# Loading sv_std.std
+# Loading work.counterclass
+# WARNING: No extended dataflow license exists
+run -all
+# Upcount is 5
+# Incremented value is 6
+# Downcount is 5
+# Decremented value is 4
+quit -sim
+# End time: 17:26:28 on Jan 06,2021, Elapsed time: 0:00:10
+# Errors: 0, Warnings: 0
+vcom
+vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab11-countclass/counter.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1_3 Compiler 2020.04 Apr 27 2020
+# Start time: 19:57:15 on Jan 06,2021
+# vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab11-countclass/counter.sv 
+# -- Compiling module counterclass
+# ** Error: (vlog-13069) /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab11-countclass/counter.sv(106): near "$display": syntax error, unexpected SYSTEM_IDENTIFIER, expecting ';'.
+# End time: 19:57:15 on Jan 06,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vcom
+vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab11-countclass/counter.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1_3 Compiler 2020.04 Apr 27 2020
+# Start time: 19:57:30 on Jan 06,2021
+# vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab11-countclass/counter.sv 
+# -- Compiling module counterclass
+# 
+# Top level modules:
+# 	counterclass
+# End time: 19:57:30 on Jan 06,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.counterclass
+# vsim work.counterclass 
+# Start time: 19:57:37 on Jan 06,2021
+# Loading sv_std.std
+# Loading work.counterclass
+run -all
+# Count is 0
+# Warning: given input not in range!
+# Count is 0
+quit -sim
+# End time: 19:58:19 on Jan 06,2021, Elapsed time: 0:00:42
+# Errors: 0, Warnings: 0
+vcom
+vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab11-countclass/counter.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1_3 Compiler 2020.04 Apr 27 2020
+# Start time: 19:58:25 on Jan 06,2021
+# vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab11-countclass/counter.sv 
+# -- Compiling module counterclass
+# 
+# Top level modules:
+# 	counterclass
+# End time: 19:58:25 on Jan 06,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.counterclass
+# vsim work.counterclass 
+# Start time: 19:58:29 on Jan 06,2021
+# Loading sv_std.std
+# Loading work.counterclass
+run -all
+# Count is 5
+# Warning: given input not in range!
+# Count is 0
+quit -sim
+# End time: 20:01:24 on Jan 06,2021, Elapsed time: 0:02:55
+# Errors: 0, Warnings: 0
+vcom
+vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab11-countclass/counter.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1_3 Compiler 2020.04 Apr 27 2020
+# Start time: 20:01:29 on Jan 06,2021
+# vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab11-countclass/counter.sv 
+# -- Compiling module counterclass
+# 
+# Top level modules:
+# 	counterclass
+# End time: 20:01:29 on Jan 06,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.counterclass
+# vsim work.counterclass 
+# Start time: 20:01:32 on Jan 06,2021
+# Loading sv_std.std
+# Loading work.counterclass
+run -all
+# Count is 10
+# Incremented value is 0
+# Count is 0
+# Carry is 1
+quit -sim
+# End time: 20:04:59 on Jan 06,2021, Elapsed time: 0:03:27
+# Errors: 0, Warnings: 0
+vcom
+vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab11-countclass/counter.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1_3 Compiler 2020.04 Apr 27 2020
+# Start time: 20:05:06 on Jan 06,2021
+# vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab11-countclass/counter.sv 
+# -- Compiling module counterclass
+# 
+# Top level modules:
+# 	counterclass
+# End time: 20:05:06 on Jan 06,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim
+# vsim work.counterclass 
+# Start time: 20:05:21 on Jan 06,2021
+# Loading sv_std.std
+# Loading work.counterclass
+run -all
+# Upcount is 2
+# Upcount is 2
+quit -sim
+# End time: 20:18:21 on Jan 06,2021, Elapsed time: 0:13:00
+# Errors: 0, Warnings: 0
+vcom
+vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab11-countclass/counter.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1_3 Compiler 2020.04 Apr 27 2020
+# Start time: 20:18:23 on Jan 06,2021
+# vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab11-countclass/counter.sv 
+# -- Compiling module counterclass
+# 
+# Top level modules:
+# 	counterclass
+# End time: 20:18:23 on Jan 06,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.counterclass
+# vsim work.counterclass 
+# Start time: 20:18:27 on Jan 06,2021
+# Loading sv_std.std
+# Loading work.counterclass
+run -all
+# Current time is           0:          0:         59
+# Incremented value is 0
+# Incremented value is 1
+# New time is           0:          1:          0
+# Current time is           0:          1:          0
+quit -sim
+# End time: 20:19:02 on Jan 06,2021, Elapsed time: 0:00:35
+# Errors: 0, Warnings: 0
+vcom
+vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab11-countclass/counter.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1_3 Compiler 2020.04 Apr 27 2020
+# Start time: 20:19:05 on Jan 06,2021
+# vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab11-countclass/counter.sv 
+# -- Compiling module counterclass
+# 
+# Top level modules:
+# 	counterclass
+# End time: 20:19:05 on Jan 06,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.counterclass
+# vsim work.counterclass 
+# Start time: 20:19:08 on Jan 06,2021
+# Loading sv_std.std
+# Loading work.counterclass
+run -all
+# Current time is           0:          0:         59
+# New time is           0:          1:          0
+quit -sim
+# End time: 20:24:07 on Jan 06,2021, Elapsed time: 0:04:59
+# Errors: 0, Warnings: 0
+vcom
+vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab11-countclass/counter.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1_3 Compiler 2020.04 Apr 27 2020
+# Start time: 20:24:09 on Jan 06,2021
+# vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab11-countclass/counter.sv 
+# -- Compiling module counterclass
+# 
+# Top level modules:
+# 	counterclass
+# End time: 20:24:09 on Jan 06,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.counterclass
+# vsim work.counterclass 
+# Start time: 20:24:15 on Jan 06,2021
+# Loading sv_std.std
+# Loading work.counterclass
+run -all
+# Current time is          23:         59:         59
+# New time is           0:          0:          0
+quit -sim
+# End time: 20:26:08 on Jan 06,2021, Elapsed time: 0:01:53
+# Errors: 0, Warnings: 0
+vcom
+vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab11-countclass/counter.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1_3 Compiler 2020.04 Apr 27 2020
+# Start time: 20:26:10 on Jan 06,2021
+# vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab11-countclass/counter.sv 
+# -- Compiling module counterclass
+# 
+# Top level modules:
+# 	counterclass
+# End time: 20:26:10 on Jan 06,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.counterclass
+# vsim work.counterclass 
+# Start time: 20:26:15 on Jan 06,2021
+# Loading sv_std.std
+# Loading work.counterclass
+run -all
+# Current time is 23:59:59
+# New time is 0:0:0
+# End time: 20:26:22 on Jan 06,2021, Elapsed time: 0:00:07
+# Errors: 0, Warnings: 0

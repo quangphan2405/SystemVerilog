@@ -18,6 +18,7 @@ o-quiet -auto_acc_if_foreign -work work +acc
 Z1 tCvgOpt 0
 n@_opt
 OL;O;10.7d;67
+R0
 valu
 Z2 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
 Z3 DXx4 work 8 typedefs 0 22 <7]g?SS^k1[TZQE^KO1[72
@@ -246,6 +247,31 @@ r1
 R25
 !s107 /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab03-count/counter_test.sv|
 !s90 -reportprogress|300|-work|work|/home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab03-count/counter_test.sv|
+!i113 1
+R7
+R1
+vcounterclass
+R2
+!s110 1609957570
+!i10b 1
+!s100 :dIm7:J;mB^G90[R?aGnQ1
+R4
+ILDX@]gZJl^70:ljeYmC0A3
+R5
+S1
+R0
+w1609957563
+8/home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab11-countclass/counter.sv
+F/home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab11-countclass/counter.sv
+!i122 81
+L0 13 132
+R6
+r1
+!s85 0
+31
+!s108 1609957570.000000
+!s107 /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab11-countclass/counter.sv|
+!s90 -reportprogress|300|-work|work|/home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab11-countclass/counter.sv|
 !i113 1
 R7
 R1
