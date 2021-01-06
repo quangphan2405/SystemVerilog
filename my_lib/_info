@@ -99,27 +99,28 @@ R14
 R7
 R1
 Ybus
-Z16 DXx6 sv_std 3 std 0 22 d=_JfHTnXCN[H5FjiaJJc0
-!s110 1609845683
+R2
+Z16 !s110 1609974868
 !i10b 1
-!s100 ZU_lFoBkYFWcZ3oQ7P]?P1
-IT0]V;B23giEaY0<dCB=il0
+!s100 D:GL0MWP=CiFn^I89iBc11
+R4
+In;B6ShL`9fGjGVQ_T8^YJ2
 R5
-!s105 intf_sv_unit
 S1
-Z17 d/home/phanq/Cadence/system_verilog/SystemVerilog
-w1609845677
-8/home/phanq/Cadence/system_verilog/SystemVerilog/lab10-memrnd/intf.sv
-F/home/phanq/Cadence/system_verilog/SystemVerilog/lab10-memrnd/intf.sv
-L0 1
-Z18 OL;L;10.7d;67
+R0
+w1609846280
+8/home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab13-memclass/intf.sv
+F/home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab13-memclass/intf.sv
+!i122 86
+Z17 L0 1 0
+R6
 r1
 !s85 0
 31
-!s108 1609845683.000000
-!s107 /home/phanq/Cadence/system_verilog/SystemVerilog/lab10-memrnd/intf.sv|
-!s90 -reportprogress|300|-work|work|/home/phanq/Cadence/system_verilog/SystemVerilog/lab10-memrnd/intf.sv|
-!i113 0
+Z18 !s108 1609974868.000000
+!s107 /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab13-memclass/intf.sv|
+!s90 -reportprogress|300|-work|work|/home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab13-memclass/intf.sv|
+!i113 1
 R7
 R1
 vcontrol
@@ -270,8 +271,8 @@ r1
 !s85 0
 31
 !s108 1609964557.000000
-!s107 /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab12-polymorph/counter_polymorph.sv|
-Z28 !s90 -reportprogress|300|-work|work|/home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab12-polymorph/counter_polymorph.sv|
+Z28 !s107 /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab12-polymorph/counter_polymorph.sv|
+Z29 !s90 -reportprogress|300|-work|work|/home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab12-polymorph/counter_polymorph.sv|
 !i113 1
 R7
 R1
@@ -295,8 +296,8 @@ r1
 !s85 0
 31
 !s108 1609964869.000000
-Z29 !s107 /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab12-polymorph/counter_polymorph.sv|
 R28
+R29
 !i113 1
 R7
 R1
@@ -326,56 +327,58 @@ r1
 R7
 R1
 vmem
+R2
 R16
-Z30 !s110 1609845622
 !i10b 1
-!s100 0DZY8^<E8>g1lFc7_@H960
-Ia=kCmM@d[oOI<6fVn03JB3
+!s100 N8^;hjKlCcB:3<J89>k5h2
+R4
+IXIZN79UTZJ1mC6c>QZY:f3
 R5
-!s105 mem_sv_unit
 S1
-R17
-Z31 w1609845515
-8/home/phanq/Cadence/system_verilog/SystemVerilog/lab10-memrnd/mem.sv
-F/home/phanq/Cadence/system_verilog/SystemVerilog/lab10-memrnd/mem.sv
-L0 20
-R18
+R0
+w1609754413
+8/home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab13-memclass/mem.sv
+F/home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab13-memclass/mem.sv
+!i122 87
+L0 20 19
+R6
 r1
 !s85 0
 31
-Z32 !s108 1609845622.000000
-!s107 /home/phanq/Cadence/system_verilog/SystemVerilog/lab10-memrnd/mem.sv|
-!s90 -reportprogress|300|-work|work|/home/phanq/Cadence/system_verilog/SystemVerilog/lab10-memrnd/mem.sv|
-!i113 0
+R18
+!s107 /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab13-memclass/mem.sv|
+!s90 -reportprogress|300|-work|work|/home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab13-memclass/mem.sv|
+!i113 1
 R7
 R1
 vmem_test
-R16
-!s110 1609845982
+R2
+!s110 1609975087
 !i10b 1
-!s100 XiWDP=DVQT[H8mf[fCVaf3
-I?Jfg3gfQTZ`>:Z_z@dFX83
+!s100 WPoC=HLYcLe`E=5Io2e8f2
+R4
+IFC@W@Vk03EHFQPReQ3fAz1
 R5
-!s105 mem_test_sv_unit
 S1
-R17
-w1609845951
-8/home/phanq/Cadence/system_verilog/SystemVerilog/lab10-memrnd/mem_test.sv
-F/home/phanq/Cadence/system_verilog/SystemVerilog/lab10-memrnd/mem_test.sv
-L0 13
-R18
+R0
+w1609975082
+8/home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab13-memclass/mem_test.sv
+F/home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab13-memclass/mem_test.sv
+!i122 89
+L0 13 101
+R6
 r1
 !s85 0
 31
-!s108 1609845982.000000
-!s107 /home/phanq/Cadence/system_verilog/SystemVerilog/lab10-memrnd/mem_test.sv|
-!s90 -reportprogress|300|-work|work|/home/phanq/Cadence/system_verilog/SystemVerilog/lab10-memrnd/mem_test.sv|
-!i113 0
+!s108 1609975087.000000
+!s107 /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab13-memclass/mem_test.sv|
+!s90 -reportprogress|300|-work|work|/home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab13-memclass/mem_test.sv|
+!i113 1
 R7
 R1
 vregister
 R2
-Z33 !s110 1609528553
+Z30 !s110 1609528553
 !i10b 1
 !s100 of_UNe8Z0jH`Jo1LQ`Nm=3
 R4
@@ -387,12 +390,12 @@ w1609528316
 8/home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab01-reg/register.sv
 F/home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab01-reg/register.sv
 !i122 0
-Z34 L0 1 19
+Z31 L0 1 19
 R6
 r1
 !s85 0
 31
-Z35 !s108 1609528553.000000
+Z32 !s108 1609528553.000000
 !s107 /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab01-reg/register.sv|
 !s90 -reportprogress|300|-work|work|/home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab01-reg/register.sv|
 !i113 1
@@ -400,7 +403,7 @@ R7
 R1
 vregister_test
 R2
-R33
+R30
 !i10b 1
 !s100 UBZ@T^ZT5?Be@5TbT[a@`3
 R4
@@ -417,7 +420,7 @@ R6
 r1
 !s85 0
 31
-R35
+R32
 !s107 /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab01-reg/register_test.sv|
 !s90 -reportprogress|300|-work|work|/home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab01-reg/register_test.sv|
 !i113 1
@@ -437,7 +440,7 @@ w1609529126
 8/home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab02-mux/scale_mux.sv
 F/home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab02-mux/scale_mux.sv
 !i122 3
-R34
+R31
 R6
 r1
 !s85 0
@@ -499,27 +502,28 @@ r1
 R7
 R1
 vtop
+R2
 R16
-R30
 !i10b 1
-!s100 7FD>K21J@@:5SYjh3l>SE3
-I]CPDE4aM_f2?TAO5:;<TI3
+!s100 J;[`IcgDad?QoHgFYeKl?3
+R4
+Ibh`B2I>j1L<P07M21_j[:3
 R5
-!s105 top_sv_unit
 S1
-R17
-R31
-8/home/phanq/Cadence/system_verilog/SystemVerilog/lab10-memrnd/top.sv
-F/home/phanq/Cadence/system_verilog/SystemVerilog/lab10-memrnd/top.sv
-L0 15
-R18
+R0
+w1609754317
+8/home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab13-memclass/top.sv
+F/home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab13-memclass/top.sv
+!i122 88
+L0 15 17
+R6
 r1
 !s85 0
 31
-R32
-!s107 /home/phanq/Cadence/system_verilog/SystemVerilog/lab10-memrnd/top.sv|
-!s90 -reportprogress|300|-work|work|/home/phanq/Cadence/system_verilog/SystemVerilog/lab10-memrnd/top.sv|
-!i113 0
+R18
+!s107 /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab13-memclass/top.sv|
+!s90 -reportprogress|300|-work|work|/home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab13-memclass/top.sv|
+!i113 1
 R7
 R1
 Xtypedefs
@@ -536,7 +540,7 @@ w1609583091
 8/home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab05-alu/typedefs.sv
 F/home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab05-alu/typedefs.sv
 !i122 17
-L0 1 0
+R17
 R6
 r1
 !s85 0

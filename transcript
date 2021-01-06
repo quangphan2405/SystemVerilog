@@ -1,106 +1,236 @@
 vcom
-vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab12-polymorph/counter_polymorph.sv
+vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab13-memclass/intf.sv
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1_3 Compiler 2020.04 Apr 27 2020
-# Start time: 22:21:03 on Jan 06,2021
-# vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab12-polymorph/counter_polymorph.sv 
-# -- Compiling module counterclass
-# ** Error: /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab12-polymorph/counter_polymorph.sv(154): 'ucnt' already exists; must not be redefined as a named block
-# ** Error: (vlog-13069) /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab12-polymorph/counter_polymorph.sv(154): near "=": syntax error, unexpected '='.
-# End time: 22:21:03 on Jan 06,2021, Elapsed time: 0:00:00
+# Start time: 01:14:28 on Jan 07,2021
+# vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab13-memclass/intf.sv 
+# -- Compiling interface bus
+# 
+# Top level modules:
+# 	--none--
+# End time: 01:14:28 on Jan 07,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab13-memclass/mem.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1_3 Compiler 2020.04 Apr 27 2020
+# Start time: 01:14:28 on Jan 07,2021
+# vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab13-memclass/mem.sv 
+# -- Compiling module mem
+# 
+# Top level modules:
+# 	mem
+# End time: 01:14:28 on Jan 07,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab13-memclass/mem_test.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1_3 Compiler 2020.04 Apr 27 2020
+# Start time: 01:14:28 on Jan 07,2021
+# vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab13-memclass/mem_test.sv 
+# -- Compiling module mem_test
+# ** Error: (vlog-13069) /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab13-memclass/mem_test.sv(19): near "new": syntax error, unexpected "SystemVerilog keyword 'new'".
+# ** Error: /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab13-memclass/mem_test.sv(20): (vlog-13205) Syntax error found in the scope following 'addr'. Is there a missing '::'?
+# End time: 01:14:28 on Jan 07,2021, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab13-memclass/top.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1_3 Compiler 2020.04 Apr 27 2020
+# Start time: 01:14:28 on Jan 07,2021
+# vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab13-memclass/top.sv 
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 01:14:28 on Jan 07,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom
+vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab13-memclass/mem_test.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1_3 Compiler 2020.04 Apr 27 2020
+# Start time: 01:15:29 on Jan 07,2021
+# vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab13-memclass/mem_test.sv 
+# -- Compiling module mem_test
+# ** Error: (vlog-13069) /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab13-memclass/mem_test.sv(19): near "new": syntax error, unexpected "SystemVerilog keyword 'new'".
+# ** Error: /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab13-memclass/mem_test.sv(20): (vlog-13205) Syntax error found in the scope following 'addr'. Is there a missing '::'?
+# End time: 01:15:29 on Jan 07,2021, Elapsed time: 0:00:00
 # Errors: 2, Warnings: 0
 vcom
-vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab12-polymorph/counter_polymorph.sv
+vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab13-memclass/mem_test.sv
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1_3 Compiler 2020.04 Apr 27 2020
-# Start time: 22:21:44 on Jan 06,2021
-# vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab12-polymorph/counter_polymorph.sv 
-# -- Compiling module counterclass
-# ** Error: /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab12-polymorph/counter_polymorph.sv(154): 'cnt' already exists; must not be redefined as a named block
-# ** Error: (vlog-13069) /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab12-polymorph/counter_polymorph.sv(154): near "=": syntax error, unexpected '='.
-# End time: 22:21:44 on Jan 06,2021, Elapsed time: 0:00:00
+# Start time: 01:16:59 on Jan 07,2021
+# vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab13-memclass/mem_test.sv 
+# -- Compiling module mem_test
+# ** Error: (vlog-13069) /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab13-memclass/mem_test.sv(19): near "new": syntax error, unexpected "SystemVerilog keyword 'new'".
+# ** Error: /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab13-memclass/mem_test.sv(20): (vlog-13205) Syntax error found in the scope following 'addr'. Is there a missing '::'?
+# End time: 01:16:59 on Jan 07,2021, Elapsed time: 0:00:00
 # Errors: 2, Warnings: 0
 vcom
-vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab12-polymorph/counter_polymorph.sv
+vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab13-memclass/mem_test.sv
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1_3 Compiler 2020.04 Apr 27 2020
-# Start time: 22:22:37 on Jan 06,2021
-# vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab12-polymorph/counter_polymorph.sv 
-# -- Compiling module counterclass
-# 
-# Top level modules:
-# 	counterclass
-# End time: 22:22:37 on Jan 06,2021, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vsim work.counterclass
-# vsim work.counterclass 
-# Start time: 22:22:44 on Jan 06,2021
-# Loading sv_std.std
-# Loading work.counterclass
-run -all
-# You are in counter class!
-quit -sim
-# End time: 22:25:13 on Jan 06,2021, Elapsed time: 0:02:29
-# Errors: 0, Warnings: 0
+# Start time: 01:17:43 on Jan 07,2021
+# vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab13-memclass/mem_test.sv 
+# -- Compiling module mem_test
+# ** Error: (vlog-13069) /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab13-memclass/mem_test.sv(91): near "tb": syntax error, unexpected IDENTIFIER, expecting ';'.
+# End time: 01:17:43 on Jan 07,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
 vcom
-vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab12-polymorph/counter_polymorph.sv
+vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab13-memclass/mem_test.sv
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1_3 Compiler 2020.04 Apr 27 2020
-# Start time: 22:25:16 on Jan 06,2021
-# vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab12-polymorph/counter_polymorph.sv 
-# -- Compiling module counterclass_polymorph
+# Start time: 01:18:07 on Jan 07,2021
+# vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab13-memclass/mem_test.sv 
+# -- Compiling module mem_test
+# ** Warning: /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab13-memclass/mem_test.sv(88): (vlog-2186) SystemVerilog testbench feature
+# (randomization, coverage or assertion) detected in the design.
+# These features are only supported in Questasim.
 # 
 # Top level modules:
-# 	counterclass_polymorph
-# End time: 22:25:16 on Jan 06,2021, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vsim work.counterclass_polymorph
-# vsim work.counterclass_polymorph 
-# Start time: 22:25:23 on Jan 06,2021
+# 	mem_test
+# End time: 01:18:07 on Jan 07,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+vsim
+# vsim work.top 
+# Start time: 01:18:23 on Jan 07,2021
 # Loading sv_std.std
-# Loading work.counterclass_polymorph
+# Loading work.top
+# Loading work.bus
+# Loading work.mem_test
+# Loading work.mem
 run -all
-# You are in counter class!
-# Count: 4, carry: 0
-quit -sim
-# End time: 22:26:29 on Jan 06,2021, Elapsed time: 0:01:06
-# Errors: 0, Warnings: 0
-vcom
-vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab12-polymorph/counter_polymorph.sv
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1_3 Compiler 2020.04 Apr 27 2020
-# Start time: 22:26:32 on Jan 06,2021
-# vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab12-polymorph/counter_polymorph.sv 
-# -- Compiling module counterclass_polymorph
+# Clear Memory Test
+# At write address: 00000 , data value: 
+# At write address: 00001 , data value: 
+# At write address: 00010 , data value: 
+# At write address: 00011 , data value: 
+# At write address: 00100 , data value: 
+# At write address: 00101 , data value: 
+# At write address: 00110 , data value: 
+# At write address: 00111 , data value: 
+# At write address: 01000 , data value: 
+# At write address: 01001 , data value: 
+# At write address: 01010 , data value: 
+# At write address: 01011 , data value: 
+# At write address: 01100 , data value: 
+# At write address: 01101 , data value: 
+# At write address: 01110 , data value: 
+# At write address: 01111 , data value: 
+# At write address: 10000 , data value: 
+# At write address: 10001 , data value: 
+# At write address: 10010 , data value: 
+# At write address: 10011 , data value: 
+# At write address: 10100 , data value: 
+# At write address: 10101 , data value: 
+# At write address: 10110 , data value: 
+# At write address: 10111 , data value: 
+# At write address: 11000 , data value: 
+# At write address: 11001 , data value: 
+# At write address: 11010 , data value: 
+# At write address: 11011 , data value: 
+# At write address: 11100 , data value: 
+# At write address: 11101 , data value: 
+# At write address: 11110 , data value: 
+# At write address: 11111 , data value: 
+# At read address: 00000, data value: 
+# At read address: 00001, data value: 
+# At read address: 00010, data value: 
+# At read address: 00011, data value: 
+# At read address: 00100, data value: 
+# At read address: 00101, data value: 
+# At read address: 00110, data value: 
+# At read address: 00111, data value: 
+# At read address: 01000, data value: 
+# At read address: 01001, data value: 
+# At read address: 01010, data value: 
+# At read address: 01011, data value: 
+# At read address: 01100, data value: 
+# At read address: 01101, data value: 
+# At read address: 01110, data value: 
+# At read address: 01111, data value: 
+# At read address: 10000, data value: 
+# At read address: 10001, data value: 
+# At read address: 10010, data value: 
+# At read address: 10011, data value: 
+# At read address: 10100, data value: 
+# At read address: 10101, data value: 
+# At read address: 10110, data value: 
+# At read address: 10111, data value: 
+# At read address: 11000, data value: 
+# At read address: 11001, data value: 
+# At read address: 11010, data value: 
+# At read address: 11011, data value: 
+# At read address: 11100, data value: 
+# At read address: 11101, data value: 
+# At read address: 11110, data value: 
+# At read address: 11111, data value: 
+# TEST PASSED
+# Data = Address Test
+# At write address: 00000 , data value: 
+# At write address: 00001 , data value: 
+# At write address: 00010 , data value: 
+# At write address: 00011 , data value: 
+# At write address: 00100 , data value: 
+# At write address: 00101 , data value: 
+# At write address: 00110 , data value: 
+# At write address: 00111 , data value: 
+# At write address: 01000 , data value: 
+# At write address: 01001 , data value: 	
+# At write address: 01010 , data value: 
 # 
-# Top level modules:
-# 	counterclass_polymorph
-# End time: 22:26:32 on Jan 06,2021, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vsim work.counterclass_polymorph
-# vsim work.counterclass_polymorph 
-# Start time: 22:26:37 on Jan 06,2021
-# Loading sv_std.std
-# Loading work.counterclass_polymorph
-run -all
-# Count: 4, carry: 0
-# Count: 5, carry: 0
-quit -sim
-# End time: 22:27:46 on Jan 06,2021, Elapsed time: 0:01:09
-# Errors: 0, Warnings: 0
-vcom
-vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab12-polymorph/counter_polymorph.sv
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1_3 Compiler 2020.04 Apr 27 2020
-# Start time: 22:27:49 on Jan 06,2021
-# vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab12-polymorph/counter_polymorph.sv 
-# -- Compiling module counterclass_polymorph
+# At write address: 01011 , data value: 
+# At write address: 01100 , data value: 
+# At write address: 01101 , data value: 
 # 
-# Top level modules:
-# 	counterclass_polymorph
-# End time: 22:27:49 on Jan 06,2021, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vsim work.counterclass_polymorph
-# vsim work.counterclass_polymorph 
-# Start time: 22:27:53 on Jan 06,2021
-# Loading sv_std.std
-# Loading work.counterclass_polymorph
-run -all
-# Count: 4, carry: 0
-# Count: 5, carry: 0
-# End time: 22:28:04 on Jan 06,2021, Elapsed time: 0:00:11
-# Errors: 0, Warnings: 0
+# At write address: 01110 , data value: 
+# At write address: 01111 , data value: 
+# At write address: 10000 , data value: 
+# At write address: 10001 , data value: 
+# At write address: 10010 , data value: 
+# At write address: 10011 , data value: 
+# At write address: 10100 , data value: 
+# At write address: 10101 , data value: 
+# At write address: 10110 , data value: 
+# At write address: 10111 , data value: 
+# At write address: 11000 , data value: 
+# At write address: 11001 , data value: 
+# At write address: 11010 , data value: 
+# At write address: 11011 , data value: 
+# At write address: 11100 , data value: 
+# At write address: 11101 , data value: 
+# At write address: 11110 , data value: 
+# At write address: 11111 , data value: 
+# At read address: 00000, data value: 
+# At read address: 00001, data value: 
+# At read address: 00010, data value: 
+# At read address: 00011, data value: 
+# At read address: 00100, data value: 
+# At read address: 00101, data value: 
+# At read address: 00110, data value: 
+# At read address: 00111, data value: 
+# At read address: 01000, data value: 
+# At read address: 01001, data value: 	
+# At read address: 01010, data value: 
+# 
+# At read address: 01011, data value: 
+# At read address: 01100, data value: 
+# At read address: 01101, data value: 
+# 
+# At read address: 01110, data value: 
+# At read address: 01111, data value: 
+# At read address: 10000, data value: 
+# At read address: 10001, data value: 
+# At read address: 10010, data value: 
+# At read address: 10011, data value: 
+# At read address: 10100, data value: 
+# At read address: 10101, data value: 
+# At read address: 10110, data value: 
+# At read address: 10111, data value: 
+# At read address: 11000, data value: 
+# At read address: 11001, data value: 
+# At read address: 11010, data value: 
+# At read address: 11011, data value: 
+# At read address: 11100, data value: 
+# At read address: 11101, data value: 
+# At read address: 11110, data value: 
+# At read address: 11111, data value: 
+# TEST PASSED
+# Random Data
+# ** Fatal: (vsim-7099) Unable to check out a verification license for the randomize() feature.
+#    Time: 2550 ns  Iteration: 1  Process: /top/test/#INITIAL#46(memtest) File: /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab13-memclass/mem_test.sv Line: 88
+# Fatal error in NamedBeginStat memtest at /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab13-memclass/mem_test.sv line 88
+# 
+# HDL call sequence:
+# Stopped at /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab13-memclass/mem_test.sv 88 NamedBeginStat memtest
+# 
