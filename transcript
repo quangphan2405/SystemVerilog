@@ -469,3 +469,701 @@ run -all
 quit -sim
 # End time: 01:28:43 on Jan 07,2021, Elapsed time: 0:00:17
 # Errors: 0, Warnings: 0
+vcom
+vlog -reportprogress 300 -work work /home/phanq/Cadence/system_verilog/SystemVerilog/lab13-memclass/mem_test.sv
+# Model Technology ModelSim SE-64 vlog 10.7d Compiler 2019.02 Feb 15 2019
+# Start time: 01:29:56 on Jan 07,2021
+# vlog -reportprogress 300 -work work /home/phanq/Cadence/system_verilog/SystemVerilog/lab13-memclass/mem_test.sv 
+# -- Compiling module mem_test
+# 
+# Top level modules:
+# 	mem_test
+# End time: 01:29:57 on Jan 07,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vsim -voptargs=+acc work.top
+# vsim -voptargs="+acc" work.top 
+# Start time: 01:30:02 on Jan 07,2021
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.bus(fast)
+# Loading work.mem_test(fast)
+# Loading work.mem(fast)
+run -all
+# Clear Memory Test
+# At write address: 00000 , data value: 
+# At write address: 00001 , data value: 
+# At write address: 00010 , data value: 
+# At write address: 00011 , data value: 
+# At write address: 00100 , data value: 
+# At write address: 00101 , data value: 
+# At write address: 00110 , data value: 
+# At write address: 00111 , data value: 
+# At write address: 01000 , data value: 
+# At write address: 01001 , data value: 
+# At write address: 01010 , data value: 
+# At write address: 01011 , data value: 
+# At write address: 01100 , data value: 
+# At write address: 01101 , data value: 
+# At write address: 01110 , data value: 
+# At write address: 01111 , data value: 
+# At write address: 10000 , data value: 
+# At write address: 10001 , data value: 
+# At write address: 10010 , data value: 
+# At write address: 10011 , data value: 
+# At write address: 10100 , data value: 
+# At write address: 10101 , data value: 
+# At write address: 10110 , data value: 
+# At write address: 10111 , data value: 
+# At write address: 11000 , data value: 
+# At write address: 11001 , data value: 
+# At write address: 11010 , data value: 
+# At write address: 11011 , data value: 
+# At write address: 11100 , data value: 
+# At write address: 11101 , data value: 
+# At write address: 11110 , data value: 
+# At write address: 11111 , data value: 
+# At read address: 00000, data value: 
+# At read address: 00001, data value: 
+# At read address: 00010, data value: 
+# At read address: 00011, data value: 
+# At read address: 00100, data value: 
+# At read address: 00101, data value: 
+# At read address: 00110, data value: 
+# At read address: 00111, data value: 
+# At read address: 01000, data value: 
+# At read address: 01001, data value: 
+# At read address: 01010, data value: 
+# At read address: 01011, data value: 
+# At read address: 01100, data value: 
+# At read address: 01101, data value: 
+# At read address: 01110, data value: 
+# At read address: 01111, data value: 
+# At read address: 10000, data value: 
+# At read address: 10001, data value: 
+# At read address: 10010, data value: 
+# At read address: 10011, data value: 
+# At read address: 10100, data value: 
+# At read address: 10101, data value: 
+# At read address: 10110, data value: 
+# At read address: 10111, data value: 
+# At read address: 11000, data value: 
+# At read address: 11001, data value: 
+# At read address: 11010, data value: 
+# At read address: 11011, data value: 
+# At read address: 11100, data value: 
+# At read address: 11101, data value: 
+# At read address: 11110, data value: 
+# At read address: 11111, data value: 
+# TEST PASSED
+# Data = Address Test
+# At write address: 00000 , data value: 
+# At write address: 00001 , data value: 
+# At write address: 00010 , data value: 
+# At write address: 00011 , data value: 
+# At write address: 00100 , data value: 
+# At write address: 00101 , data value: 
+# At write address: 00110 , data value: 
+# At write address: 00111 , data value: 
+# At write address: 01000 , data value: 
+# At write address: 01001 , data value: 	
+# At write address: 01010 , data value: 
+# 
+# At write address: 01011 , data value: 
+# At write address: 01100 , data value: 
+# At write address: 01101 , data value: 
+# 
+# At write address: 01110 , data value: 
+# At write address: 01111 , data value: 
+# At write address: 10000 , data value: 
+# At write address: 10001 , data value: 
+# At write address: 10010 , data value: 
+# At write address: 10011 , data value: 
+# At write address: 10100 , data value: 
+# At write address: 10101 , data value: 
+# At write address: 10110 , data value: 
+# At write address: 10111 , data value: 
+# At write address: 11000 , data value: 
+# At write address: 11001 , data value: 
+# At write address: 11010 , data value: 
+# At write address: 11011 , data value: 
+# At write address: 11100 , data value: 
+# At write address: 11101 , data value: 
+# At write address: 11110 , data value: 
+# At write address: 11111 , data value: 
+# At read address: 00000, data value: 
+# At read address: 00001, data value: 
+# At read address: 00010, data value: 
+# At read address: 00011, data value: 
+# At read address: 00100, data value: 
+# At read address: 00101, data value: 
+# At read address: 00110, data value: 
+# At read address: 00111, data value: 
+# At read address: 01000, data value: 
+# At read address: 01001, data value: 	
+# At read address: 01010, data value: 
+# 
+# At read address: 01011, data value: 
+# At read address: 01100, data value: 
+# At read address: 01101, data value: 
+# 
+# At read address: 01110, data value: 
+# At read address: 01111, data value: 
+# At read address: 10000, data value: 
+# At read address: 10001, data value: 
+# At read address: 10010, data value: 
+# At read address: 10011, data value: 
+# At read address: 10100, data value: 
+# At read address: 10101, data value: 
+# At read address: 10110, data value: 
+# At read address: 10111, data value: 
+# At read address: 11000, data value: 
+# At read address: 11001, data value: 
+# At read address: 11010, data value: 
+# At read address: 11011, data value: 
+# At read address: 11100, data value: 
+# At read address: 11101, data value: 
+# At read address: 11110, data value: 
+# At read address: 11111, data value: 
+# TEST PASSED
+# Random Data
+# At write address: 00011 , data value: P
+# At read address: 00011, data value: P
+# At write address: 11010 , data value: T
+# At read address: 11010, data value: T
+# At write address: 11101 , data value: I
+# At read address: 11101, data value: I
+# At write address: 10100 , data value: y
+# At read address: 10100, data value: y
+# At write address: 01100 , data value: X
+# At read address: 01100, data value: X
+# At write address: 00111 , data value: c
+# At read address: 00111, data value: c
+# At write address: 11110 , data value: a
+# At read address: 11110, data value: a
+# At write address: 10001 , data value: E
+# At read address: 10001, data value: E
+# At write address: 01001 , data value: A
+# At read address: 01001, data value: A
+# At write address: 00000 , data value: s
+# At read address: 00000, data value: s
+# At write address: 11011 , data value: n
+# At read address: 11011, data value: n
+# At write address: 10010 , data value: m
+# At read address: 10010, data value: m
+# At write address: 01010 , data value: u
+# At read address: 01010, data value: u
+# At write address: 10101 , data value: v
+# At read address: 10101, data value: v
+# At write address: 01101 , data value: O
+# At read address: 01101, data value: O
+# At write address: 00100 , data value: j
+# At read address: 00100, data value: j
+# At write address: 11111 , data value: e
+# At read address: 11111, data value: e
+# At write address: 10110 , data value: k
+# At read address: 10110, data value: k
+# At write address: 01110 , data value: c
+# At read address: 01110, data value: c
+# At write address: 00001 , data value: c
+# At read address: 00001, data value: c
+# At write address: 11000 , data value: R
+# At read address: 11000, data value: R
+# At write address: 10011 , data value: c
+# At read address: 10011, data value: c
+# At write address: 01011 , data value: i
+# At read address: 01011, data value: i
+# At write address: 00010 , data value: x
+# At read address: 00010, data value: x
+# At write address: 00101 , data value: X
+# At read address: 00101, data value: X
+# At write address: 11100 , data value: Q
+# At read address: 11100, data value: Q
+# At write address: 10111 , data value: N
+# At read address: 10111, data value: N
+# At write address: 01111 , data value: p
+# At read address: 01111, data value: p
+# At write address: 00110 , data value: m
+# At read address: 00110, data value: m
+# At write address: 11001 , data value: g
+# At read address: 11001, data value: g
+# At write address: 10000 , data value: j
+# At read address: 10000, data value: j
+# At write address: 01000 , data value: m
+# At read address: 01000, data value: m
+# TEST PASSED
+# ** Note: $finish    : /home/phanq/Cadence/system_verilog/SystemVerilog/lab13-memclass/mem_test.sv(103)
+#    Time: 3830 ns  Iteration: 1  Instance: /top/test
+# 1
+# Break in NamedBeginStat memtest at /home/phanq/Cadence/system_verilog/SystemVerilog/lab13-memclass/mem_test.sv line 103
+quit -sim
+# End time: 01:30:20 on Jan 07,2021, Elapsed time: 0:00:18
+# Errors: 0, Warnings: 0
+vcom
+vlog -reportprogress 300 -work work /home/phanq/Cadence/system_verilog/SystemVerilog/lab13-memclass/mem_test.sv
+# Model Technology ModelSim SE-64 vlog 10.7d Compiler 2019.02 Feb 15 2019
+# Start time: 01:31:07 on Jan 07,2021
+# vlog -reportprogress 300 -work work /home/phanq/Cadence/system_verilog/SystemVerilog/lab13-memclass/mem_test.sv 
+# -- Compiling module mem_test
+# ** Error: (vlog-13069) /home/phanq/Cadence/system_verilog/SystemVerilog/lab13-memclass/mem_test.sv(19): near ":=": syntax error, unexpected :=, expecting ',' or '}'.
+# End time: 01:31:08 on Jan 07,2021, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+vlog -reportprogress 300 -work work /home/phanq/Cadence/system_verilog/SystemVerilog/lab13-memclass/mem_test.sv
+# Model Technology ModelSim SE-64 vlog 10.7d Compiler 2019.02 Feb 15 2019
+# Start time: 01:31:43 on Jan 07,2021
+# vlog -reportprogress 300 -work work /home/phanq/Cadence/system_verilog/SystemVerilog/lab13-memclass/mem_test.sv 
+# -- Compiling module mem_test
+# 
+# Top level modules:
+# 	mem_test
+# End time: 01:31:43 on Jan 07,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -voptargs=+acc work.top
+# vsim -voptargs="+acc" work.top 
+# Start time: 01:31:48 on Jan 07,2021
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.bus(fast)
+# Loading work.mem_test(fast)
+# Loading work.mem(fast)
+run -all
+# Clear Memory Test
+# At write address: 00000 , data value: 
+# At write address: 00001 , data value: 
+# At write address: 00010 , data value: 
+# At write address: 00011 , data value: 
+# At write address: 00100 , data value: 
+# At write address: 00101 , data value: 
+# At write address: 00110 , data value: 
+# At write address: 00111 , data value: 
+# At write address: 01000 , data value: 
+# At write address: 01001 , data value: 
+# At write address: 01010 , data value: 
+# At write address: 01011 , data value: 
+# At write address: 01100 , data value: 
+# At write address: 01101 , data value: 
+# At write address: 01110 , data value: 
+# At write address: 01111 , data value: 
+# At write address: 10000 , data value: 
+# At write address: 10001 , data value: 
+# At write address: 10010 , data value: 
+# At write address: 10011 , data value: 
+# At write address: 10100 , data value: 
+# At write address: 10101 , data value: 
+# At write address: 10110 , data value: 
+# At write address: 10111 , data value: 
+# At write address: 11000 , data value: 
+# At write address: 11001 , data value: 
+# At write address: 11010 , data value: 
+# At write address: 11011 , data value: 
+# At write address: 11100 , data value: 
+# At write address: 11101 , data value: 
+# At write address: 11110 , data value: 
+# At write address: 11111 , data value: 
+# At read address: 00000, data value: 
+# At read address: 00001, data value: 
+# At read address: 00010, data value: 
+# At read address: 00011, data value: 
+# At read address: 00100, data value: 
+# At read address: 00101, data value: 
+# At read address: 00110, data value: 
+# At read address: 00111, data value: 
+# At read address: 01000, data value: 
+# At read address: 01001, data value: 
+# At read address: 01010, data value: 
+# At read address: 01011, data value: 
+# At read address: 01100, data value: 
+# At read address: 01101, data value: 
+# At read address: 01110, data value: 
+# At read address: 01111, data value: 
+# At read address: 10000, data value: 
+# At read address: 10001, data value: 
+# At read address: 10010, data value: 
+# At read address: 10011, data value: 
+# At read address: 10100, data value: 
+# At read address: 10101, data value: 
+# At read address: 10110, data value: 
+# At read address: 10111, data value: 
+# At read address: 11000, data value: 
+# At read address: 11001, data value: 
+# At read address: 11010, data value: 
+# At read address: 11011, data value: 
+# At read address: 11100, data value: 
+# At read address: 11101, data value: 
+# At read address: 11110, data value: 
+# At read address: 11111, data value: 
+# TEST PASSED
+# Data = Address Test
+# At write address: 00000 , data value: 
+# At write address: 00001 , data value: 
+# At write address: 00010 , data value: 
+# At write address: 00011 , data value: 
+# At write address: 00100 , data value: 
+# At write address: 00101 , data value: 
+# At write address: 00110 , data value: 
+# At write address: 00111 , data value: 
+# At write address: 01000 , data value: 
+# At write address: 01001 , data value: 	
+# At write address: 01010 , data value: 
+# 
+# At write address: 01011 , data value: 
+# At write address: 01100 , data value: 
+# At write address: 01101 , data value: 
+# 
+# At write address: 01110 , data value: 
+# At write address: 01111 , data value: 
+# At write address: 10000 , data value: 
+# At write address: 10001 , data value: 
+# At write address: 10010 , data value: 
+# At write address: 10011 , data value: 
+# At write address: 10100 , data value: 
+# At write address: 10101 , data value: 
+# At write address: 10110 , data value: 
+# At write address: 10111 , data value: 
+# At write address: 11000 , data value: 
+# At write address: 11001 , data value: 
+# At write address: 11010 , data value: 
+# At write address: 11011 , data value: 
+# At write address: 11100 , data value: 
+# At write address: 11101 , data value: 
+# At write address: 11110 , data value: 
+# At write address: 11111 , data value: 
+# At read address: 00000, data value: 
+# At read address: 00001, data value: 
+# At read address: 00010, data value: 
+# At read address: 00011, data value: 
+# At read address: 00100, data value: 
+# At read address: 00101, data value: 
+# At read address: 00110, data value: 
+# At read address: 00111, data value: 
+# At read address: 01000, data value: 
+# At read address: 01001, data value: 	
+# At read address: 01010, data value: 
+# 
+# At read address: 01011, data value: 
+# At read address: 01100, data value: 
+# At read address: 01101, data value: 
+# 
+# At read address: 01110, data value: 
+# At read address: 01111, data value: 
+# At read address: 10000, data value: 
+# At read address: 10001, data value: 
+# At read address: 10010, data value: 
+# At read address: 10011, data value: 
+# At read address: 10100, data value: 
+# At read address: 10101, data value: 
+# At read address: 10110, data value: 
+# At read address: 10111, data value: 
+# At read address: 11000, data value: 
+# At read address: 11001, data value: 
+# At read address: 11010, data value: 
+# At read address: 11011, data value: 
+# At read address: 11100, data value: 
+# At read address: 11101, data value: 
+# At read address: 11110, data value: 
+# At read address: 11111, data value: 
+# TEST PASSED
+# Random Data
+# At write address: 00011 , data value: x
+# At read address: 00011, data value: x
+# At write address: 11010 , data value: G
+# At read address: 11010, data value: G
+# At write address: 11101 , data value: A
+# At read address: 11101, data value: A
+# At write address: 10100 , data value: h
+# At read address: 10100, data value: h
+# At write address: 01100 , data value: X
+# At read address: 01100, data value: X
+# At write address: 00111 , data value: F
+# At read address: 00111, data value: F
+# At write address: 11110 , data value: Z
+# At read address: 11110, data value: Z
+# At write address: 10001 , data value: E
+# At read address: 10001, data value: E
+# At write address: 01001 , data value: K
+# At read address: 01001, data value: K
+# At write address: 00000 , data value: A
+# At read address: 00000, data value: A
+# At write address: 11011 , data value: F
+# At read address: 11011, data value: F
+# At write address: 10010 , data value: Y
+# At read address: 10010, data value: Y
+# At write address: 01010 , data value: C
+# At read address: 01010, data value: C
+# At write address: 10101 , data value: Q
+# At read address: 10101, data value: Q
+# At write address: 01101 , data value: f
+# At read address: 01101, data value: f
+# At write address: 00100 , data value: O
+# At read address: 00100, data value: O
+# At write address: 11111 , data value: R
+# At read address: 11111, data value: R
+# At write address: 10110 , data value: K
+# At read address: 10110, data value: K
+# At write address: 01110 , data value: S
+# At read address: 01110, data value: S
+# At write address: 00001 , data value: X
+# At read address: 00001, data value: X
+# At write address: 11000 , data value: y
+# At read address: 11000, data value: y
+# At write address: 10011 , data value: I
+# At read address: 10011, data value: I
+# At write address: 01011 , data value: C
+# At read address: 01011, data value: C
+# At write address: 00010 , data value: V
+# At read address: 00010, data value: V
+# At write address: 00101 , data value: x
+# At read address: 00101, data value: x
+# At write address: 11100 , data value: u
+# At read address: 11100, data value: u
+# At write address: 10111 , data value: C
+# At read address: 10111, data value: C
+# At write address: 01111 , data value: X
+# At read address: 01111, data value: X
+# At write address: 00110 , data value: a
+# At read address: 00110, data value: a
+# At write address: 11001 , data value: Z
+# At read address: 11001, data value: Z
+# At write address: 10000 , data value: X
+# At read address: 10000, data value: X
+# At write address: 01000 , data value: F
+# At read address: 01000, data value: F
+# TEST PASSED
+# ** Note: $finish    : /home/phanq/Cadence/system_verilog/SystemVerilog/lab13-memclass/mem_test.sv(103)
+#    Time: 3830 ns  Iteration: 1  Instance: /top/test
+# 1
+# Break in NamedBeginStat memtest at /home/phanq/Cadence/system_verilog/SystemVerilog/lab13-memclass/mem_test.sv line 103
+quit -sim
+# End time: 01:32:01 on Jan 07,2021, Elapsed time: 0:00:13
+# Errors: 0, Warnings: 0
+vcom
+vlog -reportprogress 300 -work work /home/phanq/Cadence/system_verilog/SystemVerilog/lab13-memclass/mem_test.sv
+# Model Technology ModelSim SE-64 vlog 10.7d Compiler 2019.02 Feb 15 2019
+# Start time: 01:33:19 on Jan 07,2021
+# vlog -reportprogress 300 -work work /home/phanq/Cadence/system_verilog/SystemVerilog/lab13-memclass/mem_test.sv 
+# -- Compiling module mem_test
+# 
+# Top level modules:
+# 	mem_test
+# End time: 01:33:20 on Jan 07,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vsim
+# vsim -voptargs="+acc" work.top 
+# Start time: 01:33:28 on Jan 07,2021
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.bus(fast)
+# Loading work.mem_test(fast)
+# Loading work.mem(fast)
+run -all
+# Clear Memory Test
+# At write address: 00000 , data value: 
+# At write address: 00001 , data value: 
+# At write address: 00010 , data value: 
+# At write address: 00011 , data value: 
+# At write address: 00100 , data value: 
+# At write address: 00101 , data value: 
+# At write address: 00110 , data value: 
+# At write address: 00111 , data value: 
+# At write address: 01000 , data value: 
+# At write address: 01001 , data value: 
+# At write address: 01010 , data value: 
+# At write address: 01011 , data value: 
+# At write address: 01100 , data value: 
+# At write address: 01101 , data value: 
+# At write address: 01110 , data value: 
+# At write address: 01111 , data value: 
+# At write address: 10000 , data value: 
+# At write address: 10001 , data value: 
+# At write address: 10010 , data value: 
+# At write address: 10011 , data value: 
+# At write address: 10100 , data value: 
+# At write address: 10101 , data value: 
+# At write address: 10110 , data value: 
+# At write address: 10111 , data value: 
+# At write address: 11000 , data value: 
+# At write address: 11001 , data value: 
+# At write address: 11010 , data value: 
+# At write address: 11011 , data value: 
+# At write address: 11100 , data value: 
+# At write address: 11101 , data value: 
+# At write address: 11110 , data value: 
+# At write address: 11111 , data value: 
+# At read address: 00000, data value: 
+# At read address: 00001, data value: 
+# At read address: 00010, data value: 
+# At read address: 00011, data value: 
+# At read address: 00100, data value: 
+# At read address: 00101, data value: 
+# At read address: 00110, data value: 
+# At read address: 00111, data value: 
+# At read address: 01000, data value: 
+# At read address: 01001, data value: 
+# At read address: 01010, data value: 
+# At read address: 01011, data value: 
+# At read address: 01100, data value: 
+# At read address: 01101, data value: 
+# At read address: 01110, data value: 
+# At read address: 01111, data value: 
+# At read address: 10000, data value: 
+# At read address: 10001, data value: 
+# At read address: 10010, data value: 
+# At read address: 10011, data value: 
+# At read address: 10100, data value: 
+# At read address: 10101, data value: 
+# At read address: 10110, data value: 
+# At read address: 10111, data value: 
+# At read address: 11000, data value: 
+# At read address: 11001, data value: 
+# At read address: 11010, data value: 
+# At read address: 11011, data value: 
+# At read address: 11100, data value: 
+# At read address: 11101, data value: 
+# At read address: 11110, data value: 
+# At read address: 11111, data value: 
+# TEST PASSED
+# Data = Address Test
+# At write address: 00000 , data value: 
+# At write address: 00001 , data value: 
+# At write address: 00010 , data value: 
+# At write address: 00011 , data value: 
+# At write address: 00100 , data value: 
+# At write address: 00101 , data value: 
+# At write address: 00110 , data value: 
+# At write address: 00111 , data value: 
+# At write address: 01000 , data value: 
+# At write address: 01001 , data value: 	
+# At write address: 01010 , data value: 
+# 
+# At write address: 01011 , data value: 
+# At write address: 01100 , data value: 
+# At write address: 01101 , data value: 
+# 
+# At write address: 01110 , data value: 
+# At write address: 01111 , data value: 
+# At write address: 10000 , data value: 
+# At write address: 10001 , data value: 
+# At write address: 10010 , data value: 
+# At write address: 10011 , data value: 
+# At write address: 10100 , data value: 
+# At write address: 10101 , data value: 
+# At write address: 10110 , data value: 
+# At write address: 10111 , data value: 
+# At write address: 11000 , data value: 
+# At write address: 11001 , data value: 
+# At write address: 11010 , data value: 
+# At write address: 11011 , data value: 
+# At write address: 11100 , data value: 
+# At write address: 11101 , data value: 
+# At write address: 11110 , data value: 
+# At write address: 11111 , data value: 
+# At read address: 00000, data value: 
+# At read address: 00001, data value: 
+# At read address: 00010, data value: 
+# At read address: 00011, data value: 
+# At read address: 00100, data value: 
+# At read address: 00101, data value: 
+# At read address: 00110, data value: 
+# At read address: 00111, data value: 
+# At read address: 01000, data value: 
+# At read address: 01001, data value: 	
+# At read address: 01010, data value: 
+# 
+# At read address: 01011, data value: 
+# At read address: 01100, data value: 
+# At read address: 01101, data value: 
+# 
+# At read address: 01110, data value: 
+# At read address: 01111, data value: 
+# At read address: 10000, data value: 
+# At read address: 10001, data value: 
+# At read address: 10010, data value: 
+# At read address: 10011, data value: 
+# At read address: 10100, data value: 
+# At read address: 10101, data value: 
+# At read address: 10110, data value: 
+# At read address: 10111, data value: 
+# At read address: 11000, data value: 
+# At read address: 11001, data value: 
+# At read address: 11010, data value: 
+# At read address: 11011, data value: 
+# At read address: 11100, data value: 
+# At read address: 11101, data value: 
+# At read address: 11110, data value: 
+# At read address: 11111, data value: 
+# TEST PASSED
+# Random Data
+# At write address: 00000 , data value: 
+# At read address: 00000, data value: 
+# At write address: 00000 , data value: 
+# At read address: 00000, data value: 
+# At write address: 00000 , data value: 
+# At read address: 00000, data value: 
+# At write address: 00000 , data value: 
+# At read address: 00000, data value: 
+# At write address: 00000 , data value: 
+# At read address: 00000, data value: 
+# At write address: 00000 , data value: 
+# At read address: 00000, data value: 
+# At write address: 00000 , data value: 
+# At read address: 00000, data value: 
+# At write address: 00000 , data value: 
+# At read address: 00000, data value: 
+# At write address: 00000 , data value: 
+# At read address: 00000, data value: 
+# At write address: 00000 , data value: 
+# At read address: 00000, data value: 
+# At write address: 00000 , data value: 
+# At read address: 00000, data value: 
+# At write address: 00000 , data value: 
+# At read address: 00000, data value: 
+# At write address: 00000 , data value: 
+# At read address: 00000, data value: 
+# At write address: 00000 , data value: 
+# At read address: 00000, data value: 
+# At write address: 00000 , data value: 
+# At read address: 00000, data value: 
+# At write address: 00000 , data value: 
+# At read address: 00000, data value: 
+# At write address: 00000 , data value: 
+# At read address: 00000, data value: 
+# At write address: 00000 , data value: 
+# At read address: 00000, data value: 
+# At write address: 00000 , data value: 
+# At read address: 00000, data value: 
+# At write address: 00000 , data value: 
+# At read address: 00000, data value: 
+# At write address: 00000 , data value: 
+# At read address: 00000, data value: 
+# At write address: 00000 , data value: 
+# At read address: 00000, data value: 
+# At write address: 00000 , data value: 
+# At read address: 00000, data value: 
+# At write address: 00000 , data value: 
+# At read address: 00000, data value: 
+# At write address: 00000 , data value: 
+# At read address: 00000, data value: 
+# At write address: 00000 , data value: 
+# At read address: 00000, data value: 
+# At write address: 00000 , data value: 
+# At read address: 00000, data value: 
+# At write address: 00000 , data value: 
+# At read address: 00000, data value: 
+# At write address: 00000 , data value: 
+# At read address: 00000, data value: 
+# At write address: 00000 , data value: 
+# At read address: 00000, data value: 
+# At write address: 00000 , data value: 
+# At read address: 00000, data value: 
+# At write address: 00000 , data value: 
+# At read address: 00000, data value: 
+# TEST PASSED
+# ** Note: $finish    : /home/phanq/Cadence/system_verilog/SystemVerilog/lab13-memclass/mem_test.sv(104)
+#    Time: 3830 ns  Iteration: 1  Instance: /top/test
+# 1
+# Break in NamedBeginStat memtest at /home/phanq/Cadence/system_verilog/SystemVerilog/lab13-memclass/mem_test.sv line 104
+quit -sim
+# End time: 01:33:48 on Jan 07,2021, Elapsed time: 0:00:20
+# Errors: 0, Warnings: 0

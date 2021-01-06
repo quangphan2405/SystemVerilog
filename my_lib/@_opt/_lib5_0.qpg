@@ -10,10 +10,10 @@ z2
 cModel Technology
 Z0 d/home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog
 T_opt
-!s110 1609975706
-VSEl^IePRYkWnVVNPo@Ice0
+!s110 1609976008
+V`fnTa_1Thg3=jfAY5?NAm0
 04 3 4 work top fast 0
-=1-005056b1e657-5ff6479a-56cae-587e
+=1-005056b1e657-5ff648c8-7ce77-605e
 o-quiet -auto_acc_if_foreign -work work +acc
 Z1 tCvgOpt 0
 n@_opt
@@ -350,15 +350,15 @@ R7
 R1
 vmem_test
 R16
-!s110 1609975702
+!s110 1609975999
 !i10b 1
-!s100 XM5XmN;zk^a7cEA]_H^j70
-I<N[RP[UN5ONcKc1f_iCgK3
+!s100 nElIhE4>CfdZk?I1AdI3G2
+ISMn0EnfE<=eN]DF1S[Inl2
 R5
 !s105 mem_test_sv_unit
 S1
 R17
-w1609975692
+w1609975992
 8/home/phanq/Cadence/system_verilog/SystemVerilog/lab13-memclass/mem_test.sv
 F/home/phanq/Cadence/system_verilog/SystemVerilog/lab13-memclass/mem_test.sv
 L0 13
@@ -366,7 +366,7 @@ R18
 r1
 !s85 0
 31
-!s108 1609975702.000000
+!s108 1609975999.000000
 !s107 /home/phanq/Cadence/system_verilog/SystemVerilog/lab13-memclass/mem_test.sv|
 !s90 -reportprogress|300|-work|work|/home/phanq/Cadence/system_verilog/SystemVerilog/lab13-memclass/mem_test.sv|
 !i113 0
