@@ -45,7 +45,7 @@ endclass : random_value
 				 bins locase  = { [8'h61:8'h7a] };
 				 bins restofb = default;
 				 }
-      c2: coverpoint tb.data_out {
+      c3: coverpoint tb.data_out {
 				  bins upcase  = { [8'h41:8'h5a] };
 				  bins locase  = { [8'h61:8'h7a] };
 				  bins restofb = default;
@@ -89,16 +89,28 @@ endclass : random_value
 	for (int i = 0; i< 32; i++) begin
 	  // Write zero data to every address location
 	  gen = random_val.randomize();	  	   
-	  tb.write_mem(debug, random_val.addr, random_val.data);   	
-	  tb.read_mem(debug, random_val.addr, rdata);
-          // check each memory location for data = 'h00
-	  if ( rdata !== random_val.data )
-	     error_status += 1;
+	  tb.write_mem(debug, random_val.addr, random_val.data);
+   	  dynarr[random_val.addr] = random_val.data;	  
 	  cg_inst.sample();
         end
+	for (int i = 0; i< 32; i++) begin
+	  gen = random_val.randomize();
+	  tb.read_mem(0, random_val.addr, rdata);
+          // check each memory location for data = 'h00
+	  if ( rdata === 'x )
+	    $display("Unwritten at address: %b", random_val.addr);
+	  else if ( rdata === dynarr[random_val.addr] )
+	    $display("Received correctly at address %b", random_val.addr);
+	  else begin
+	    $display("Error at address %b", random_val.addr);
+	    $display("Expect: %h, got: %h", dynarr[random_val.addr], rdata);
+	    error_status += 1; 
+	  end
+	end		   
 
 	// print results of test
 	printstatus(error_status);
+	dynarr.delete();
 	$finish;
      end
    
