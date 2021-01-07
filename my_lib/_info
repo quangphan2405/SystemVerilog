@@ -10,10 +10,10 @@ z2
 cModel Technology
 Z0 d/home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog
 T_opt
-!s110 1610045327
-VDNK1;=da9?ORF_Qc9aiAg3
+!s110 1610045937
+VAdBUU]IWDz<H]@Rc_Q4O_1
 Z1 04 3 4 work top fast 0
-=1-005056b17221-5ff7578f-367e0-1f95
+=1-005056b17221-5ff759f1-43e2f-2ff4
 o-quiet -auto_acc_if_foreign -work work +acc
 Z2 tCvgOpt 0
 n@_opt
@@ -360,25 +360,25 @@ R9
 R2
 vmem_test
 R18
-!s110 1610045314
+!s110 1610045935
 !i10b 1
-!s100 S6P0bEE9Y:>EOZ2ch4Y?E1
-I1d1YA;OE:;MCcD3H;PdC@0
+!s100 M9_:2@YaZYGG>]o4oLia?0
+Ig6>mmR18^0fOYAE1A^R2X1
 R7
-!s105 mem_test_assoc_sv_unit
+!s105 mem_test_queue_sv_unit
 S1
 R20
-w1610045309
-8/home/phanq/Cadence/system_verilog/SystemVerilog/lab17-memarr/mem_test_assoc.sv
-F/home/phanq/Cadence/system_verilog/SystemVerilog/lab17-memarr/mem_test_assoc.sv
+w1610045930
+8/home/phanq/Cadence/system_verilog/SystemVerilog/lab17-memarr/mem_test_queue.sv
+F/home/phanq/Cadence/system_verilog/SystemVerilog/lab17-memarr/mem_test_queue.sv
 L0 13
 R22
 r1
 !s85 0
 31
-!s108 1610045314.000000
-!s107 /home/phanq/Cadence/system_verilog/SystemVerilog/lab17-memarr/mem_test_assoc.sv|
-!s90 -reportprogress|300|-work|work|/home/phanq/Cadence/system_verilog/SystemVerilog/lab17-memarr/mem_test_assoc.sv|
+!s108 1610045934.000000
+!s107 /home/phanq/Cadence/system_verilog/SystemVerilog/lab17-memarr/mem_test_queue.sv|
+!s90 -reportprogress|300|-work|work|/home/phanq/Cadence/system_verilog/SystemVerilog/lab17-memarr/mem_test_queue.sv|
 !i113 0
 R9
 R2
