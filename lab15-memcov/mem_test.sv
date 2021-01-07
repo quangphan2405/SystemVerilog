@@ -45,7 +45,7 @@ endclass : random_value
 				 bins locase  = { [8'h61:8'h7a] };
 				 bins restofb = default;
 				 }
-   endgroup : cp				 
+   endgroup : cg				 
    
    // SYSTEMVERILOG: timeunit and timeprecision specification
    timeunit 1ns;
@@ -72,7 +72,7 @@ endclass : random_value
      begin: memtest
 	int error_status;
 
-	knob = 2'b11;
+	knob = AZ_weight;
 	random_val = new(0, 0, knob);
 	cg_inst = new;	
 

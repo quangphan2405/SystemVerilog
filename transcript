@@ -1,420 +1,99 @@
-# //  ModelSim SE-64 10.7d Feb 15 2019 Linux 3.10.0-1160.11.1.el7.x86_64
-# //
-# //  Copyright 1991-2019 Mentor Graphics Corporation
-# //  All Rights Reserved.
-# //
-# //  ModelSim SE-64 and its associated documentation contain trade
-# //  secrets and commercial or financial information that are the property of
-# //  Mentor Graphics Corporation and are privileged, confidential,
-# //  and exempt from disclosure under the Freedom of Information Act,
-# //  5 U.S.C. Section 552. Furthermore, this information
-# //  is prohibited from disclosure under the Trade Secrets Act,
-# //  18 U.S.C. Section 1905.
-# //
 vcom
-vlog -reportprogress 300 -work work /home/phanq/Cadence/system_verilog/SystemVerilog/lab14-memvif/intf.sv
-# Model Technology ModelSim SE-64 vlog 10.7d Compiler 2019.02 Feb 15 2019
-# Start time: 03:01:36 on Jan 07,2021
-# vlog -reportprogress 300 -work work /home/phanq/Cadence/system_verilog/SystemVerilog/lab14-memvif/intf.sv 
+vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab15-memcov/intf.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1_3 Compiler 2020.04 Apr 27 2020
+# Start time: 16:48:38 on Jan 07,2021
+# vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab15-memcov/intf.sv 
 # -- Compiling interface bus
 # 
 # Top level modules:
 # 	--none--
-# End time: 03:01:36 on Jan 07,2021, Elapsed time: 0:00:00
+# End time: 16:48:38 on Jan 07,2021, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-vlog -reportprogress 300 -work work /home/phanq/Cadence/system_verilog/SystemVerilog/lab14-memvif/mem.sv
-# Model Technology ModelSim SE-64 vlog 10.7d Compiler 2019.02 Feb 15 2019
-# Start time: 03:01:36 on Jan 07,2021
-# vlog -reportprogress 300 -work work /home/phanq/Cadence/system_verilog/SystemVerilog/lab14-memvif/mem.sv 
+vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab15-memcov/mem.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1_3 Compiler 2020.04 Apr 27 2020
+# Start time: 16:48:38 on Jan 07,2021
+# vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab15-memcov/mem.sv 
 # -- Compiling module mem
 # 
 # Top level modules:
 # 	mem
-# End time: 03:01:36 on Jan 07,2021, Elapsed time: 0:00:00
+# End time: 16:48:38 on Jan 07,2021, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-vlog -reportprogress 300 -work work /home/phanq/Cadence/system_verilog/SystemVerilog/lab14-memvif/mem_test.sv
-# Model Technology ModelSim SE-64 vlog 10.7d Compiler 2019.02 Feb 15 2019
-# Start time: 03:01:36 on Jan 07,2021
-# vlog -reportprogress 300 -work work /home/phanq/Cadence/system_verilog/SystemVerilog/lab14-memvif/mem_test.sv 
+vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab15-memcov/mem_test.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1_3 Compiler 2020.04 Apr 27 2020
+# Start time: 16:48:38 on Jan 07,2021
+# vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab15-memcov/mem_test.sv 
 # -- Compiling module mem_test
-# ** Error: /home/phanq/Cadence/system_verilog/SystemVerilog/lab14-memvif/mem_test.sv(111): (vlog-2730) Undefined variable: 'rdata'.
-# End time: 03:01:36 on Jan 07,2021, Elapsed time: 0:00:00
+# ** Error (suppressible): /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab15-memcov/mem_test.sv(48): (vlog-13163) End label 'cp' does not match covergroup name on line 41.
+# End time: 16:48:38 on Jan 07,2021, Elapsed time: 0:00:00
 # Errors: 1, Warnings: 0
-vlog -reportprogress 300 -work work /home/phanq/Cadence/system_verilog/SystemVerilog/lab14-memvif/top.sv
-# Model Technology ModelSim SE-64 vlog 10.7d Compiler 2019.02 Feb 15 2019
-# Start time: 03:01:36 on Jan 07,2021
-# vlog -reportprogress 300 -work work /home/phanq/Cadence/system_verilog/SystemVerilog/lab14-memvif/top.sv 
+vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab15-memcov/top.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1_3 Compiler 2020.04 Apr 27 2020
+# Start time: 16:48:38 on Jan 07,2021
+# vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab15-memcov/top.sv 
 # -- Compiling module top
 # 
 # Top level modules:
 # 	top
-# End time: 03:01:36 on Jan 07,2021, Elapsed time: 0:00:00
+# End time: 16:48:38 on Jan 07,2021, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
+vsim work.top
+# vsim work.top 
+# Start time: 16:49:05 on Jan 07,2021
+# Loading sv_std.std
+# Loading work.top
+# Loading work.bus
+# ** Fatal: Bad library format, library not compiled with Intel FPGA Edition compiler.
+#    Time: 0 ps  Iteration: 0  Instance: /top File: /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab15-memcov/top.sv
+# FATAL ERROR while loading design
+# Error loading design
+# End time: 16:49:06 on Jan 07,2021, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
 vcom
-vlog -reportprogress 300 -work work /home/phanq/Cadence/system_verilog/SystemVerilog/lab14-memvif/mem_test.sv
-# Model Technology ModelSim SE-64 vlog 10.7d Compiler 2019.02 Feb 15 2019
-# Start time: 03:02:58 on Jan 07,2021
-# vlog -reportprogress 300 -work work /home/phanq/Cadence/system_verilog/SystemVerilog/lab14-memvif/mem_test.sv 
+vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab15-memcov/mem_test.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1_3 Compiler 2020.04 Apr 27 2020
+# Start time: 16:49:39 on Jan 07,2021
+# vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab15-memcov/mem_test.sv 
 # -- Compiling module mem_test
+# ** Error (suppressible): /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab15-memcov/mem_test.sv(48): (vlog-13163) End label 'cp' does not match covergroup name on line 41.
+# End time: 16:49:39 on Jan 07,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vcom
+vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab15-memcov/mem_test.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1_3 Compiler 2020.04 Apr 27 2020
+# Start time: 16:50:03 on Jan 07,2021
+# vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab15-memcov/mem_test.sv 
+# -- Compiling module mem_test
+# ** Error (suppressible): /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab15-memcov/mem_test.sv(75): (vlog-8386) An enum variable 'knob' of type 'knob_t' may only be assigned the same enum typed variable or one of its values. Value '3' requires an explicit cast.
+# ** Warning: /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab15-memcov/mem_test.sv(117): (vlog-2186) SystemVerilog testbench feature
+# (randomization, coverage or assertion) detected in the design.
+# These features are only supported in Questasim.
+# End time: 16:50:03 on Jan 07,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 1
+vcom
+vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab15-memcov/mem_test.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1_3 Compiler 2020.04 Apr 27 2020
+# Start time: 16:50:44 on Jan 07,2021
+# vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab15-memcov/mem_test.sv 
+# -- Compiling module mem_test
+# ** Warning: /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab15-memcov/mem_test.sv(117): (vlog-2186) SystemVerilog testbench feature
+# (randomization, coverage or assertion) detected in the design.
+# These features are only supported in Questasim.
 # 
 # Top level modules:
 # 	mem_test
-# End time: 03:02:58 on Jan 07,2021, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
+# End time: 16:50:44 on Jan 07,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
 vsim
 # vsim work.top 
-# Start time: 03:03:09 on Jan 07,2021
-# ** Note: (vsim-3812) Design is being optimized...
+# Start time: 16:50:57 on Jan 07,2021
 # Loading sv_std.std
-# Loading work.top(fast)
-# Loading work.bus(fast)
-# Loading work.mem_test(fast)
-# Loading work.mem(fast)
-# Loading work.bus(fast)
-run -all
-# Random Data Test
-# At write address: 11010 , data value: v
-# At read address: 11010, data value: v
-# At write address: 10111 , data value:  
-# At read address: 10111, data value:  
-# At write address: 00001 , data value: g
-# At read address: 00001, data value: g
-# At write address: 10010 , data value: <
-# At read address: 10010, data value: <
-# At write address: 01100 , data value: e
-# At read address: 01100, data value: e
-# At write address: 11001 , data value: q
-# At read address: 11001, data value: q
-# At write address: 01011 , data value: '
-# At read address: 01011, data value: '
-# At write address: 00100 , data value: [
-# At read address: 00100, data value: [
-# At write address: 10001 , data value: C
-# At read address: 10001, data value: C
-# At write address: 00011 , data value: .
-# At read address: 00011, data value: .
-# At write address: 11100 , data value: |
-# At read address: 11100, data value: |
-# At write address: 01110 , data value: #
-# At read address: 01110, data value: #
-# At write address: 11011 , data value: >
-# At read address: 11011, data value: >
-# At write address: 10100 , data value: ~
-# At read address: 10100, data value: ~
-# At write address: 00110 , data value: l
-# At read address: 00110, data value: l
-# At write address: 10011 , data value: )
-# At read address: 10011, data value: )
-# At write address: 01101 , data value: U
-# At read address: 01101, data value: U
-# At write address: 11110 , data value: $
-# At read address: 11110, data value: $
-# At write address: 01000 , data value:  
-# At read address: 01000, data value:  
-# At write address: 00101 , data value: i
-# At read address: 00101, data value: i
-# At write address: 10110 , data value: m
-# At read address: 10110, data value: m
-# At write address: 00000 , data value: &
-# At read address: 00000, data value: &
-# At write address: 11101 , data value: i
-# At read address: 11101, data value: i
-# At write address: 01111 , data value: C
-# At read address: 01111, data value: C
-# At write address: 11000 , data value: u
-# At read address: 11000, data value: u
-# At write address: 10101 , data value: Z
-# At read address: 10101, data value: Z
-# At write address: 01010 , data value: L
-# At read address: 01010, data value: L
-# At write address: 00111 , data value: W
-# At read address: 00111, data value: W
-# At write address: 10000 , data value: +
-# At read address: 10000, data value: +
-# At write address: 00010 , data value: t
-# At read address: 00010, data value: t
-# At write address: 11111 , data value: .
-# At read address: 11111, data value: .
-# At write address: 01001 , data value: m
-# At read address: 01001, data value: m
-# TEST PASSED
-# ** Note: $finish    : /home/phanq/Cadence/system_verilog/SystemVerilog/lab14-memvif/mem_test.sv(117)
-#    Time: 1270 ns  Iteration: 1  Instance: /top/test
-# 1
-# Break in Module mem_test at /home/phanq/Cadence/system_verilog/SystemVerilog/lab14-memvif/mem_test.sv line 117
-quit -sim
-# End time: 03:03:41 on Jan 07,2021, Elapsed time: 0:00:32
-# Errors: 0, Warnings: 0
-vsim -voptargs=+acc work.top
-# vsim -voptargs="+acc" work.top 
-# Start time: 03:03:44 on Jan 07,2021
-# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
-# Loading sv_std.std
-# Loading work.top(fast)
-# Loading work.bus(fast)
-# Loading work.mem_test(fast)
-# Loading work.mem(fast)
-# Loading work.bus(fast)
-run -all
-# Random Data Test
-# At write address: 11010 , data value: v
-# At read address: 11010, data value: v
-# At write address: 10111 , data value:  
-# At read address: 10111, data value:  
-# At write address: 00001 , data value: g
-# At read address: 00001, data value: g
-# At write address: 10010 , data value: <
-# At read address: 10010, data value: <
-# At write address: 01100 , data value: e
-# At read address: 01100, data value: e
-# At write address: 11001 , data value: q
-# At read address: 11001, data value: q
-# At write address: 01011 , data value: '
-# At read address: 01011, data value: '
-# At write address: 00100 , data value: [
-# At read address: 00100, data value: [
-# At write address: 10001 , data value: C
-# At read address: 10001, data value: C
-# At write address: 00011 , data value: .
-# At read address: 00011, data value: .
-# At write address: 11100 , data value: |
-# At read address: 11100, data value: |
-# At write address: 01110 , data value: #
-# At read address: 01110, data value: #
-# At write address: 11011 , data value: >
-# At read address: 11011, data value: >
-# At write address: 10100 , data value: ~
-# At read address: 10100, data value: ~
-# At write address: 00110 , data value: l
-# At read address: 00110, data value: l
-# At write address: 10011 , data value: )
-# At read address: 10011, data value: )
-# At write address: 01101 , data value: U
-# At read address: 01101, data value: U
-# At write address: 11110 , data value: $
-# At read address: 11110, data value: $
-# At write address: 01000 , data value:  
-# At read address: 01000, data value:  
-# At write address: 00101 , data value: i
-# At read address: 00101, data value: i
-# At write address: 10110 , data value: m
-# At read address: 10110, data value: m
-# At write address: 00000 , data value: &
-# At read address: 00000, data value: &
-# At write address: 11101 , data value: i
-# At read address: 11101, data value: i
-# At write address: 01111 , data value: C
-# At read address: 01111, data value: C
-# At write address: 11000 , data value: u
-# At read address: 11000, data value: u
-# At write address: 10101 , data value: Z
-# At read address: 10101, data value: Z
-# At write address: 01010 , data value: L
-# At read address: 01010, data value: L
-# At write address: 00111 , data value: W
-# At read address: 00111, data value: W
-# At write address: 10000 , data value: +
-# At read address: 10000, data value: +
-# At write address: 00010 , data value: t
-# At read address: 00010, data value: t
-# At write address: 11111 , data value: .
-# At read address: 11111, data value: .
-# At write address: 01001 , data value: m
-# At read address: 01001, data value: m
-# TEST PASSED
-# ** Note: $finish    : /home/phanq/Cadence/system_verilog/SystemVerilog/lab14-memvif/mem_test.sv(117)
-#    Time: 1270 ns  Iteration: 1  Instance: /top/test
-# 1
-# Break in NamedBeginStat memtest at /home/phanq/Cadence/system_verilog/SystemVerilog/lab14-memvif/mem_test.sv line 117
-quit -sim
-# End time: 03:04:19 on Jan 07,2021, Elapsed time: 0:00:35
-# Errors: 0, Warnings: 0
-vcom
-vlog -reportprogress 300 -work work /home/phanq/Cadence/system_verilog/SystemVerilog/lab14-memvif/mem_test.sv
-# Model Technology ModelSim SE-64 vlog 10.7d Compiler 2019.02 Feb 15 2019
-# Start time: 03:04:23 on Jan 07,2021
-# vlog -reportprogress 300 -work work /home/phanq/Cadence/system_verilog/SystemVerilog/lab14-memvif/mem_test.sv 
-# -- Compiling module mem_test
-# 
-# Top level modules:
-# 	mem_test
-# End time: 03:04:23 on Jan 07,2021, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vsim -voptargs=+acc work.top
-# vsim -voptargs="+acc" work.top 
-# Start time: 03:04:29 on Jan 07,2021
-# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
-# Loading sv_std.std
-# Loading work.top(fast)
-# Loading work.bus(fast)
-# Loading work.mem_test(fast)
-# Loading work.mem(fast)
-# Loading work.bus(fast)
-run -all
-# Random Data Test
-# At write address: 11010 , data value: v
-# At read address: 11010, data value: v
-# At write address: 10111 , data value:  
-# At read address: 10111, data value:  
-# At write address: 00001 , data value: g
-# At read address: 00001, data value: g
-# At write address: 10010 , data value: <
-# At read address: 10010, data value: <
-# At write address: 01100 , data value: e
-# At read address: 01100, data value: e
-# At write address: 11001 , data value: q
-# At read address: 11001, data value: q
-# At write address: 01011 , data value: '
-# At read address: 01011, data value: '
-# At write address: 00100 , data value: [
-# At read address: 00100, data value: [
-# At write address: 10001 , data value: C
-# At read address: 10001, data value: C
-# At write address: 00011 , data value: .
-# At read address: 00011, data value: .
-# At write address: 11100 , data value: |
-# At read address: 11100, data value: |
-# At write address: 01110 , data value: #
-# At read address: 01110, data value: #
-# At write address: 11011 , data value: >
-# At read address: 11011, data value: >
-# At write address: 10100 , data value: ~
-# At read address: 10100, data value: ~
-# At write address: 00110 , data value: l
-# At read address: 00110, data value: l
-# At write address: 10011 , data value: )
-# At read address: 10011, data value: )
-# At write address: 01101 , data value: U
-# At read address: 01101, data value: U
-# At write address: 11110 , data value: $
-# At read address: 11110, data value: $
-# At write address: 01000 , data value:  
-# At read address: 01000, data value:  
-# At write address: 00101 , data value: i
-# At read address: 00101, data value: i
-# At write address: 10110 , data value: m
-# At read address: 10110, data value: m
-# At write address: 00000 , data value: &
-# At read address: 00000, data value: &
-# At write address: 11101 , data value: i
-# At read address: 11101, data value: i
-# At write address: 01111 , data value: C
-# At read address: 01111, data value: C
-# At write address: 11000 , data value: u
-# At read address: 11000, data value: u
-# At write address: 10101 , data value: Z
-# At read address: 10101, data value: Z
-# At write address: 01010 , data value: L
-# At read address: 01010, data value: L
-# At write address: 00111 , data value: W
-# At read address: 00111, data value: W
-# At write address: 10000 , data value: +
-# At read address: 10000, data value: +
-# At write address: 00010 , data value: t
-# At read address: 00010, data value: t
-# At write address: 11111 , data value: .
-# At read address: 11111, data value: .
-# At write address: 01001 , data value: m
-# At read address: 01001, data value: m
-# TEST PASSED
-# ** Note: $finish    : /home/phanq/Cadence/system_verilog/SystemVerilog/lab14-memvif/mem_test.sv(117)
-#    Time: 1270 ns  Iteration: 1  Instance: /top/test
-# 1
-# Break in NamedBeginStat memtest at /home/phanq/Cadence/system_verilog/SystemVerilog/lab14-memvif/mem_test.sv line 117
-quit -sim
-# End time: 03:05:11 on Jan 07,2021, Elapsed time: 0:00:42
-# Errors: 0, Warnings: 0
-vcom
-vlog -reportprogress 300 -work work /home/phanq/Cadence/system_verilog/SystemVerilog/lab14-memvif/mem_test.sv
-# Model Technology ModelSim SE-64 vlog 10.7d Compiler 2019.02 Feb 15 2019
-# Start time: 03:05:16 on Jan 07,2021
-# vlog -reportprogress 300 -work work /home/phanq/Cadence/system_verilog/SystemVerilog/lab14-memvif/mem_test.sv 
-# -- Compiling module mem_test
-# 
-# Top level modules:
-# 	mem_test
-# End time: 03:05:16 on Jan 07,2021, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vsim -voptargs=+acc work.top
-# vsim -voptargs="+acc" work.top 
-# Start time: 03:05:21 on Jan 07,2021
-# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
-# Loading sv_std.std
-# Loading work.top(fast)
-# Loading work.bus(fast)
-# Loading work.mem_test(fast)
-# Loading work.mem(fast)
-# Loading work.bus(fast)
-run -all
-# Random Data Test
-# At write address: 11010 , data value: D
-# At read address: 11010, data value: D
-# At write address: 10111 , data value: K
-# At read address: 10111, data value: K
-# At write address: 00001 , data value: E
-# At read address: 00001, data value: E
-# At write address: 10010 , data value: B
-# At read address: 10010, data value: B
-# At write address: 01100 , data value: X
-# At read address: 01100, data value: X
-# At write address: 11001 , data value: R
-# At read address: 11001, data value: R
-# At write address: 01011 , data value: f
-# At read address: 01011, data value: f
-# At write address: 00100 , data value: J
-# At read address: 00100, data value: J
-# At write address: 10001 , data value: Q
-# At read address: 10001, data value: Q
-# At write address: 00011 , data value: W
-# At read address: 00011, data value: W
-# At write address: 11100 , data value: Z
-# At read address: 11100, data value: Z
-# At write address: 01110 , data value: J
-# At read address: 01110, data value: J
-# At write address: 11011 , data value: M
-# At read address: 11011, data value: M
-# At write address: 10100 , data value: A
-# At read address: 10100, data value: A
-# At write address: 00110 , data value: Z
-# At read address: 00110, data value: Z
-# At write address: 10011 , data value: P
-# At read address: 10011, data value: P
-# At write address: 01101 , data value: D
-# At read address: 01101, data value: D
-# At write address: 11110 , data value: d
-# At read address: 11110, data value: d
-# At write address: 01000 , data value: a
-# At read address: 01000, data value: a
-# At write address: 00101 , data value: r
-# At read address: 00101, data value: r
-# At write address: 10110 , data value: a
-# At read address: 10110, data value: a
-# At write address: 00000 , data value: U
-# At read address: 00000, data value: U
-# At write address: 11101 , data value: S
-# At read address: 11101, data value: S
-# At write address: 01111 , data value: Y
-# At read address: 01111, data value: Y
-# At write address: 11000 , data value: N
-# At read address: 11000, data value: N
-# At write address: 10101 , data value: C
-# At read address: 10101, data value: C
-# At write address: 01010 , data value: w
-# At read address: 01010, data value: w
-# At write address: 00111 , data value: G
-# At read address: 00111, data value: G
-# At write address: 10000 , data value: D
-# At read address: 10000, data value: D
-# At write address: 00010 , data value: T
-# At read address: 00010, data value: T
-# At write address: 11111 , data value: Q
-# At read address: 11111, data value: Q
-# At write address: 01001 , data value: A
-# At read address: 01001, data value: A
-# TEST PASSED
-# ** Note: $finish    : /home/phanq/Cadence/system_verilog/SystemVerilog/lab14-memvif/mem_test.sv(117)
-#    Time: 1270 ns  Iteration: 1  Instance: /top/test
-# 1
-# Break in NamedBeginStat memtest at /home/phanq/Cadence/system_verilog/SystemVerilog/lab14-memvif/mem_test.sv line 117
-# End time: 03:05:33 on Jan 07,2021, Elapsed time: 0:00:12
-# Errors: 0, Warnings: 0
+# Loading work.top
+# Loading work.bus
+# Loading work.mem_test
+# Loading work.mem
+# ** Error: (vsim-1) Unable to checkout verification license - testbench generation feature (randomize, randcase, randsequence, covergroup) is only supported with QuestaSim.
+#    Time: 0 ps  Iteration: 0  Instance: /top File: /home/quangphan2903/TUNI/Cadence/systemverilog/SystemVerilog/lab15-memcov/top.sv
+# Error loading design
+# End time: 16:50:57 on Jan 07,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
