@@ -82,6 +82,7 @@ endclass : random_value
 
 	knob = AZ_weight;
 	random_val = new(0, 0, knob);
+	dynarr = new[32];
 	
 	$display("Random Data");
 
@@ -97,10 +98,8 @@ endclass : random_value
 	if (assoc.first(idx))
 	  do begin
 	     tb.read_mem(~debug, idx, rdata);
-	     if (rdata !== assoc[idx]) begin
+	     if (rdata !== assoc[idx])
 	       $display("Error at address: %b", idx);
-	       error_status += 1;
-	     end	     
 	  end
 	while (assoc.next(idx));
 
