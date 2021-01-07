@@ -45,7 +45,7 @@ endclass : random_value
 				 bins locase  = { [8'h61:8'h7a] };
 				 bins restofb = default;
 				 }
-      c2: coverpoint tb.data_out {
+      c3: coverpoint tb.data_out {
 				  bins upcase  = { [8'h41:8'h5a] };
 				  bins locase  = { [8'h61:8'h7a] };
 				  bins restofb = default;
@@ -65,9 +65,9 @@ endclass : random_value
    knob_t knob;
    cg cg_inst = new();
 
-   logic [7:0] 	dynarr[];
+   logic [7:0] 	assoc[int];
+   int 		idx;
    
-
    // Monitor Results
    initial begin
       $timeformat ( -9, 0, " ns", 9 );
@@ -82,23 +82,31 @@ endclass : random_value
 
 	knob = AZ_weight;
 	random_val = new(0, 0, knob);
-	dynarr = new[32];
 	
 	$display("Random Data");
 
 	for (int i = 0; i< 32; i++) begin
 	  // Write zero data to every address location
 	  gen = random_val.randomize();	  	   
-	  tb.write_mem(debug, random_val.addr, random_val.data);   	
-	  tb.read_mem(debug, random_val.addr, rdata);
-          // check each memory location for data = 'h00
-	  if ( rdata !== random_val.data )
-	     error_status += 1;
+	  tb.write_mem(debug, random_val.addr, random_val.data);
+   	  assoc[random_val.addr] = random_val.data;	  
 	  cg_inst.sample();
         end
+	
+	$display("Addresses assigned: %0d", assoc.num());
+	if (assoc.first(idx))
+	  do begin
+	     tb.read_mem(~debug, idx, rdata);
+	     if (rdata !== assoc[idx]) begin
+	       $display("Error at address: %b", idx);
+	       error_status += 1;
+	     end	     
+	  end
+	while (assoc.next(idx));
 
 	// print results of test
 	printstatus(error_status);
+	assoc.delete();
 	$finish;
      end
    
