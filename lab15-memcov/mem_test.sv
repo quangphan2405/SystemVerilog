@@ -45,7 +45,7 @@ endclass : random_value
 				 bins locase  = { [8'h61:8'h7a] };
 				 bins restofb = default;
 				 }
-      c2: coverpoint tb.data_out {
+      c3: coverpoint tb.data_out {
 				  bins upcase  = { [8'h41:8'h5a] };
 				  bins locase  = { [8'h61:8'h7a] };
 				  bins restofb = default;
