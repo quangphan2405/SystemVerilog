@@ -97,7 +97,7 @@ endclass : random_value
 	int error_status;
 
 	// Class construction
-	random_val = new(16, 16, knob_t'(2'b00));
+	random_val = new(0, 0, knob_t'(2'b11));
 	random_val.configure(tb);
 
 	$display("Random Data Test");
@@ -105,10 +105,10 @@ endclass : random_value
 	for (int i = 0; i< 32; i++) begin
 	  // Write zero data to every address location
 	  gen = random_val.randomize();
-	  tb.write_mem(debug, random_val.addr, random_val.data);   	
-	  tb.read_mem(debug, random_val.addr, rdata);
+	  random_val.write_mem(debug);  	
+	  random_val.read_mem(debug);
           // check each memory location for data = 'h00
-	  if ( rdata !== random_val.data )
+	  if ( random_val.rdata !== random_val.data )
 	     error_status += 1;
         end
 
