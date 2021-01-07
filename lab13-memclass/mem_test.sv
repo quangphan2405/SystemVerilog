@@ -11,16 +11,29 @@
 ///////////////////////////////////////////////////////////////////////////
 
 module mem_test ( bus tb );
+   typedef enum bit [1:0] {ASCII = 0, AZ = 1, az = 2, AZ_weight = 3} knob_t;
 
 class random_value;
    randc bit [4:0] addr;
    rand  bit [7:0] data;
+   knob_t knob;
 
-   constraint c1 { data dist { [8'h41:8'h5a]:=80, [8'h61:8'h7a]:=20 }; };
+   constraint c1 { 
+   if (knob == 2'b00)
+     data inside { [8'h20:8'h7f] };
+   else if (knob == 2'b01)
+     data inside { [8'h41:8'h5a] };
+   else if (knob == 2'b10)
+     data inside { [8'h61:8'h7a] };
+   else     
+     data dist { [8'h41:8'h5a]:=80, [8'h61:8'h7a]:=20 }; 
+   };
 
-   function new(input add, dat);
+   function new(input add, dat, 
+		input knob_t mode);
       addr = add;
       data = dat;
+      knob = mode;      
    endfunction : new
 
 endclass : random_value
@@ -34,8 +47,8 @@ endclass : random_value
    logic [7:0]  rdata;      // stores data read from memory for checking
    logic [7:0]  random_data;
    int 	        gen;
-   random_value random_val = new(16,16);
-   
+   random_value random_val = new(16, 16, knob_t'(2'b00));
+   knob_t knob;   
 
    // Monitor Results
    initial begin
@@ -88,9 +101,6 @@ endclass : random_value
 	for (int i = 0; i< 32; i++) begin
 	  // Write zero data to every address location
 	  gen = random_val.randomize();
-	  
-	  // gen = randomize(random_data) with { random_data dist 
-	    // { [8'h41:8'h5a]:=8, [8'h61:8'h7a]:=2 }; };
 	  tb.write_mem(debug, random_val.addr, random_val.data);   	
 	  tb.read_mem(debug, random_val.addr, rdata);
           // check each memory location for data = 'h00
