@@ -41,10 +41,15 @@ endclass : random_value
    covergroup cg @(posedge tb.clk);
       c1: coverpoint tb.addr;
       c2: coverpoint tb.data_in {
-				 bins upcase  =  { [8'h41:8'h5a] };
+				 bins upcase  = { [8'h41:8'h5a] };
 				 bins locase  = { [8'h61:8'h7a] };
 				 bins restofb = default;
 				 }
+      c2: coverpoint tb.data_out {
+				  bins upcase  = { [8'h41:8'h5a] };
+				  bins locase  = { [8'h61:8'h7a] };
+				  bins restofb = default;
+				  }
    endgroup : cg				 
    
    // SYSTEMVERILOG: timeunit and timeprecision specification
@@ -58,7 +63,7 @@ endclass : random_value
    int 	        gen;
    random_value random_val;
    knob_t knob;
-   cg cg_inst;
+   cg cg_inst = new();
 
    // Monitor Results
    initial begin
@@ -73,53 +78,19 @@ endclass : random_value
 	int error_status;
 
 	knob = AZ_weight;
-	random_val = new(0, 0, knob);
-	cg_inst = new;	
-
-	$display("Clear Memory Test");
-
-	for (int i = 0; i< 32; i++)
-	  // Write zero data to every address location
-	  tb.write_mem(debug, i, 'h00);     
-	for (int i = 0; i<32; i++)
-	  begin 
-             // Read every address location
-	     tb.read_mem(debug, i, rdata);
-             // check each memory location for data = 'h00
-	     if ( rdata !== 'h00 )
-	       error_status += 1;
-	  end
-
-	// print results of test
-	printstatus(error_status);
-	
-	$display("Data = Address Test");
-
-	for (int i = 0; i< 32; i++)
-	  // Write data = address to every address location
-	  tb.write_mem(debug, i , i);
-	for (int i = 0; i<32; i++)
-	  begin
-             // Read every address location
-	     tb.read_mem(debug, i , rdata);
-             // check each memory location for data = address
-	     if ( rdata !== i )
-	       error_status += 1;
-	  end
-
-	// print results of test
-	printstatus(error_status);
+	random_val = new(0, 0, knob);	
 
 	$display("Random Data");
 
 	for (int i = 0; i< 32; i++) begin
 	  // Write zero data to every address location
-	  gen = random_val.randomize();
+	  gen = random_val.randomize();	  	   
 	  tb.write_mem(debug, random_val.addr, random_val.data);   	
 	  tb.read_mem(debug, random_val.addr, rdata);
           // check each memory location for data = 'h00
 	  if ( rdata !== random_val.data )
 	     error_status += 1;
+	  cg_inst.sample();
         end
 
 	// print results of test
