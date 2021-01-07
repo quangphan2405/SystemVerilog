@@ -11,167 +11,89 @@
 # //  is prohibited from disclosure under the Trade Secrets Act,
 # //  18 U.S.C. Section 1905.
 # //
+vcom
+log
+# Active logfile is not in simulation mode
 vlog
-vlog -reportprogress 300 -work work /home/phanq/Cadence/system_verilog/SystemVerilog/lab17-memarr/mem_test_assoc.sv
+vlog -reportprogress 300 -work work /home/phanq/Cadence/system_verilog/SystemVerilog/lab18-svamux/mux.sv
 # Model Technology ModelSim SE-64 vlog 10.7d Compiler 2019.02 Feb 15 2019
-# Start time: 20:48:18 on Jan 07,2021
-# vlog -reportprogress 300 -work work /home/phanq/Cadence/system_verilog/SystemVerilog/lab17-memarr/mem_test_assoc.sv 
-# -- Compiling module mem_test
-# ** Error: /home/phanq/Cadence/system_verilog/SystemVerilog/lab17-memarr/mem_test_assoc.sv(85): (vlog-2730) Undefined variable: 'dynarr'.
-# End time: 20:48:18 on Jan 07,2021, Elapsed time: 0:00:00
-# Errors: 1, Warnings: 0
-vlog -reportprogress 300 -work work /home/phanq/Cadence/system_verilog/SystemVerilog/lab17-memarr/mem_test_assoc.sv
-# Model Technology ModelSim SE-64 vlog 10.7d Compiler 2019.02 Feb 15 2019
-# Start time: 20:48:34 on Jan 07,2021
-# vlog -reportprogress 300 -work work /home/phanq/Cadence/system_verilog/SystemVerilog/lab17-memarr/mem_test_assoc.sv 
-# -- Compiling module mem_test
+# Start time: 23:00:18 on Jan 07,2021
+# vlog -reportprogress 300 -work work /home/phanq/Cadence/system_verilog/SystemVerilog/lab18-svamux/mux.sv 
+# -- Compiling module mux
 # 
 # Top level modules:
-# 	mem_test
-# End time: 20:48:34 on Jan 07,2021, Elapsed time: 0:00:00
+# 	mux
+# End time: 23:00:18 on Jan 07,2021, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-vsim -voptargs=+acc work.top
-# vsim -voptargs="+acc" work.top 
-# Start time: 20:48:47 on Jan 07,2021
-# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
-# Loading sv_std.std
-# Loading work.top(fast)
-# Loading work.bus(fast)
-# Loading work.mem_test(fast)
-# Loading work.mem(fast)
-run -all
-# Random Data
-# At write address: 11010 , data value: D
-# At write address: 11011 , data value: K
-# At write address: 01011 , data value: E
-# At write address: 01101 , data value: B
-# At write address: 01000 , data value: X
-# At write address: 11100 , data value: R
-# At write address: 01110 , data value: f
-# At write address: 00111 , data value: J
-# At write address: 10001 , data value: Q
-# At write address: 01010 , data value: W
-# At write address: 10101 , data value: Z
-# At write address: 10111 , data value: J
-# At write address: 01011 , data value: M
-# At write address: 00100 , data value: A
-# At write address: 11001 , data value: Z
-# At write address: 11110 , data value: P
-# At write address: 10100 , data value: D
-# At write address: 01111 , data value: d
-# At write address: 11100 , data value: a
-# At write address: 10011 , data value: r
-# At write address: 10111 , data value: a
-# At write address: 11010 , data value: U
-# At write address: 00000 , data value: S
-# At write address: 01111 , data value: Y
-# At write address: 11101 , data value: N
-# At write address: 10011 , data value: C
-# At write address: 00110 , data value: w
-# At write address: 10001 , data value: G
-# At write address: 00001 , data value: D
-# At write address: 11000 , data value: T
-# At write address: 00100 , data value: Q
-# At write address: 00110 , data value: A
-# Addresses assigned: 23
-# TEST PASSED
-# ** Note: $finish    : /home/phanq/Cadence/system_verilog/SystemVerilog/lab17-memarr/mem_test_assoc.sv(108)
-#    Time: 1090 ns  Iteration: 1  Instance: /top/test
-# 1
-# Break in NamedBeginStat memtest at /home/phanq/Cadence/system_verilog/SystemVerilog/lab17-memarr/mem_test_assoc.sv line 108
-vlog
-vlog -reportprogress 300 -work work /home/phanq/Cadence/system_verilog/SystemVerilog/lab17-memarr/mem_test_queue.sv
+vlog -reportprogress 300 -work work /home/phanq/Cadence/system_verilog/SystemVerilog/lab18-svamux/mux_test.sv
 # Model Technology ModelSim SE-64 vlog 10.7d Compiler 2019.02 Feb 15 2019
-# Start time: 20:57:59 on Jan 07,2021
-# vlog -reportprogress 300 -work work /home/phanq/Cadence/system_verilog/SystemVerilog/lab17-memarr/mem_test_queue.sv 
-# -- Compiling module mem_test
+# Start time: 23:00:18 on Jan 07,2021
+# vlog -reportprogress 300 -work work /home/phanq/Cadence/system_verilog/SystemVerilog/lab18-svamux/mux_test.sv 
+# -- Compiling module t_mux
 # 
 # Top level modules:
-# 	mem_test
-# End time: 20:57:59 on Jan 07,2021, Elapsed time: 0:00:00
+# 	t_mux
+# End time: 23:00:18 on Jan 07,2021, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-vsim
-# End time: 20:58:33 on Jan 07,2021, Elapsed time: 0:09:46
-# Errors: 0, Warnings: 0
-# vsim -voptargs="+acc" work.top 
-# Start time: 20:58:33 on Jan 07,2021
-# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
-# ** Error (suppressible): /home/phanq/Cadence/system_verilog/SystemVerilog/lab17-memarr/mem_test_queue.sv(109): (vopt-7063) Failed to find 'assoc' in hierarchical name 'assoc.delete'.
-#         Region: top.test
-# Optimization failed
-# Error loading design
-run -all
-# End time: 20:58:34 on Jan 07,2021, Elapsed time: 0:00:01
-# Errors: 1, Warnings: 0
-# No Design Loaded!
-vsim -voptargs=+acc work.top
-# vsim -voptargs="+acc" work.top 
-# Start time: 20:58:34 on Jan 07,2021
-# ** Note: (vsim-3812) Design is being optimized...
-# ** Error (suppressible): /home/phanq/Cadence/system_verilog/SystemVerilog/lab17-memarr/mem_test_queue.sv(109): (vopt-7063) Failed to find 'assoc' in hierarchical name 'assoc.delete'.
-#         Region: top.test
-# Optimization failed
-# Error loading design
-# End time: 20:58:34 on Jan 07,2021, Elapsed time: 0:00:00
-# Errors: 1, Warnings: 0
-vlog -reportprogress 300 -work work /home/phanq/Cadence/system_verilog/SystemVerilog/lab17-memarr/mem_test_queue.sv
-# Model Technology ModelSim SE-64 vlog 10.7d Compiler 2019.02 Feb 15 2019
-# Start time: 20:58:54 on Jan 07,2021
-# vlog -reportprogress 300 -work work /home/phanq/Cadence/system_verilog/SystemVerilog/lab17-memarr/mem_test_queue.sv 
-# -- Compiling module mem_test
-# 
-# Top level modules:
-# 	mem_test
-# End time: 20:58:55 on Jan 07,2021, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-vsim -voptargs=+acc work.top
-# vsim -voptargs="+acc" work.top 
-# Start time: 20:58:57 on Jan 07,2021
+vsim -voptargs=+acc work.t_mux
+# vsim -voptargs="+acc" work.t_mux 
+# Start time: 23:00:35 on Jan 07,2021
 # ** Note: (vsim-3812) Design is being optimized...
 # Loading sv_std.std
-# Loading work.top(fast)
-# Loading work.bus(fast)
-# Loading work.mem_test(fast)
-# Loading work.mem(fast)
+# Loading work.t_mux(fast)
+# Loading work.mux(fast)
 run -all
-# Random Data
-# At write address: 11010 , data value: D
-# At write address: 10111 , data value: K
-# At write address: 00001 , data value: E
-# At write address: 10010 , data value: B
-# At write address: 01100 , data value: X
-# At write address: 11001 , data value: R
-# At write address: 01011 , data value: f
-# At write address: 00100 , data value: J
-# At write address: 10001 , data value: Q
-# At write address: 00011 , data value: W
-# At write address: 11100 , data value: Z
-# At write address: 01110 , data value: J
-# At write address: 11011 , data value: M
-# At write address: 10100 , data value: A
-# At write address: 00110 , data value: Z
-# At write address: 10011 , data value: P
-# At write address: 01101 , data value: D
-# At write address: 11110 , data value: d
-# At write address: 01000 , data value: a
-# At write address: 00101 , data value: r
-# At write address: 10110 , data value: a
-# At write address: 00000 , data value: U
-# At write address: 11101 , data value: S
-# At write address: 01111 , data value: Y
-# At write address: 11000 , data value: N
-# At write address: 10101 , data value: C
-# At write address: 01010 , data value: w
-# At write address: 00111 , data value: G
-# At write address: 10000 , data value: D
-# At write address: 00010 , data value: T
-# At write address: 11111 , data value: Q
-# At write address: 01001 , data value: A
-# Addresses assigned: 32
-# TEST PASSED
-# ** Note: $finish    : /home/phanq/Cadence/system_verilog/SystemVerilog/lab17-memarr/mem_test_queue.sv(109)
-#    Time: 1270 ns  Iteration: 1  Instance: /top/test
-# 1
-# Break in NamedBeginStat memtest at /home/phanq/Cadence/system_verilog/SystemVerilog/lab17-memarr/mem_test_queue.sv line 109
-# End time: 20:59:18 on Jan 07,2021, Elapsed time: 0:00:21
-# Errors: 0, Warnings: 0
+# Starting 1st set of test vectors.
+# Finished 1st set of test vectors.
+# Starting 2nd set of test vectors.
+# Finished 2nd set of test vectors.
+# ** Note: $stop    : /home/phanq/Cadence/system_verilog/SystemVerilog/lab18-svamux/mux_test.sv(79)
+#    Time: 117 ns  Iteration: 0  Instance: /t_mux
+# Break in NamedBeginStat TEST at /home/phanq/Cadence/system_verilog/SystemVerilog/lab18-svamux/mux_test.sv line 79
+restart
+# ** Note: (vsim-8009) Loading existing optimized design _opt2
+# Loading work.t_mux(fast)
+# Loading work.mux(fast)
+add wave -position insertpoint sim:/t_mux/mux1/ASSERT1/*
+# (vish-4014) No objects found matching '/t_mux/mux1/ASSERT1/*'.
+add wave -position insertpoint sim:/t_mux/mux1/ASSERT3/*
+# (vish-4014) No objects found matching '/t_mux/mux1/ASSERT3/*'.
+add wave -position insertpoint sim:/t_mux/mux1/*
+vsim -voptargs=+acc work.t_mux
+# End time: 23:02:43 on Jan 07,2021, Elapsed time: 0:02:08
+# Errors: 2, Warnings: 0
+# vsim -voptargs="+acc" work.t_mux 
+# Start time: 23:02:43 on Jan 07,2021
+# ** Note: (vsim-8009) Loading existing optimized design _opt2
+# Loading sv_std.std
+# Loading work.t_mux(fast)
+# Loading work.mux(fast)
+run -all
+# Starting 1st set of test vectors.
+# Finished 1st set of test vectors.
+# Starting 2nd set of test vectors.
+# Finished 2nd set of test vectors.
+# ** Note: $stop    : /home/phanq/Cadence/system_verilog/SystemVerilog/lab18-svamux/mux_test.sv(79)
+#    Time: 117 ns  Iteration: 0  Instance: /t_mux
+# Break in NamedBeginStat TEST at /home/phanq/Cadence/system_verilog/SystemVerilog/lab18-svamux/mux_test.sv line 79
+# Break key hit
+restart
+# ** Note: (vsim-8009) Loading existing optimized design _opt2
+# Loading work.t_mux(fast)
+# Loading work.mux(fast)
+# Load canceled
+step
+step
+step
+step
+# Next activity is in 5 ns.
+step
+step
+step
+step
+step
+step
+step
+step
+# End time: 23:03:42 on Jan 07,2021, Elapsed time: 0:00:59
+# Errors: 1, Warnings: 0
